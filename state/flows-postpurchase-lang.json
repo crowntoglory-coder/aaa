@@ -1,0 +1,421 @@
+[
+ {
+  "flow": "post_purchase-next",
+  "email_no": 2,
+  "timing": "Trigger Placed Order, +24 h (Sendefenster 07:00 Ortszeit); Flow-Filter Fulfilled Order = 0 seit Start (kommt nur, solange nicht verschickt). Spec marketing/workflows/02-specs/2026-09-19-flows-lang-synchron.md §2a/§6.",
+  "placeholder_proof": false,
+  "smart_sending": true,
+  "type": "html",
+  "hero_style": "text",
+  "subject": "Your order: what happens now",
+  "preview": "Packed in 1–3 days, then 7–10 days to your door. Tracking comes by mail. Nothing to do.",
+  "url": "{{ event.extra.order_status_url|default:'https://nora-lanelle.com/pages/contact' }}",
+  "hero_eyebrow": "Day one",
+  "headline": "Packed first.\nThen to your door.",
+  "sub": "One to three days to pack, then seven to ten to your door. The tracking link comes by mail the day it ships. Nothing to do on your side. Questions: support@nora-lanelle.com, answered in one to two business days.",
+  "cta1": "See my order",
+  "blocks": [
+   {
+    "type": "steps",
+    "items": [
+     "Packed — 1 to 3 days. Your order is with the team; the tracking link comes by mail the day it ships.",
+     "On its way — 7 to 10 days from shipping. The link shows where it is; if it runs late, we write first.",
+     "Your statement — one order, one charge, nothing recurring. Looks unfamiliar around this date? support@nora-lanelle.com confirms it, one to two business days."
+    ]
+   },
+   {
+    "type": "tone",
+    "dark": true,
+    "eyebrow": "One address",
+    "text": "One order, one charge.\nThe rest is on us.",
+    "sub": "support@nora-lanelle.com — one to two business days, a real person."
+   }
+  ],
+  "why": "PP2, +24 h: Erwartung setzen, bevor sie fragt — 1–3 d packen, 7–10 d Weg, Tracking kommt per Mail, nichts zu tun, „we write first“ (Versprechen aus Transit/PP3), eine Buchung [DESCRIPTOR], support@ 1–2 Werktage. Fängt „unrecognized charge“ und „item not received“ ab (Spec §3). Format steps, Design-Mail = Absender Nora Lanelle (Claire nur in Variante C). Kein Verkauf, kein Code, kein „reply“, keine Erstattung (gehört PP3). Richter: A-Körper + B-Betreff/Preview; B-Previews C–F gekürzt (waren 93–96 Zeichen); „full refund“ aus Step 2 gestrichen.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "Zeitstrahl vorn (Headline = Tage-Zeitstrahl, Sub ein Satz, Steps tragen alles) vs. A Fließtext — Hypothese: Zeitstrahl senkt „where is my order“-Tickets, weil in 9 s lesbar (psychologie §8.10)",
+    "subject": "Days 1 to 13: your order timeline",
+    "preview": "Days 1 to 3 packing, days 4 to 13 on the road, tracking by mail on shipping day.",
+    "hero_eyebrow": "Your timeline",
+    "headline": "Days 1 to 3: packed.\nDays 4 to 13: on its way.",
+    "sub": "Then your door. The tracking link comes by mail the day it ships; nothing to do on your side. One question, one address: support@nora-lanelle.com, one to two business days."
+   },
+   {
+    "label": "C",
+    "direction": "PERSÖNLICH: Claire in der Ich-Form, ein Versprechen (ich schreibe zuerst), dieselben Zahlen — Hypothese: eine Person, die sich meldet, wird gefragt statt die Bank",
+    "subject": "From Claire, about your order",
+    "preview": "The plan, from me: 1–3 days to pack, 7–10 to your door, tracking by mail. Nothing to do.",
+    "hero_eyebrow": "A note from Claire",
+    "headline": "The plan for your order,\nfrom me.",
+    "sub": "Claire here. It gets packed in one to three days, then seven to ten days to your door; the tracking link comes by mail the day it ships. If anything runs late, I write to you first. One charge on your card, once, nothing recurring — if it ever looks unfamiliar, write to support@nora-lanelle.com and I answer within one to two business days."
+   },
+   {
+    "label": "D",
+    "direction": "BEWEIS: drei prüfbare Dinge (Tracking-Link, Abrechnungsname, Adresse mit Antwortzeit) statt Zusicherungen, keine erfundenen Stimmen — Hypothese: was sie selbst nachprüfen kann, schafft Vertrauen ohne Bewertungen",
+    "subject": "Three things you can check",
+    "preview": "A tracking link, one line on your statement, one address that answers. In writing, here.",
+    "hero_eyebrow": "In writing",
+    "headline": "Tracking, statement, address.\nAll three in writing.",
+    "sub": "Packing takes one to three days; the tracking link arrives by mail the day it ships and shows every step for the seven to ten days after. Your card shows one line, once, nothing recurring. And support@nora-lanelle.com is read by a person, answered in one to two business days. Nothing to do on your side."
+   },
+   {
+    "label": "E",
+    "direction": "NUTZEN: ihr Gewinn heißt Ruhe — nichts nachsehen, wir schreiben zuerst; ihr Teil beginnt an der Tür (30 Tage easy returns ab Zustellung) — Hypothese: „nothing to do“ als Headline senkt Nachfragen stärker als der Zeitplan",
+    "subject": "Nothing to do until it lands",
+    "preview": "We pack, we ship, we send the link. Your part starts at the door: try it on, thirty days.",
+    "hero_eyebrow": "Your part is done",
+    "headline": "Nothing to do.\nWe'll write first.",
+    "sub": "One to three days to pack, seven to ten to your door, the tracking link by mail the day it ships. If it runs late, we write first. Your part starts at the door: try it on, thirty days from delivery, easy returns. Until then, support@nora-lanelle.com, one to two business days."
+   },
+   {
+    "label": "F",
+    "direction": "KNAPP: nur Zahlen und Fakten, kein Adjektiv, jeder Fakt ein Satzfragment — Hypothese: die kürzeste Mail wird ganz gelesen und liefert die Zahl, die sie später braucht",
+    "subject": "1–3 days to pack. 7–10 to you.",
+    "preview": "Tracking by mail on shipping day. One charge, once. support@nora-lanelle.com.",
+    "hero_eyebrow": "The numbers",
+    "headline": "1 to 3 days.\nThen 7 to 10.",
+    "sub": "One to three days, then seven to ten. Tracking by mail the day it ships. One charge, once, nothing recurring. Nothing to do; questions to support@nora-lanelle.com, one to two business days."
+   }
+  ]
+ },
+ {
+  "flow": "post_purchase-wait",
+  "email_no": 3,
+  "timing": "Trigger Placed Order, +4 d nach Mail 2 (= Tag 5), 07:00 Ortszeit; sendet nur, wenn Flow-Filter Fulfilled Order = 0 seit Start noch gilt (unversendet). Text, Claire.",
+  "placeholder_proof": false,
+  "smart_sending": false,
+  "type": "text",
+  "subject": "Still being prepared.",
+  "preview": "Your order hasn't shipped yet. We said we'd write first, so here is where it stands.",
+  "link": "https://nora-lanelle.com/pages/contact",
+  "text": "Hi,\n\nClaire here, from Nora Lanelle. Day five, and your order has not shipped yet. We said we would write first, so this is that note. Your piece is still being prepared and goes out as soon as it is packed. The day it ships you get the tracking link, and from that day it is 7 to 10 days to your door. Your thirty days to decide start the day it lands, easy returns.\n\nThe choice is yours. Rather wait? Do nothing; the tracking link will come. Rather not? One mail to support@nora-lanelle.com with your order number and we refund in full to the card you paid with, no questions. A real person answers in one to two business days. One order, one charge, and it stays that way.\n\nhttps://nora-lanelle.com/pages/contact\n\nTake care,\nClaire\n— Nora Lanelle Care",
+  "why": "PP3, Tag 5, nur unversendet: Verzug selbst melden, bevor sie zur Bank geht (PP2/Transit versprechen „we write first“); Chargeback-Ursache item not received (Spec §3). Richter: Grundgerüst A (Fenster vorn), Aufbau B (Absatz 1 = Einstieg, wird von text_open ersetzt; Absatz 2 = Mechanik: warten = nichts tun, Erstattung = eine Mail an support@, Antwortzeit, „one order, one charge“ aus PP2) — funktioniert unter jeder Variante. GESTRICHEN aus B: „ships within the next three days“ — erfundene Frist ohne Beleg (das 1–3-Tage-Fenster aus PP2 ist an Tag 5 schon gerissen; ein zweites gebrochenes Versprechen füttert den Bank-Weg). Spec §2a „neues Fenster“ bleibt offen: erst wenn er einen belegten Wert nennt, einen Satz nachziehen. B-Betreff „…and why“ gestrichen (verspricht einen Grund, den die Mail nicht liefert). Kein Rabatt, kein Verkauf, kein „reply“, easy returns, keine Streichpreise, kein Countdown. 138 Wörter A; B–F mit Absatz 2 je 113–136.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "Erstattungs-Angebot vorn vs. Fenster vorn — Hypothese: die Wahl nimmt den Bank-Weg weg (Risk Reversal, psychologie §4)",
+    "subject": "Full refund, or wait. Your call.",
+    "preview": "Your order hasn't shipped yet. Every dollar back, or wait for tracking; your call.",
+    "text_open": "Claire here, from Nora Lanelle. Straight to it: your order has not shipped yet, and you can have every dollar back, a full refund to the card you paid with, no questions asked. Or wait: your piece is still being prepared, tracking comes the day it ships, and from that day it is 7 to 10 days to your door. We said we would write first; this is that note."
+   },
+   {
+    "label": "C",
+    "direction": "PERSÖNLICH: Claire nimmt es auf sich (Tag 5, leere Tracking-Seite, „that is on us“); die Wahl folgt im Brief",
+    "subject": "I owe you a note, not an excuse.",
+    "preview": "Day five, your order hasn't shipped. I'd rather tell you myself than have you wonder.",
+    "text_open": "Claire here, from Nora Lanelle, and I would rather tell you myself than let you find out from an empty tracking page. It is day five and your order has not shipped yet. That is on us. It is still being prepared and goes out as soon as it is packed; tracking comes the day it ships, then 7 to 10 days to your door."
+   },
+   {
+    "label": "D",
+    "direction": "BEWEIS: das Versprechen aus Mail 2 wörtlich einlösen; nur belegbare Fakten (Tag, bezahlt, eine Buchung, noch bei uns, Tracking-Mail als Beleg)",
+    "subject": "Day 5: where your order stands.",
+    "preview": "Not shipped yet, written as promised. One charge, still with us, tracking when it moves.",
+    "text_open": "Claire here, from Nora Lanelle. The facts this morning: your order is paid, one charge, nothing recurring; it is still with us, not with the carrier. In our second mail we wrote that if anything slowed down, you would hear it from us first. It has, so you are. Tracking follows the day it ships, and that mail is your proof it moved; from then, 7 to 10 days to your door."
+   },
+   {
+    "label": "E",
+    "direction": "NUTZEN: was der Verzug sie nicht kostet (30 Tage starten erst an der Tür, nichts nachjagen, Tracking kommt)",
+    "subject": "Your thirty days haven't started.",
+    "preview": "Not shipped yet. Your thirty days start at your door, not today. Nothing to chase.",
+    "text_open": "Claire here, from Nora Lanelle. Your order has not shipped yet, and I want to say what that does not cost you. Your thirty days to decide start the day it lands, not today, easy returns. Nothing to chase: we said we would write first, and this is that note. Tracking comes the moment it ships, and from that day it is 7 to 10 days to your door."
+   },
+   {
+    "label": "F",
+    "direction": "KNAPP: Status, zwei Optionen, sonst nichts; kürzester Einstieg",
+    "subject": "Not shipped yet. Two options.",
+    "preview": "Wait, tracking follows. Or a full refund: support@nora-lanelle.com.",
+    "text_open": "Claire here, from Nora Lanelle. Short version: your order has not shipped yet. We said we would write first; this is it. Wait, and tracking follows the day it ships, 7 to 10 days from then. Or a full refund to the card you paid with, no questions asked."
+   }
+  ]
+ },
+ {
+  "flow": "post_delivery-arriving",
+  "email_no": 2,
+  "timing": "Trigger Fulfilled Order, +7 d (kumuliert; 4 d nach Transit), 07:00 Ortszeit. HTML, Absender Nora Lanelle.",
+  "placeholder_proof": false,
+  "smart_sending": false,
+  "type": "html",
+  "hero_style": "text",
+  "subject": "Nearly there.",
+  "preview": "Seven days since shipping; the window is seven to ten. What to do the day it lands.",
+  "url": "{{ event.extra.tracking_url|default:'https://nora-lanelle.com/pages/contact' }}",
+  "hero_eyebrow": "Day seven",
+  "headline": "Any day now.\nHere is the plan.",
+  "sub": "Shipped seven days ago; the window is seven to ten, so it's close. The button shows the carrier's last scan. When it lands, try it on that evening; your thirty days for easy returns start at your door.",
+  "cta1": "Track my order",
+  "blocks": [
+   {
+    "type": "steps",
+    "items": [
+     "Day 7 of 7 to 10 — Shipped a week ago. The button above shows the carrier's last scan; nothing to do on your side.",
+     "At the door — Try it on that evening. Thirty days for easy returns start the day it lands, not the day you ordered.",
+     "Nothing by day 10 — Write to support@nora-lanelle.com, not your bank; we answer in one to two business days and sort it out."
+    ]
+   }
+  ],
+  "why": "PD2, Tag 7 ab Versand (HTML, Absender Nora Lanelle): Fenster 7–10 benennen, Handlung am Zustelltag (anprobieren, 30 Tage ab Zustellung, easy returns), Tag-10-Regel (support@, nicht die Bank). Chargeback-Ursache item not received. Richter: Hero-Sub verkürzt (Steps tragen Tag 10), „most boxes land in three days“ (B) und „finden oder volle Erstattung, ihre Wahl“ (B) als unbelegte Zusagen gestrichen, „wear it out“ (A/E) gestrichen (kollidiert mit Rückgabebedingung), Claire nur in Variante C (Text-Regel), kein tone_text bei HTML. Alle Betreffs ≤ 28, Previews ≤ 86, Text 101–122 Wörter. Kein Verkauf, kein Rabatt, kein „reply“.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "Betreff mit Zahl („Day 7 of 10“) vs. A ohne — Hypothese: Zahl setzt die Erwartung exakt (email-cro §7.2)",
+    "subject": "Day 7 of 10.",
+    "preview": "Shipped a week ago; up to three days left in the window. What to do the day it lands.",
+    "hero_eyebrow": "Day 7 of 10",
+    "headline": "Day 7 of 10.\nAny day now.",
+    "sub": "Shipped seven days ago; the window closes at day ten. The button shows where it is today. When it lands, try it on that evening; your thirty days for easy returns start at your door."
+   },
+   {
+    "label": "C",
+    "direction": "PERSÖNLICH — Claire schreibt, eine Notiz vor der Zustellung; Absender „Claire, Nora Lanelle“",
+    "subject": "A note before it lands.",
+    "preview": "Claire here. Day seven since shipping; a note on what to do the evening it lands.",
+    "hero_eyebrow": "From Claire",
+    "headline": "It's close.\nA note before it lands.",
+    "sub": "Claire here. Seven days since shipping, so it's close. When it lands, try it on that evening; your thirty days for easy returns start at your door. If there is nothing by day ten, write to me at support@nora-lanelle.com, not your bank."
+   },
+   {
+    "label": "D",
+    "direction": "BEWEIS — der Beleg ist der datierte Carrier-Scan hinter dem Knopf und das gegebene Fenster; keine erfundenen Stimmen",
+    "subject": "Where it is today.",
+    "preview": "Shipped seven days ago; the carrier's last scan is one tap away. Window: seven to ten.",
+    "hero_eyebrow": "Tracked, day seven",
+    "headline": "Shipped seven days ago.\nTracked to your door.",
+    "sub": "Every scan since it shipped is behind the button, dated. The window is seven to ten days; today is day seven. Lands: try it on, thirty days for easy returns from that day. Nothing by day ten: support@nora-lanelle.com, not your bank."
+   },
+   {
+    "label": "E",
+    "direction": "NUTZEN — die 30 Tage beginnen erst an der Tür, nicht beim Versand; Anprobe in ihrem Licht",
+    "subject": "Thirty days, from your door.",
+    "preview": "It lands any day now; the count starts only then. Try it on that evening.",
+    "hero_eyebrow": "What you keep",
+    "headline": "Thirty days.\nThey start at your door.",
+    "sub": "Not from the day it shipped, from the day it lands: thirty days to try it on in your light, decide, easy returns. Day seven now; the button shows where it is. Nothing by day ten: one mail to support@nora-lanelle.com, not your bank."
+   },
+   {
+    "label": "F",
+    "direction": "KNAPP — drei Fakten, keine Erklärung",
+    "subject": "Day 7. Any day now.",
+    "preview": "Window: 7 to 10. Lands: try it on. Nothing by day 10: write to us.",
+    "hero_eyebrow": "Day 7",
+    "headline": "Any day now.",
+    "sub": "Day seven of seven to ten. Lands: try it on, thirty days for easy returns from that day. Nothing by day ten: support@nora-lanelle.com, not your bank."
+   }
+  ]
+ },
+ {
+  "flow": "post_delivery-arrived",
+  "email_no": 3,
+  "timing": "Trigger Fulfilled Order, +11 d (kumuliert; 4 d nach Arriving), 07:00 Ortszeit, Smart Sending AUS (darf nie übersprungen werden). Später: Trigger Delivered Shipment +1 d, sobald Track123 die Metrik liefert. HTML, Absender Nora Lanelle (Claire nur in B/C).",
+  "placeholder_proof": false,
+  "smart_sending": false,
+  "type": "html",
+  "hero_style": "text",
+  "subject": "Did it land? Does it fit?",
+  "preview": "Anything off? One mail settles it in one to two business days. Easy returns, thirty days.",
+  "url": "mailto:support@nora-lanelle.com?subject=My%20order",
+  "hero_eyebrow": "Eleven days since shipping",
+  "headline": "It should be home.\nAnything off?",
+  "sub": "Your order shipped eleven days ago, so it should be at your door. Landed and fits? Nothing to do. If anything is off — the size, the color, or a parcel that hasn't shown up — one mail to support@nora-lanelle.com and a person settles it in one to two business days. Thirty days from delivery to decide, easy returns; a full refund if it never arrives. Please write to us before your bank — we're faster, and you keep the choice.",
+  "cta1": "Write to us",
+  "blocks": [
+   {
+    "type": "bullets",
+    "icons": [
+     "check",
+     "return",
+     "clock"
+    ],
+    "items": [
+     "Landed — Try it on at home. Thirty days from delivery to decide, easy returns.",
+     "Not right — Size, color, a flaw: one mail to support@nora-lanelle.com. Settled in one to two business days.",
+     "Not there yet — Tell us. We trace it or refund in full, your choice. Us first, then your bank."
+    ]
+   },
+   {
+    "type": "tone",
+    "dark": true,
+    "eyebrow": "One address",
+    "text": "Anything off?\nOne mail. One to two business days.",
+    "sub": "support@nora-lanelle.com — a person, not a form."
+   }
+  ],
+  "why": "PD3, +11 d nach Versand (Fenster 7–10 zu): der eine Check-in gegen „item not received“ und „not as described“. Drei Zustände (angekommen · nicht richtig · nicht da), ein Ausgang: support@, 1–2 Werktage, easy returns 30 Tage ab Zustellung, Rückverfolgung oder volle Erstattung. Bank-Satz als Reihenfolge und Vergleich, nicht als Warnung. Ein Knopf (Skelett-URL mailto bleibt), kein Verkauf, kein Rabatt, kein „reply“. Gestrichen aus beiden Entwürfen: „exchange“ (nicht zugesagte Leistung), „takes weeks / needs forms“ zur Bank (unbelegt), „no questions“ (Überversprechen), „1–2“ als Ziffern (Hausstil ausgeschrieben). A = Nora Lanelle Service, B = Claire persönlich (Spec §6 Hypothese). Betreffe ≤ 26, Previews ≤ 90, Sub ≤ 80 Wörter. Bullets (Skelett-Format, Icons check/return/clock) + Tone-Bank „One address“ wie Transit.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "Claire persönlich vs. Nora Lanelle Service — Hypothese: eine Person fragt, keine Marke → mehr Antworten (psychologie §2 Sympathie)",
+    "subject": "Claire here — did it land?",
+    "preview": "Eleven days since shipping. Anything off? Tell me first; one to two business days.",
+    "hero_eyebrow": "A note from Claire",
+    "headline": "Did it land,\nand does it fit?",
+    "sub": "Claire here, from Nora Lanelle. Your order shipped eleven days ago, so it should be with you. If it's there and it fits, I'm glad — wear it this week. If anything is off — the size, the color, or the parcel itself — write to me at support@nora-lanelle.com. I read every mail and settle it within one to two business days: an easy return or a full refund, thirty days from delivery. Please write to me before you call your bank. I'm quicker, and you decide what happens."
+   },
+   {
+    "label": "C",
+    "direction": "PERSÖNLICH — zwei Fragen von Claire, eine Person nimmt Verantwortung („I'll handle it myself“); Bank-Satz als Bitte",
+    "subject": "Two questions from Claire",
+    "preview": "Is it there? Does it fit? If either is no, I handle it myself in one to two business days.",
+    "hero_eyebrow": "Two questions",
+    "headline": "Is it there?\nDoes it fit?",
+    "sub": "Claire here. Two questions, eleven days after your order shipped: is it there, and does it fit? If both are yes, enjoy it. If either is no, write to me at support@nora-lanelle.com and I'll handle it myself within one to two business days: an easy return or a full refund, thirty days from delivery, your call. One favor: write to me before you call your bank. I can fix it faster than they can."
+   },
+   {
+    "label": "D",
+    "direction": "BEWEIS — die Regeln als Zahlen vorn (7–10, 11, 30, 1–2), alle aus dem Brief, keine fremden Zahlen",
+    "subject": "Day 11: the numbers",
+    "preview": "Seven to ten days to arrive, thirty to decide, one to two business days for an answer.",
+    "hero_eyebrow": "Day 11 · four numbers",
+    "headline": "Seven to ten to arrive.\nThirty to decide.",
+    "sub": "Shipped eleven days ago, so the delivery window has closed. From the day it landed you have thirty days, easy returns. Any mail to support@nora-lanelle.com gets a person within one to two business days — for a size, a flaw, or a box that never came, which we trace or refund in full. That is the whole process, and it comes before your bank."
+   },
+   {
+    "label": "E",
+    "direction": "NUTZEN — was sie gewinnt: die Sache in einer Mail erledigt, ohne Anruf bei der Bank",
+    "subject": "Sorted in one mail",
+    "preview": "Wrong size, a flaw, or nothing at the door: one address, one to two business days.",
+    "hero_eyebrow": "Home by now",
+    "headline": "Anything off?\nOne mail settles it.",
+    "sub": "Your order shipped eleven days ago and should be home. If the size is off, a seam is wrong, or the box never showed, you don't need a phone call to your bank. One mail to support@nora-lanelle.com: a person answers in one to two business days, easy returns for thirty days from delivery, or a full refund if it never arrived. You keep the choice."
+   },
+   {
+    "label": "F",
+    "direction": "KNAPP — kurze Sätze, drei Zustände, ein Knopf",
+    "subject": "Landed? Fits?",
+    "preview": "Anything off: one mail, sorted in one to two business days. Easy returns, thirty days.",
+    "hero_eyebrow": "Day 11",
+    "headline": "Landed?\nFits?",
+    "sub": "Shipped eleven days ago. Fits — enjoy it. Off — support@nora-lanelle.com, thirty days, easy returns. Missing — same address; we trace it or refund in full. A person, one to two business days. Us first, then your bank."
+   }
+  ]
+ },
+ {
+  "flow": "post_delivery-code2",
+  "email_no": 7,
+  "timing": "Trigger Fulfilled Order, +27 d (kumuliert; 3 d nach Cross-Sell mit Code), Text, Claire. Nur live, wenn er 1a/1b sagt (Rabatt-Weg). Code = derselbe wie in post_delivery-crosssell: {% coupon_code 'CHECKOUT15' %} (Pool NL15-MMDD, 96 h ab Vergabe → „ends tomorrow“ ist wahr).",
+  "placeholder_proof": false,
+  "smart_sending": true,
+  "type": "text",
+  "subject": "Your code ends tomorrow.",
+  "preview": "The 15% from my last note runs through tomorrow. Same pairs to your piece, one link.",
+  "link": "https://nora-lanelle.com/collections/look-soft-autumn",
+  "text": "Hi,\n\nClaire here, from Nora Lanelle. A short one: the 15% code from my last note ends tomorrow. After that it simply stops.\n\nThe pairs haven't changed. Coat at home? The cardigan and the corduroy trousers go under it. Dress at home? The collarless coat goes over it. Same palette, cut to be worn together, in the size you already know.\n\nYour code: {% coupon_code 'CHECKOUT15' %} — 15% at checkout, through tomorrow. Shipping is on us from $150.\nhttps://nora-lanelle.com/collections/look-soft-autumn\n\nDelivery in 7 to 10 days from shipping, easy returns for 30 days from delivery. Not sure what goes with your piece? Write to support@nora-lanelle.com with its name; a person answers in one to two business days.\n\nTake care,\nClaire\n— Nora Lanelle Care",
+  "why": "PD7 (+27 d, Text, Claire): wahre Frist des Pool-Codes (96 h ab Tag 24 = Tag 28) einmal ruhig aussprechen — kein „last chance“, kein Timer, kein Ausrufezeichen (email-cro §7.1, psychologie §8). Richter: Rumpf aus A (ruhiger, Service-Zeilen als Sicherheit), aus B übernommen: „through tomorrow“ und Versand ab $150 (belegt: rules.md Z.475, Spec §2a). Gestrichen aus B: „take both and send one back“ (lädt zu Doppelbestellung + Retoure ein, Kostentreiber) und „$22.50 auf $150“ (AOV ist Annahme, Spec §5). Dieselben Kaufpaare wie post_delivery-crosssell (Mantel → Cardigan/Cord, Kleid → Collarless Coat), genau ein Link, Code wörtlich {% coupon_code 'CHECKOUT15' %}, Wert 15 % unverändert, support@ statt „reply“, easy returns 30 d ab Zustellung, 7–10 d ab Versand. 124 Wörter. A/B-Hypothese Spec §6 Z.133: B „Fakten“ schlägt A „persönlich“.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "FAKTEN (Spec §6): Frist + Betrag vorn, nüchtern — Hypothese: eine wahre Frist trägt sich selbst (funnel §5)",
+    "subject": "15% until tomorrow.",
+    "preview": "Your code ends tomorrow. Cardigan and corduroy under the coat; the coat over the dress.",
+    "text_open": "Claire here, from Nora Lanelle. Two facts, then the link: your code takes 15% off at checkout, and it ends tomorrow. Shipping is on us from $150. The pairs are the same as in my last note."
+   },
+   {
+    "label": "C",
+    "direction": "PERSÖNLICH: Ich-Form, ein Grund, warum sie schreibt; Frist im Nebensatz",
+    "subject": "I'd rather tell you myself.",
+    "preview": "Claire here. Your code ends tomorrow; I didn't want you to find out by trying it.",
+    "text_open": "Claire here, from Nora Lanelle. I'd rather write once than let it lapse quietly: the 15% code from my last note ends tomorrow, and I didn't want you to find out by trying it."
+   },
+   {
+    "label": "D",
+    "direction": "BEWEIS: der Beleg ist das Teil, das sie schon besitzt — Passform bekannt, eine Palette, geschnitten zum Zusammentragen; keine erfundenen Stimmen oder Zahlen",
+    "subject": "The fit you already know.",
+    "preview": "Same size, same palette, cut to be worn together. Your 15% code ends tomorrow.",
+    "text_open": "Claire here, from Nora Lanelle. You know the fit now; that is the whole case for the second piece. Cut in the same palette as the one you own, same size, no guessing. Your 15% code ends tomorrow."
+   },
+   {
+    "label": "E",
+    "direction": "NUTZEN: was der Code konkret bringt — zweites Teil, 15 %, Versand ab $150; Frist als Nebensatz",
+    "subject": "The second piece, 15% less.",
+    "preview": "Cardigan and corduroy under the coat; coat over the dress. Shipping on us from $150.",
+    "text_open": "Claire here, from Nora Lanelle. What the code buys you: the second piece to the one at home, at 15% off, and shipping on us once the order clears $150. It ends tomorrow."
+   },
+   {
+    "label": "F",
+    "direction": "KNAPP: vier Zeilen, Frist, Code, Paare, Link — nichts erklärt, kein Adjektiv",
+    "subject": "Code ends tomorrow.",
+    "preview": "15% at checkout. Same pairs as last time. One link.",
+    "text_open": "Claire here. Your 15% code ends tomorrow. Coat: cardigan and corduroy under it. Dress: the coat over it. One link below."
+   }
+  ]
+ },
+ {
+  "flow": "post_delivery-newin",
+  "email_no": 10,
+  "timing": "Trigger Fulfilled Order, +60 d (kumuliert; 15 d nach VIP), 07:00 Ortszeit; schließt das Loch bis Winback (Tag 90). Kein Rabatt, keine Frist. HTML (split + grid4), Absender Nora Lanelle.",
+  "placeholder_proof": false,
+  "smart_sending": true,
+  "type": "html",
+  "hero_style": "split",
+  "hero_image_kind": "autumn",
+  "subject": "New in, in your palette.",
+  "preview": "New arrivals in the palette you already wear. 7–10 days to you; easy returns, 30 days.",
+  "url": "https://nora-lanelle.com/collections/new-in",
+  "hero_eyebrow": "New in",
+  "headline": "New this season,\nin your palette.",
+  "sub": "The new pieces sit in the palette you already wear, so they go with what hangs in your closet. Ships in 7–10 days; 30 days at home, easy returns. No code, no clock.",
+  "cta1": "See new in",
+  "blocks": [
+   {
+    "type": "grid4",
+    "handles": [
+     "tailored-maxi-coat-burgundy",
+     "fine-gauge-cardigan-grey",
+     "pinstripe-midi-slip-dress-grey",
+     "barrel-leg-jeans-light-wash"
+    ],
+    "label": "New in, your palette",
+    "compare": false
+   }
+  ],
+  "why": "PD10, +60 d: Lebenszeichen vor Winback (Tag 90), kein Code, keine Frist — Rückkauf-Rabatt bleibt in PD6/7, Winback behält die Neuheit. Richter: A = New In gesamt (Entwurf A, Brief-Ton, HTML ohne Absenderin — Claire nur in Variante C als Stimme), B = Kombination zum gekauften Teil (Betreff aus Entwurf B, Spec §6 Nr. 6). Gestrichen: Farbaufzählung „camel, cream, taupe, black“ (nirgends belegt; New In enthält navy/light wash/grey) → „same palette“ wie bestehende Mails; „four new pieces“, „same sizing you know“, „photographed worn at home by daylight“ (unbelegt). Format D split + grid4 (Handles = grid4 „New in“ aus winback, state/flows-v2.json), compare aus. Kurze Sätze, Substantive, Service-Zahlen (7–10 Tage, 30 Tage) im Sub, kein Druck-Vokabular. Nie „free returns“, keine Streichpreise, kein Countdown.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "Kombination zum gekauften Teil vs. New In gesamt — Hypothese: Relevanz zum Besitz → mehr Klicks (Winback-4-Logik)",
+    "subject": "What goes with your order.",
+    "preview": "New arrivals, cut to sit next to the piece you bought. 7–10 days; easy returns, 30 days.",
+    "hero_eyebrow": "Made to pair",
+    "headline": "New in,\nnext to yours.",
+    "sub": "The piece you bought sets the palette; the new arrivals are cut to sit beside it. Ships in 7–10 days; 30 days at home, easy returns. No code, no clock."
+   },
+   {
+    "label": "C",
+    "direction": "PERSÖNLICH — Claire, Zeitmarke „two months on“ (wahr: +60 d), Einladung ohne Aufforderung; keine Frist, kein Code",
+    "subject": "Two months on, from Claire.",
+    "preview": "Claire here. The new pieces are in, same palette. Nothing to redeem, nothing ending.",
+    "hero_eyebrow": "From Claire",
+    "headline": "Two months on.\nHere's what's new.",
+    "sub": "Claire here. Your order shipped about two months ago; the new pieces just arrived in the same palette. Have a look when you have a minute. 7–10 days to you; easy returns, 30 days."
+   },
+   {
+    "label": "D",
+    "direction": "BEWEIS — gleiche Palette, gleiche Bedingungen wie beim ersten Kauf; keine erfundenen Zahlen oder Bildbehauptungen",
+    "subject": "Same palette, new pieces.",
+    "preview": "Cut in the palette you already wear. Same 30-day easy returns, same 7–10 days.",
+    "hero_eyebrow": "Same palette",
+    "headline": "Same palette.\nNew pieces.",
+    "sub": "The new arrivals are cut in the palette you already wear, so they go with what hangs in your closet. Same terms as your first order: 7–10 days, 30 days at home, easy returns."
+   },
+   {
+    "label": "E",
+    "direction": "NUTZEN — ein Teil mehr, mehrere Outfits mehr",
+    "subject": "One more piece, whole outfit.",
+    "preview": "One piece added, several outfits gained. 7–10 days; easy returns, 30 days.",
+    "hero_eyebrow": "One piece, more outfits",
+    "headline": "One piece more,\nseveral outfits more.",
+    "sub": "Every new piece is cut in the palette you own, so one addition gives what you have new company. Ships in 7–10 days; 30 days at home, easy returns. No code needed."
+   },
+   {
+    "label": "F",
+    "direction": "KNAPP — nur Fakten in Reihe, kein Nebensatz",
+    "subject": "New in.",
+    "preview": "Same palette. 7–10 days. Easy returns, 30 days.",
+    "hero_eyebrow": "New in",
+    "headline": "New in,\nyour palette.",
+    "sub": "Same palette. Ships in 7–10 days. Easy returns, 30 days. No code, no deadline."
+   }
+  ]
+ }
+]

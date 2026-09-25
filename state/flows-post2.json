@@ -1,0 +1,253 @@
+[
+ {
+  "flow": "post_delivery-crosssell",
+  "email_no": 5,
+  "timing": "Trigger Fulfilled Order, +24 Tage (kumuliert; 6 d nach der Passform-Bitte): das zweite Teil zum gekauften, mit Code (Spec 19.09. §2b Nr. 6). Code = Pool {% coupon_code 'CHECKOUT15' %} (NL15-MMDD, 15 %, 96 h = 4 days) — Wert unverändert; live erst nach seinem ok (1a). A/B: A Code vs. B Versand-frei (ohne Code-Block).",
+  "placeholder_proof": false,
+  "subject": "The second piece, in your size.",
+  "preview": "Coat at home? Cardigan and corduroy under it. Dress? Coat over it. 15% off, four days.",
+  "url": "https://nora-lanelle.com/collections/look-soft-autumn",
+  "hero_style": "full",
+  "hero_image_kind": "persona3",
+  "hero_eyebrow": "Goes with what you own",
+  "headline": "The second piece,\nin your size.",
+  "sub": "Coat at home? The cardigan and the corduroy go under it. Dress at home? The collarless coat goes over it. One palette, cut to be worn together; your code takes 15% off for four days, and shipping is on us from $150.",
+  "cta1": "Shop the pair",
+  "blocks": [
+   {
+    "type": "bullets",
+    "icons": [
+     "layers",
+     "knit",
+     "check"
+    ],
+    "items": [
+     "Bought the coat — The cardigan and the corduroy go under it. Together they clear $150, so shipping is on us.",
+     "Bought the dress — The collarless coat goes over it, from the first cold morning. On its own it clears $150.",
+     "Anything off — Write to support@nora-lanelle.com before you call your bank; a person sorts it in one to two business days."
+    ]
+   },
+   {
+    "type": "code",
+    "eyebrow": "Your second piece",
+    "head": "15% off, for four days.",
+    "text": "Your code goes in at checkout and works on the pair, the coat or anything else in the palette. It expires four days from this mail; after that it simply stops.",
+    "code": "{% coupon_code 'CHECKOUT15' %}",
+    "cta": "Shop the pair",
+    "url": "https://nora-lanelle.com/collections/look-soft-autumn",
+    "note": "Delivery 7–10 days from shipping. Easy returns, 30 days from delivery. Shipping on us from $150."
+   },
+   {
+    "type": "products",
+    "handles": [
+     "kaia-knit-cardigan",
+     "corduroy-wide-leg-trousers-taupe",
+     "collarless-coat-cream"
+    ],
+    "label": "One palette, three pieces",
+    "compare": false
+   },
+   {
+    "type": "facts",
+    "icons": [
+     "ship",
+     "return",
+     "clock"
+    ],
+    "items": [
+     "Shipping — On us from $150",
+     "Returns — Easy, 30 days",
+     "Delivery — 7 to 10 days"
+    ]
+   }
+  ],
+  "why": "Post-Delivery 5 (Tag 21): Cross-Sell nach der Passform-Bitte — Kaufpaare (Mantel → Strick/Hose, Kleid → Mantel) aus der Look-Kollektion Soft Autumn (existiert: collarless-coat-cream, kaia-knit-cardigan, corduroy-wide-leg-trousers-taupe). Angebot = Versand ab $150 + easy returns 30 Tage statt Code (rules.md 15.09.: zweite Bestellung über Kombination, nicht Rabatt; 16.09.: keine Codes ohne Erlaubnis). Format A Bild-Hero + bullets + products (compare aus: keine Streichpreise) + facts. Verdeckte Dringlichkeit im Hero: Größe/Sale-Ende. 19.09. (Spec flows-lang-synchron §2b/§6): +21 → +24 d, Code-Block {% coupon_code 'CHECKOUT15' %} (Pool NL15, 15 %, 96 h → „four days“; Wert nie geändert, Freigabe 1a offen) als Block 2 unter den Paaren; A/B jetzt Code (A) vs. Versand-frei (B, Blöcke ohne Code — flows.py variant() übernimmt `blocks`). Die Welle-1-Varianten B–F (Urgency/Luxus/Angebot/Fakten/Claire) sind ersetzt (git-Historie), weil die Spec-Frage jetzt „Code ja/nein“ ist.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "VERSAND-FREI statt Code (Spec §6 Bauplan: A/B Code vs. Versand-frei) — Hypothese: der Code hebt die Zweitkauf-Rate um ≥ 5 Punkte; sonst kostet er nur Marge (Spec §5). B = Mail wie bisher: Versand ab $150 als Anreiz, kein Code-Block, kein Rabatt.",
+    "subject": "The second piece, in your size.",
+    "preview": "Coat at home? Cardigan and corduroy under it. Dress? Coat over it. Shipping on us from $150.",
+    "headline": "The second piece,\nin your size.",
+    "sub": "Coat at home? The cardigan and the corduroy go under it. Dress at home? The collarless coat goes over it. One palette, cut to be worn together; sizes sell through while the Autumn Sale runs, and shipping is on us from $150.",
+    "hero_eyebrow": "Goes with what you own",
+    "blocks": [
+     {
+      "type": "bullets",
+      "icons": [
+       "layers",
+       "knit",
+       "check"
+      ],
+      "items": [
+       "Bought the coat — The cardigan and the corduroy go under it. Together they clear $150, so shipping is on us.",
+       "Bought the dress — The collarless coat goes over it, from the first cold morning. On its own it clears $150.",
+       "Anything off — Write to support@nora-lanelle.com before you call your bank; a person sorts it in one to two business days."
+      ]
+     },
+     {
+      "type": "products",
+      "handles": [
+       "kaia-knit-cardigan",
+       "corduroy-wide-leg-trousers-taupe",
+       "collarless-coat-cream"
+      ],
+      "label": "One palette, three pieces",
+      "compare": false
+     },
+     {
+      "type": "facts",
+      "icons": [
+       "ship",
+       "return",
+       "clock"
+      ],
+      "items": [
+       "Shipping — On us from $150",
+       "Returns — Easy, 30 days",
+       "Delivery — 7 to 10 days"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "flow": "post_delivery-ugc",
+  "email_no": 6,
+  "timing": "Trigger Fulfilled Order, +30 Tage (≈ 20 Tage nach Zustellung, das Teil ist getragen): Foto-Bitte, Spiegel-Selfie im Teil — Mail an support@ oder Tag @noralanelle, kein „reply“",
+  "placeholder_proof": false,
+  "subject": "One photo, next to the piece.",
+  "preview": "Mirror selfie in the piece, to support@nora-lanelle.com or tag @noralanelle. Up with your name.",
+  "url": "mailto:support@nora-lanelle.com?subject=Photo",
+  "hero_style": "split",
+  "hero_image_kind": "vibe3",
+  "hero_eyebrow": "Three weeks in",
+  "headline": "You, in it.\nWhile it's new.",
+  "sub": "A mirror selfie in the piece, this week while it's at its newest, to support@nora-lanelle.com, subject \"Photo\", or tag @noralanelle. It goes on the product page and on our Instagram, with your first name.",
+  "cta1": "Send my photo",
+  "blocks": [
+   {
+    "type": "steps",
+    "items": [
+     "Take — A mirror, daylight, the piece as you wear it. Phone quality is the point.",
+     "Send — To support@nora-lanelle.com, subject \"Photo\", or post it and tag @noralanelle.",
+     "See — It goes on the product page and on our Instagram, with your first name. Say no to either and we keep it off."
+    ]
+   },
+   {
+    "type": "strip",
+    "kinds": [
+     "vibe1",
+     "vibe4",
+     "vibe5"
+    ],
+    "h": 230
+   },
+   {
+    "type": "tone",
+    "dark": true,
+    "eyebrow": "One photo, two ways to send",
+    "text": "You, in it.\nNext to the piece.",
+    "sub": "support@nora-lanelle.com, subject \"Photo\", or tag @noralanelle. Anything not right with the piece goes to the same address, before you call your bank; a person answers in one to two business days."
+   }
+  ],
+  "why": "Post-Delivery 6 (Tag 30): UGC-Bitte nach der Passform-Bitte — Spiegel-Selfie an support@ oder Tag @noralanelle (kein „reply to this email“); Gegenwert nur, was existiert: Foto auf Produktseite + Instagram mit Vornamen (rules.md: nichts erfinden, kein Rabatt ohne Code). Format D Split-Hero (Spiegel-Selfie als Vorbild) + steps + strip + tone; kein proof/reviews-Block (keine erfundenen Bewertungen). Verdeckte Dringlichkeit im Hero: solange das Teil neu ist.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "URGENCY+EMOJI: diese Woche, solange das Teil neu ist — ein Emoji im Betreff, eins in der Vorschau, ein Ausrufezeichen; kein Rabatt",
+    "subject": "📸 One photo, while it's new!",
+    "preview": "Mirror, phone, this week 📸 On the product page with your first name; send it while it's new.",
+    "headline": "Still new?\nSend it this week.",
+    "sub": "A mirror selfie in the piece this week, while it's at its newest, to support@nora-lanelle.com, subject \"Photo\", or tag @noralanelle; it goes on the product page and on Instagram with your first name!",
+    "hero_eyebrow": "While it's new"
+   },
+   {
+    "label": "C",
+    "direction": "LUXUS: ruhiger Markenton, das Teil in ihrem eigenen Spiegel, keine Zahl; verdeckte Dringlichkeit = solange das Teil noch neu ist",
+    "subject": "In your mirror.",
+    "preview": "The piece as you wear it, in your own mirror; it belongs on the page, with your first name.",
+    "headline": "In your mirror,\nnot ours.",
+    "sub": "The piece as you wear it, in your own mirror, to support@nora-lanelle.com, subject \"Photo\", or tagged @noralanelle; it goes on the product page and on our Instagram, with your first name, while the piece is still new.",
+    "hero_eyebrow": "As you wear it"
+   },
+   {
+    "label": "D",
+    "direction": "ANGEBOT: der Gegenwert vorn — ihr Foto auf der Produktseite und auf Instagram, mit Vornamen (nur, was existiert; kein Rabatt, kein Code); verdeckte Dringlichkeit = solange das Teil neu ist",
+    "subject": "Your photo, on our page.",
+    "preview": "Your mirror selfie on the product page and on Instagram, with your first name. One address.",
+    "headline": "Your photo.\nOur page.",
+    "sub": "Your mirror selfie goes on the product page and on our Instagram, with your first name, while the piece is new. Send it to support@nora-lanelle.com, subject \"Photo\", or tag @noralanelle.",
+    "hero_eyebrow": "Your name, on the page"
+   },
+   {
+    "label": "E",
+    "direction": "FAKTEN: ein Foto, zwei Wege (Mail mit Betreff, Tag), wohin es kommt, Antwortzeit — Aufzählung statt Pitch; verdeckte Dringlichkeit = solange das Teil neu ist",
+    "subject": "One photo, two ways to send.",
+    "preview": "Mirror selfie in the piece. Mail support@nora-lanelle.com, subject Photo, or tag @noralanelle.",
+    "headline": "One photo.\nTwo ways to send.",
+    "sub": "A mirror selfie in the piece while it's new; mail support@nora-lanelle.com, subject \"Photo\", or post it and tag @noralanelle. It goes on the product page and Instagram with your first name; answered in one to two business days.",
+    "hero_eyebrow": "Photo, mail or tag"
+   },
+   {
+    "label": "F",
+    "direction": "PERSÖNLICH: Claire bittet selbst, sie will es an ihr sehen und stellt es mit Vornamen neben das Teil; verdeckte Dringlichkeit = drei Wochen drin, solange es neu ist",
+    "subject": "Claire here. Show me.",
+    "preview": "Claire here. A mirror selfie in the piece, while it's new; I put it on the page with your name.",
+    "headline": "Claire here.\nShow me.",
+    "sub": "Three weeks in, I'd like to see it on you: a mirror selfie in the piece to support@nora-lanelle.com, subject \"Photo\", or tag @noralanelle. I put it on the product page and on our Instagram, with your first name.",
+    "hero_eyebrow": "From Claire"
+   }
+  ]
+ },
+ {
+  "flow": "post_delivery-vip",
+  "email_no": 7,
+  "timing": "Trigger Fulfilled Order, +45 Tage (≈ 35 Tage nach Zustellung, Rückgabefenster zu, Teil getragen): zweite Bestellung — Claire-Brief, drei Teile einer Palette, Versandschwellen; letzte Mail der Serie",
+  "type": "text",
+  "placeholder_proof": false,
+  "subject": "You know the fit now.",
+  "preview": "Claire here. Second order, the easy one: same size, one palette, shipping on us from $150.",
+  "link": "https://nora-lanelle.com/collections/look-town-coat",
+  "text": "Hi,\n\nClaire here, from Nora Lanelle. About six weeks since your order shipped; by now the piece is worn in and you know the fit, which makes the second order the easy one: same size, no guessing, while the sizes are still there to choose from.\n\nThree pieces cut for one palette, worn together or apart: the Double-Breasted Wool Coat, the Ribbed Turtleneck Knit, the Carpenter Jeans. If one of them is yours, this week beats next; the Autumn Sale is on, and sizes go before it ends.\n\nShipping is on us from $150; from $250 it ships insured, priority dispatch, free. Thirty days at home, easy returns, on everything.\n\nThe three pieces, together on one page:\nhttps://nora-lanelle.com/collections/look-town-coat\n\nTake care,\nClaire\nNora Lanelle\n\nPS: Same size as last time is the right call; between sizes, take both and send back the one that doesn't fit, easy returns. Questions, or anything not right with the order: write to support@nora-lanelle.com before you call your bank; answered in one to two business days.",
+  "why": "Post-Delivery 7 (Tag 45): zweite Bestellung — Rückgabefenster zu, Passform bekannt (rules.md 15.09.: Rückkauf über Passform/Kombination, nicht Rabatt). Drei Teile einer Palette aus der Look-Kollektion Town Coat (existiert: double-breasted-wool-coat-cream, ribbed-turtleneck-knit-cream, wide-leg-jeans = Carpenter Jeans), ein Link auf die Kollektion (Textmail verlinkt genau einen Link). Versandschwellen $150 frei / $250 versichert + Priority (go.sh 16.09., threshold.py), 30 Tage easy returns. Format C Claire-Text, kurz, kein Code, keine Streichpreise, kein „reply“.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "VERDECKTE URGENCY: Größen laufen durch, solange der Autumn Sale läuft — darum jetzt, nicht später; keine erfundene Frist",
+    "subject": "Same size, while it's there.",
+    "preview": "You know the fit now; sizes sell through while the Autumn Sale runs. Three pieces, one palette.",
+    "text_open": "Claire here, from Nora Lanelle. About six weeks since your order shipped; by now you know the fit, and sizes sell through while the Autumn Sale runs, which is why this comes now rather than later: the second order is the easy one, same size, no guessing."
+   },
+   {
+    "label": "C",
+    "direction": "URGENCY+EMOJI: diese Woche, Größen laufen durch — Emoji im Betreff und in der Vorschau, ein Ausrufezeichen im Einstieg; kein Rabatt, kein Code",
+    "subject": "⏳ Your size, this week! 🧥",
+    "preview": "Claire here. You know the fit ⏳ Sizes sell through while the sale runs; this week beats next.",
+    "text_open": "Claire here, from Nora Lanelle. Six weeks in, you know the fit, and sizes sell through while the Autumn Sale runs, so the second order is a this-week thing: same size, no guessing!"
+   },
+   {
+    "label": "D",
+    "direction": "LUXUS: ruhiger Markenton, das Teil ist eingetragen, die Passform gehört ihr, keine Zahl; verdeckte Dringlichkeit = solange die Größen noch da sind",
+    "subject": "The second order, quietly.",
+    "preview": "From Claire. You know the fit now; three pieces in one palette, worn together or apart.",
+    "text_open": "Claire here, from Nora Lanelle. Six weeks on, the piece is worn in and the fit is yours; the second order asks nothing of you but the size you already know, while the sizes are still there to choose from."
+   },
+   {
+    "label": "E",
+    "direction": "ANGEBOT: Versand statt Rabatt — die Zahl zuerst: ab $150 Versand auf uns, ab $250 versichert + Priority; zwei der drei Teile schaffen die erste Schwelle, alle drei die zweite; verdeckte Dringlichkeit = solange die Größen halten",
+    "subject": "From $150, shipping on us.",
+    "preview": "Claire here. Any two of the three clear $150, shipping on us; all three clear $250, insured.",
+    "text_open": "Claire here, from Nora Lanelle. You know the fit now, so here is the number that matters for the second order: from $150 shipping is on us, from $250 it ships insured with priority dispatch; any two of the three pieces below clear the first, all three clear the second, while sizes hold."
+   },
+   {
+    "label": "F",
+    "direction": "FAKTEN: Größe bekannt, $150, $250, 30 Tage easy returns, Sale läuft — Aufzählung statt Pitch; verdeckte Dringlichkeit = sizes sell through",
+    "subject": "Same size, $150, $250, 30 days.",
+    "preview": "The facts: your size, shipping on us from $150, insured priority from $250, 30 days at home.",
+    "text_open": "Claire here, from Nora Lanelle, with facts rather than a pitch: your size is known, shipping is on us from $150, from $250 it ships insured with priority dispatch, thirty days at home with easy returns, and sizes sell through while the Autumn Sale runs."
+   }
+  ]
+ }
+]

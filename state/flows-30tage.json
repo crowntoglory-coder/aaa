@@ -1,0 +1,311 @@
+[
+ {
+  "flow": "welcome-1b",
+  "email_no": 2,
+  "timing": "Trigger Subscribed (Welcome), +1 d nach Anmeldung (Tag 1), 07:00 Ortszeit (UNTIL); Flow-Filter Placed Order = 0 seit Start (§5 Nr. 1); Smart Sending 16 h an (§5 Nr. 5). Text, Claire. Sitzt zwischen welcome (Tag 0) und welcome-2 (Tag 3); welcome-2…5 rücken auf Nr. 3…7. Spec 2026-09-20-flows-30-tage.md §4 Prio 1.",
+  "placeholder_proof": false,
+  "smart_sending": true,
+  "type": "text",
+  "subject": "Why Nora Lanelle exists",
+  "preview": "One piece, one palette, a US brand. What comes this week, from Claire.",
+  "link": "https://nora-lanelle.com/collections/the-autumn-edit",
+  "text": "Hi,\n\nClaire here, from Nora Lanelle. You signed up yesterday, so one note on why this shop exists. I wanted a closet where every piece goes with every other piece: one palette, a coat that sits over the knit, a knit that sits over the trousers. A US brand, priced in USD, at your door in 7 to 10 days, thirty days at home, easy returns.\n\nWhat comes this week: on day three, how our pictures are made and why the pieces are real. On day five, three looks from one palette and how to choose the first piece. Short notes, never daily.\n\nOne thing that does not wait: sizes. The Autumn Sale has 45% in every price, and the sizes go before the sale does. If a coat is on your list, look today, not next week.\n\nhttps://nora-lanelle.com/collections/the-autumn-edit\n\nTake care,\nClaire\nNora Lanelle\n\nP.S. WELCOME15 still takes 15% off your first piece at checkout.",
+  "why": "Richter 20.09.: A (Story + Vorschau auf Tag 3/5 primt Öffnungen), P.S.-Zeile aus B (kürzer). Urgency ohne Zahl: „sizes go before the sale does“. WELCOME15 nur P.S. (Spec §4).",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "URGENCY+EMOJI: Größen zuerst, heute — ein Emoji im Betreff, eins in der Vorschau, ein Ausrufezeichen; keine erfundene Frist",
+    "subject": "⏳ Sizes first, then my story",
+    "preview": "The sale runs, the sizes don't ⏳ Why this shop exists, in three lines, from Claire.",
+    "text_open": "Claire here, from Nora Lanelle. Sizes first, story second: the Autumn Sale has 45% in every price and the sizes go before the sale does, so if a coat is on your list, today beats next week! Now the story. I wanted a closet where every piece goes with every other piece: one palette, a coat over the knit, a knit over the trousers. A US brand, priced in USD, 7 to 10 days to your door, thirty days at home, easy returns."
+   },
+   {
+    "label": "C",
+    "direction": "LUXUS: ruhiger Markenton, Palette und Handwerk, keine Zahl im Einstieg; Frist nur im letzten Absatz (unverändert)",
+    "subject": "One palette, from Claire.",
+    "preview": "Why every piece here goes with every other piece. A short note, day one.",
+    "text_open": "Claire here, from Nora Lanelle. A short note on day one about the one idea behind this shop: a single palette. Every coat, knit and pair of trousers is cut to sit next to the others, so what you order this month goes with what you order in spring. Made in one tone family, worn in your own light. A US brand, priced in USD, 7 to 10 days to your door, thirty days at home, easy returns."
+   }
+  ]
+ },
+ {
+  "flow": "welcome-6",
+  "email_no": 4,
+  "timing": "Trigger Subscribed (Welcome), +5 d nach Anmeldung (Tag 5; 2 d nach welcome-2 Tag 3, 2 d vor welcome-3 Tag 7), 07:00 Ortszeit (UNTIL); Flow-Filter Placed Order = 0 seit Start; Smart Sending 16 h an. HTML split + grid4 (Format D; Tag 3 full, Tag 7 Text), Absender Nora Lanelle. WELCOME15 = stehendes Erstkunden-Angebot (email-cro §7.6), im Hero (hero_code), kein neuer Wert. Spec §4 Prio 2.",
+  "placeholder_proof": false,
+  "smart_sending": true,
+  "type": "html",
+  "hero_style": "split",
+  "hero_image_kind": "look-soft-autumn",
+  "subject": "Coat first. Then the knit.",
+  "preview": "Coat first, then the knit, then the trousers. WELCOME15 takes 15% off the first one.",
+  "url": "https://nora-lanelle.com/discount/WELCOME15?redirect=/collections/look-soft-autumn",
+  "hero_eyebrow": "How to choose",
+  "headline": "Coat first.\nThe rest follows.",
+  "sub": "Four pieces cut in one palette, so any two go together. Start with the coat, it is worn most; the knit under it next; the trousers last. WELCOME15 takes 15% off the first piece at checkout, on top of the 45% Autumn Sale, while your size is there.",
+  "cta1": "See the looks",
+  "blocks": [
+   {
+    "type": "steps",
+    "items": [
+     "Coat first — It is on you from the door to the desk. Pick it, and the palette is set.",
+     "Then the knit — One that sits under the coat and stands on its own at home.",
+     "Then the trousers — Cut to the knit's tone. Between sizes, take both; easy returns on the other one."
+    ]
+   },
+   {
+    "type": "grid4",
+    "handles": [
+     "collarless-coat-cream",
+     "mock-neck-knit-oatmeal",
+     "corduroy-wide-leg-trousers-taupe",
+     "cable-knit-flare-dress-camel"
+    ],
+    "label": "One palette, four pieces",
+    "compare": false
+   },
+   {
+    "type": "split",
+    "kind": "vibe6",
+    "side": "right",
+    "eyebrow": "Before you order",
+    "headline": "Your size,\nin two minutes.",
+    "text": "A tape and the size guide on each product page. Between sizes, take both; easy returns on the one that doesn't fit, thirty days.",
+    "cta": "Size guide",
+    "url": "https://nora-lanelle.com/pages/size-guide"
+   },
+   {
+    "type": "code",
+    "eyebrow": "Your first piece",
+    "head": "15% off, at checkout.",
+    "text": "WELCOME15 comes off the first piece at checkout, on top of the 45% Autumn Sale. Shipping is on us from $150; the coat alone gets there.",
+    "code": "WELCOME15",
+    "cta": "Use my 15%",
+    "url": "https://nora-lanelle.com/discount/WELCOME15?redirect=/collections/the-autumn-edit"
+   }
+  ],
+  "why": "Richter 20.09.: A-Gerüst (Hero split, 3 Schritte, grid4 mit Kleid, Größen-Split), Betreff aus B („Coat first. Then the knit.“ = konkreter Hook), Code-Block aus B (Spec: WELCOME15 als Block; hero_code raus, kein Doppel). B-Variante „$357“ verworfen (Preisänderung macht die Zahl falsch). Hero-Urgency: „while your size is there“.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "URGENCY+EMOJI: Mantel heute, Größen zuerst — ein Emoji im Betreff, eins in der Vorschau, ein Ausrufezeichen; keine erfundene Frist",
+    "subject": "⏳ The coat first, today 🍂",
+    "preview": "Coat, knit, trousers, in that order ⏳ Sizes go before the sale; WELCOME15 takes 15% off.",
+    "hero_eyebrow": "⏳ Coat first, sizes going",
+    "headline": "Coat today. ⏳\nThe rest can wait.",
+    "sub": "Pick the coat first, it sets the palette and it is the piece whose sizes go first! The knit and the trousers follow at their own pace. WELCOME15 takes 15% off the first piece at checkout, on top of the 45% Autumn Sale, while the sale runs."
+   },
+   {
+    "label": "C",
+    "direction": "LUXUS: ruhiger Markenton, ein Ton, drei Teile; keine Zahl in der Headline; Frist nur als Nebensatz",
+    "subject": "Cream, oatmeal, taupe.",
+    "preview": "One palette, worn as three looks. The coat sets it; the knit and the trousers follow.",
+    "hero_eyebrow": "One palette",
+    "headline": "One tone.\nThree looks.",
+    "sub": "Cream, oatmeal, taupe: four pieces from one tone family, worn over, under or alone. The coat sets the palette, the knit and the trousers follow it. Your 15% sits quietly on top of the Autumn Sale, WELCOME15 at checkout, for as long as the sizes hold."
+   }
+  ]
+ },
+ {
+  "flow": "welcome-7",
+  "email_no": 8,
+  "timing": "Trigger Subscribed (Welcome), +21 d nach Anmeldung (Tag 21; 7 d nach welcome-5 Tag 14), 07:00 Ortszeit (UNTIL); Flow-Filter Placed Order = 0 seit Start (§5 Nr. 6: Käuferin bekommt „stay or go“ nicht); Smart Sending 16 h an. Kein Code, kein Verkauf. Zwei Knöpfe mit ?pref=coats-knits / ?pref=all (Klaviyo-Klick auf URL = Präferenz-Signal; kein Klick = Sunset-fähig, Segment = Erweiterung 5). HTML hero_style text (Format C-Hero; Tag 14 full + steps). Spec §4 Prio 3.",
+  "placeholder_proof": false,
+  "smart_sending": true,
+  "type": "html",
+  "hero_style": "text",
+  "subject": "Coats and knits, or everything?",
+  "preview": "Three weeks in. Tell us what to send, one tap: coats and knits, or all of it.",
+  "url": "https://nora-lanelle.com/collections/outerwear?pref=coats-knits",
+  "hero_eyebrow": "Three weeks in",
+  "headline": "Fewer mails.\nYour pick.",
+  "sub": "Three weeks since you signed up. One tap decides what lands here from now on: coats and knits only, or everything, new pieces and looks included. No code in this one, nothing to buy. If neither is yours, do nothing; we take that as an answer and write less.",
+  "cta1": "Coats & knits",
+  "cta2": [
+   "Everything",
+   "https://nora-lanelle.com/collections/all-products?pref=all"
+  ],
+  "blocks": [
+   {
+    "type": "bullets",
+    "icons": [
+     "layers",
+     "palette"
+    ],
+    "items": [
+     "Coats & knits — The two pieces that carry the season. The notes stay to those.",
+     "Everything — Coats, knits, dresses, trousers, new pieces on arrival, the looks."
+    ]
+   },
+   {
+    "type": "tone",
+    "dark": true,
+    "eyebrow": "One tap",
+    "text": "Your pick.\nNothing else changes.",
+    "sub": "Easy returns, thirty days; delivery 7–10 days, whichever you choose. Change it any time: one mail to support@nora-lanelle.com."
+   }
+  ],
+  "why": "Richter 20.09.: A (zwei Knöpfe, bullets, klarer „do nothing“-Satz), Headline aus B („Fewer mails. Your pick.“ = Nutzen im Hero). B-Sub verworfen: „runs on without an end date“ widerspricht welcome-3 („has an end date“). Kein Code, kein Verkauf (Spec §4).",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "URGENCY+EMOJI: die Wahl heute, sonst weniger Post — ein Emoji im Betreff, eins in der Vorschau, ein Ausrufezeichen; keine Frist erfunden",
+    "subject": "⏳ One tap, or we go quiet",
+    "preview": "Coats and knits, or everything? Tap today ⏳ No tap, and we write less.",
+    "hero_eyebrow": "⏳ Your pick, today",
+    "headline": "One tap. ⏳\nOr we go quiet.",
+    "sub": "Three weeks in and one question: coats and knits only, or everything? Tap one today and that is what lands here from now on! No tap, and we take it as an answer and write less. Nothing to buy in this one."
+   },
+   {
+    "label": "C",
+    "direction": "LUXUS: ruhiger Markenton, die Wahl als Höflichkeit; keine Zahl in der Headline",
+    "subject": "Only what you'd wear.",
+    "preview": "Coats and knits, or the whole palette: tell us once, and the notes follow suit.",
+    "hero_eyebrow": "Your closet, your notes",
+    "headline": "Only what\nyou would wear.",
+    "sub": "Three weeks in, one question, asked once: coats and knits, or the whole palette, new pieces and looks included? Tap the one that is yours and the notes follow it. If neither is, do nothing; we take that as an answer and write less."
+   }
+  ]
+ },
+ {
+  "flow": "post_delivery-style",
+  "email_no": 9,
+  "timing": "Trigger Fulfilled Order, +38 d (kumuliert; 5 d nach Mail 8, Tag 33), 07:00 Ortszeit; Flow-Filter Placed Order = 0 seit Start ∧ Cancelled Order = 0 ∧ Refunded Order = 0 (§5 Nr. 3/4); Smart Sending 16 h an. HTML (split-Hero + 3 split-Bilder + tone), kein Verkauf, kein Code, ein Link zu den Looks. Absender Nora Lanelle. Spec §4 Prio 4.",
+  "placeholder_proof": false,
+  "smart_sending": true,
+  "type": "html",
+  "hero_style": "split",
+  "hero_image_kind": "vibe2",
+  "subject": "Three ways to wear it",
+  "preview": "Your piece, worn over, under and alone, and the one care line that keeps it new.",
+  "url": "https://nora-lanelle.com/pages/shop-the-looks",
+  "hero_eyebrow": "Five weeks in",
+  "headline": "One piece.\nThree ways.",
+  "sub": "About five weeks since it shipped, so it has had its first wears. Here are three more, each with pieces you likely already own. No code, nothing ending; the link goes to the looks.",
+  "cta1": "See the three",
+  "blocks": [
+   {
+    "type": "split",
+    "kind": "look-town-coat",
+    "side": "left",
+    "eyebrow": "Way one",
+    "headline": "To town.",
+    "text": "Your piece over a fine knit, trousers in the same tone, flat shoes. The palette does the work; nothing else needed.",
+    "cta": "Town Coat look",
+    "url": "https://nora-lanelle.com/collections/look-town-coat"
+   },
+   {
+    "type": "split",
+    "kind": "look-off-duty",
+    "side": "right",
+    "eyebrow": "Way two",
+    "headline": "Off duty.",
+    "text": "Same piece, a cardigan or a tee under it, jeans, no jewelry. The weekend version, two minutes to put on.",
+    "cta": "Off Duty look",
+    "url": "https://nora-lanelle.com/collections/look-off-duty"
+   },
+   {
+    "type": "split",
+    "kind": "look-after-dark",
+    "side": "left",
+    "eyebrow": "Way three",
+    "headline": "After dark.",
+    "text": "A slip dress or a satin skirt under it, black shoes. The piece stays; only the layer under it changes.",
+    "cta": "After Dark look",
+    "url": "https://nora-lanelle.com/collections/look-after-dark"
+   },
+   {
+    "type": "tone",
+    "dark": false,
+    "eyebrow": "One line on care",
+    "text": "Read the label inside.\nKnits lie flat, coats hang.",
+    "sub": "The care label says wash or brush; knits dry flat, coats hang and air out overnight. Anything else about the piece: support@nora-lanelle.com, one to two business days."
+   }
+  ],
+  "why": "Richter 20.09.: B (drei Look-Splits mit echten Look-Bildern und Kollektions-Links, Pflege = „read the label“ statt Pauschalregel), Preview aus A (kürzer, 81 Z.). Gekauftes Teil im Builder nicht dynamisch → generisch „your piece“. Nichts zu kaufen, kein Code (Spec §4).",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "URGENCY+EMOJI: jetzt tragen, solange die Saison es hergibt — ein Emoji im Betreff, eins in der Vorschau, ein Ausrufezeichen; keine erfundene Frist",
+    "subject": "🍂 Wear it now, three ways",
+    "preview": "The season is on 🍂 Your piece over, under and alone, plus the care line that keeps it new.",
+    "hero_eyebrow": "🍂 The season is on",
+    "headline": "Wear it now. 🍂\nThree ways.",
+    "sub": "The cold weeks are the ones your piece was cut for, so wear it now, not next season! Over a knit, under a coat, on its own at home. One care line at the end, since it is in use. Nothing to buy in this one."
+   },
+   {
+    "label": "C",
+    "direction": "LUXUS: ruhiger Markenton, das Teil im eigenen Licht, keine Zahl in der Headline",
+    "subject": "In your own light.",
+    "preview": "A month in: the piece worn over, under and alone, and how to keep it as it came.",
+    "hero_eyebrow": "A month in",
+    "headline": "Worn in,\nin your own light.",
+    "sub": "A month at home, and the piece has found its place. Three ways it is worn in the palette: over a knit, under a coat, on its own. And one line on care, so it stays the way it came. Nothing to buy here."
+   }
+  ]
+ },
+ {
+  "flow": "post_delivery-season",
+  "email_no": 11,
+  "timing": "Trigger Fulfilled Order, +52 d (kumuliert; 7 d nach vip Tag 45, 8 d vor newin Tag 60), 07:00 Ortszeit (UNTIL); Flow-Filter Placed Order = 0 seit Start, Cancelled Order = 0 ∧ Refunded Order = 0 (§5 Nr. 3/4); Smart Sending 16 h an. Kein Code, keine Frist (VIP-Vorab = vor der Kampagne, ohne Rabatt). Handles ≠ newin Tag 60 (dort burgundy coat, grey cardigan, pinstripe dress, barrel jeans). HTML hero_style type + grid4 (Format F; Tag 45 Text, Tag 60 split). Nur bauen, wenn die 4 Handles in products-email.json stehen (Pre-Mortem 5). Spec §4 Prio 5.",
+  "placeholder_proof": false,
+  "smart_sending": true,
+  "type": "html",
+  "hero_style": "type",
+  "big": "4",
+  "subject": "What's coming, your size first",
+  "preview": "Four new pieces in your palette, no code. Your size first; easy returns, 30 days.",
+  "url": "https://nora-lanelle.com/collections/new-in",
+  "hero_eyebrow": "First look",
+  "headline": "What's coming.\nYour size first.",
+  "sub": "Four pieces of the next capsule, cut in the palette you already wear. Sizes go in the order they are picked, so yours first. Same terms as your first order: 7–10 days to your door, thirty days at home, easy returns. No code, no clock.",
+  "cta1": "See the four",
+  "blocks": [
+   {
+    "type": "grid4",
+    "handles": [
+     "cropped-funnel-neck-trench-jacket-taupe",
+     "essential-wrap-knit-top-grey",
+     "faux-suede-belted-blouson-chocolate",
+     "ribbed-knit-drawstring-trousers-grey"
+    ],
+    "label": "Next capsule, your palette",
+    "compare": false
+   },
+   {
+    "type": "facts",
+    "icons": [
+     "palette",
+     "ship",
+     "return"
+    ],
+    "items": [
+     "Palette — Cut to sit next to yours",
+     "Delivery — 7 to 10 days",
+     "Returns — Easy, 30 days"
+    ]
+   }
+  ],
+  "why": "Richter 20.09.: A-Gerüst (Typo-Hero „4“, die drei Launch-Handles vom 19.09. + grey trousers, facts), Betreff/Headline aus B („your size first“). „Before the campaign“ in allen Fassungen raus — Zeitversprechen ohne Kampagnentermin; B-Zeile „every size is in today“ raus (unprüfbar). Kein Code (Spec §4).",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "URGENCY+EMOJI: Größen zuerst — ein Emoji im Betreff, eins in der Vorschau, ein Ausrufezeichen; keine erfundene Frist",
+    "subject": "⏳ Four new, your size first 🍂",
+    "preview": "Four new pieces in your palette ⏳ Sizes go in the order they are picked, so yours first.",
+    "hero_eyebrow": "⏳ Your size first",
+    "headline": "Your size first. ⏳\nFour new.",
+    "sub": "Sizes go in the order they are picked, so take yours first, not last! Four pieces of the next capsule, cut in the palette you already wear. 7–10 days to your door, thirty days at home, easy returns. No code needed."
+   },
+   {
+    "label": "C",
+    "direction": "LUXUS: ruhiger Markenton, die Kapsel als Fortsetzung des Besitzes; keine Zahl in der Headline; Vorab nur als Nebensatz",
+    "subject": "The next capsule, quietly.",
+    "preview": "Taupe, grey, chocolate: the next pieces, cut to sit next to what you already own.",
+    "hero_eyebrow": "The next capsule",
+    "headline": "Next to what\nyou already own.",
+    "sub": "Taupe, grey, chocolate: the next pieces are cut to sit next to what you already own, so one addition gives your closet new company. You see them here a little before everyone else. 7–10 days to your door, thirty days at home, easy returns. No code, no clock."
+   }
+  ]
+ }
+]

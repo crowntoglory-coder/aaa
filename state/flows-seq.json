@@ -1,0 +1,793 @@
+[
+ {
+  "flow": "browse-2",
+  "email_no": 2,
+  "timing": "+24 h nach Browse 1, kein Warenkorb (Hustler: Alternativen + Bestseller)",
+  "placeholder_proof": true,
+  "_proof_note": "PLATZHALTER: Bewertungen und Namen erfunden fuer den Testaufbau — vor Live-Gang ersetzen.",
+  "subject": "Four, still in the sale.",
+  "preview": "Coat, trousers, turtleneck, cardigan. Same palette; at your door in 7–10 days.",
+  "url": "https://nora-lanelle.com/collections/the-autumn-edit",
+  "hero_style": "split",
+  "hero_image_kind": "look-soft-autumn",
+  "hero_eyebrow": "If not the dress",
+  "headline": "Four like it,\nwhile the sale runs.",
+  "sub": "Same palette, all four in the Autumn Edit while the sale runs; some sizes sell through before it ends. Easy returns, 30 days.",
+  "cta1": "See all four",
+  "blocks": [
+   {
+    "type": "grid4",
+    "handles": [
+     "collarless-coat-cream",
+     "corduroy-wide-leg-trousers-taupe",
+     "ribbed-turtleneck-knit-cream",
+     "kaia-knit-cardigan"
+    ],
+    "label": "Next to the dress"
+   },
+   {
+    "type": "band",
+    "kind": "vibe3",
+    "text": "Same palette,\nfour ways.",
+    "cta": "Browse by look",
+    "url": "https://nora-lanelle.com/pages/shop-the-looks",
+    "h": 320,
+    "pos": "center 30%"
+   },
+   {
+    "type": "looks",
+    "label": "Shop the looks",
+    "items": [
+     [
+      "look-town-coat",
+      "Town Coat",
+      "https://nora-lanelle.com/collections/look-town-coat"
+     ],
+     [
+      "look-off-duty",
+      "Off Duty",
+      "https://nora-lanelle.com/collections/look-off-duty"
+     ],
+     [
+      "look-after-dark",
+      "After Dark",
+      "https://nora-lanelle.com/collections/look-after-dark"
+     ],
+     [
+      "look-soft-autumn",
+      "Soft Autumn",
+      "https://nora-lanelle.com/collections/look-soft-autumn"
+     ]
+    ],
+    "cta_all": [
+     "Browse by look",
+     "https://nora-lanelle.com/pages/shop-the-looks"
+    ]
+   },
+   {
+    "type": "proof",
+    "text": "Came for the dress, left with the trousers. Taupe is greyer than the photo, which I liked. True to size at 5'6\".",
+    "who": "Marie D., 39, Miami, FL"
+   }
+  ],
+  "why": "Browse 2 = Alternativen (Hustler 24 h); Format D Editorial mit 2x2.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "ANGEBOT/% — Zahl zuerst (45 % Autumn Sale, Versand frei ab $150)",
+    "subject": "45% off, four like it.",
+    "preview": "Coat, trousers, turtleneck, cardigan, 45% off in the Autumn Sale. Free shipping from $150.",
+    "headline": "45% off,\nfour like it.",
+    "sub": "The coat, the trousers, the turtleneck, the cardigan, all in the Autumn Edit at 45% off while the sale runs. Shipping free from $150; easy returns, 30 days.",
+    "hero_eyebrow": "45% off, sitewide"
+   },
+   {
+    "label": "C",
+    "direction": "PERSÖNLICH — Claire, Ich/Du-Hook, Beobachtung: sie hat das Kleid angesehen und ist gegangen; Frist versteckt in „before the sale does“",
+    "subject": "You looked at the dress.",
+    "preview": "Claire here. If it wasn't quite it, four sit next to it, same palette, in the sale.",
+    "headline": "You looked at the dress.\nI'd take the coat.",
+    "sub": "Four sit next to it in the same palette, all in the Autumn Edit; I'd decide before the sale does. Easy returns, 30 days.",
+    "hero_eyebrow": "A note from Claire"
+   },
+   {
+    "label": "D",
+    "direction": "Super-Urgency mit Emojis: vier Alternativen, Sale-Ende und Größen zuerst, Aufforderung heute",
+    "subject": "⏳ Four like it, sizes going.",
+    "preview": "Coat, trousers, turtleneck, cardigan, all in the Autumn Sale until it ends. Sizes go first 🍂",
+    "headline": "Four like it. ⏳\nNot for long.",
+    "sub": "If the dress wasn't it, four sit next to it in the same palette, all in the Autumn Edit while the sale runs. Sizes sell through before it ends, so pick yours today! 🍂",
+    "hero_eyebrow": "⏳ Sale on, sizes going"
+   },
+   {
+    "label": "E",
+    "direction": "Luxus-Markenton: eine Palette, vier Teile, ruhig; Frist nur als „for now“ und Größen im Nebensatz",
+    "subject": "Four, in the same light.",
+    "preview": "Coat, trousers, turtleneck, cardigan; one palette, cut for the season. In the Edit, for now.",
+    "headline": "One palette,\nfour pieces.",
+    "sub": "The coat, the trousers, the turtleneck, the cardigan, cut in the same palette as the dress and in the Autumn Edit while the sale runs. Sizes go quietly before it ends; easy returns, 30 days.",
+    "hero_eyebrow": "The Autumn Edit, for now"
+   },
+   {
+    "label": "F",
+    "direction": "Fakten: vier Teile, 45 %, 7–10 Tage, $150, 30 Tage nüchtern gereiht; Größen als Frist",
+    "subject": "Four pieces, 7–10 days, 30 at home.",
+    "preview": "Coat, trousers, turtleneck, cardigan, 45% off. Free shipping from $150; easy returns, 30 days.",
+    "headline": "Four like it.\n7–10 days to you.",
+    "sub": "The coat, the trousers, the turtleneck, the cardigan: same palette, 45% off in the Autumn Edit while the sale runs. Delivery 7–10 days; shipping free from $150; easy returns for 30 days. Sizes sell through first.",
+    "hero_eyebrow": "Four, by the numbers"
+   }
+  ]
+ },
+ {
+  "flow": "welcome-2",
+  "email_no": 3,
+  "timing": "+3 Tage (Klaviyo Help)",
+  "placeholder_proof": true,
+  "_proof_note": "PLATZHALTER: Bewertungen und Namen erfunden fuer den Testaufbau — vor Live-Gang ersetzen.",
+  "subject": "Renders stay. Sizes go.",
+  "preview": "The picture is made on a screen; the piece is real, 45% off while the Autumn Sale runs.",
+  "codebar": "Your 15% is still on: WELCOME15 at checkout",
+  "codebar_url": "https://nora-lanelle.com/discount/WELCOME15?redirect=/collections/all-products",
+  "hero_style": "full",
+  "hero_image_kind": "dress",
+  "hero_h": 680,
+  "hero_eyebrow": "Rendered, then real",
+  "headline": "Made, not photographed.\nStill here in your size.",
+  "sub": "The picture is rendered so you see the cut and the knit without a shoot; the piece is real, at your door in 7–10 days. Sizes sell through while the Autumn Sale runs, and the 45% is already in the price.",
+  "cta1": "See the pieces",
+  "blocks": [
+   {
+    "type": "bullets",
+    "icons": [
+     "made",
+     "ship",
+     "return"
+    ],
+    "items": [
+     "Picture — Rendered, so you see the cut, the knit, the color without a shoot.",
+     "Piece — Real. Picked, packed, at your door in 7–10 days.",
+     "Risk — Thirty days at home. Easy returns."
+    ]
+   },
+   {
+    "type": "strip",
+    "kinds": [
+     "vibe2",
+     "vibe5",
+     "vibe6"
+    ],
+    "h": 230
+   },
+   {
+    "type": "reviews",
+    "label": "Screen vs. hands",
+    "items": [
+     [
+      "The photos made me nervous. The coat in hand is heavier and better than the render. Runs true at 5'7\".",
+      "Sophie R., 42, Philadelphia, PA"
+     ],
+     [
+      "knit colour is exactly the picture. sleeves a bit long on me at 5'2\", rolled them",
+      "Isabel K., 35, San Diego, CA"
+     ]
+    ]
+   },
+   {
+    "type": "looks",
+    "label": "Four autumn looks",
+    "items": [
+     [
+      "look-town-coat",
+      "Town Coat",
+      "https://nora-lanelle.com/collections/look-town-coat"
+     ],
+     [
+      "look-off-duty",
+      "Off Duty",
+      "https://nora-lanelle.com/collections/look-off-duty"
+     ],
+     [
+      "look-after-dark",
+      "After Dark",
+      "https://nora-lanelle.com/collections/look-after-dark"
+     ],
+     [
+      "look-soft-autumn",
+      "Soft Autumn",
+      "https://nora-lanelle.com/collections/look-soft-autumn"
+     ]
+    ],
+    "cta_all": [
+     "Browse by look",
+     "https://nora-lanelle.com/pages/shop-the-looks"
+    ]
+   }
+  ],
+  "why": "Welcome 2 = das eine, was uns unterscheidet, als Einwand-Antwort (Schwartz: neuer Mechanismus). Format A.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "Fakten: Lieferzeit, Rückgabe, USD, US-Marke, Größenrat",
+    "subject": "7–10 days. 30 days at home.",
+    "preview": "US brand, priced in USD. Shipping free from $150, $8 under. Easy returns for thirty days.",
+    "headline": "Rendered on screen.\nAt your door in 7–10 days.",
+    "sub": "A US brand, priced in USD; shipping is free from $150 and $8 under it. Thirty days at home with easy returns, and a size guide on every product page, so the 45% lands on the right size while the Autumn Sale runs.",
+    "hero_eyebrow": "What arrives, and when"
+   },
+   {
+    "label": "C",
+    "direction": "Super-Urgency + Emoji: Frist und Knappheit vorn",
+    "subject": "⏳ 45% off. Sizes going 🍂",
+    "preview": "The Autumn Sale ends; your size may go before it does. Real, at your door in 7–10 days.",
+    "headline": "The sale has an end.\nYour size may go first.",
+    "sub": "Made, not photographed; real in 7–10 days, 45% off while the Autumn Sale runs. Sizes sell through while a sale runs, so take yours today!",
+    "hero_eyebrow": "Sale on, sizes going"
+   },
+   {
+    "label": "D",
+    "direction": "Luxus-Markenton: Render als Bild, das Stück in der Hand, ruhig; Frist nur im letzten Satz (Größe)",
+    "subject": "Made to be held, this season.",
+    "preview": "Rendered so you see the cut; real so you feel the knit. In your size while the sale runs.",
+    "headline": "Seen on a screen.\nHeld, at home.",
+    "sub": "The picture is rendered, so you see the cut and the knit in a quiet light; the piece is real, and at your door in 7–10 days. The Autumn Sale runs for a while yet; your size may not.",
+    "hero_eyebrow": "On screen, then in hand"
+   },
+   {
+    "label": "E",
+    "direction": "Angebot/%: 45 % schon im Preis, WELCOME15 15 % obendrauf, Versand ab $150; Frist und Größen im Nebensatz",
+    "subject": "45% in the price. 15% on top.",
+    "preview": "The 45% is already in the price; WELCOME15 takes 15% more off your first piece while it runs.",
+    "headline": "45% in the price.\n15% still yours.",
+    "sub": "The Autumn Sale's 45% is already in every price; WELCOME15 takes 15% more off your first piece at checkout, while the sale runs. Shipping free from $150; sizes sell through first.",
+    "hero_eyebrow": "45%, then 15% more"
+   },
+   {
+    "label": "F",
+    "direction": "Persönlich: Claire erklärt die Render als ihre Entscheidung, trägt das Risiko; Größe als verdeckte Frist",
+    "subject": "Why the pictures look like that.",
+    "preview": "Claire here. The renders are on me; the risk too. Real in 7–10 days, thirty days at home.",
+    "headline": "You saw a render.\nI hold the risk.",
+    "sub": "I chose renders so you see the cut without a shoot; the piece is real, at your door in 7–10 days, thirty days at home with easy returns. I'd pick your size while the Autumn Sale still has it.",
+    "hero_eyebrow": "From Claire"
+   }
+  ]
+ },
+ {
+  "flow": "welcome-3",
+  "email_no": 5,
+  "timing": "+4 Tage nach Mail 2 (Klaviyo Help); letzte Welcome-Mail",
+  "placeholder_proof": true,
+  "_proof_note": "PLATZHALTER: Bewertungen und Namen erfunden fuer den Testaufbau — vor Live-Gang ersetzen.",
+  "subject": "Ten days from tonight.",
+  "type": "text",
+  "link": "https://nora-lanelle.com/discount/WELCOME15?redirect=/collections/all-products",
+  "text": "Hi,\n\nYou've never held one of our pieces. If I were you, that's what would hold me back; the pictures are made, not photographed, and I'm asking you to trust that the knit is as soft as it looks. That's a lot to ask of someone I haven't met, and I can ask it only for a while: the Autumn Sale has an end date, and your 15% sits on top of it until then.\n\nSo we carry the risk, not you. Order the coat, or the dress, or the trousers. It's at your door in 7–10 days. Try it on at home, in your own mirror, for up to thirty days. If it isn't right, send it back, easy returns, and you get every dollar back. No questions, no forms that take an afternoon.\n\nYour 15% is still waiting: WELCOME15 at checkout, on top of the 45% Autumn Sale.\n\nhttps://nora-lanelle.com/discount/WELCOME15?redirect=/collections/all-products\n\nThank you for reading this far. It means something to a small brand.\n\nClaire\nNora Lanelle\n\nPS: Between sizes? Check the size guide on the product page, or take both — easy returns on the one that doesn't fit.",
+  "why": "Welcome 3 = Founder-Text, Risk Reversal, PS (Maxwell). Format C.",
+  "preview": "Order tonight, at your door in 7–10 days. Your 15% sits on top of the sale while it runs.",
+  "headline": "Ten days from tonight,\nthirty days at home.",
+  "sub": "Order tonight and it's at your door in 7–10 days; try it in your own mirror for thirty days, easy returns. Your 15% sits on top of the Autumn Sale only until the sale ends.",
+  "hero_eyebrow": "While the sale runs",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "PERSÖNLICH: Ich/Du-Hook, Claire-Ton, eine Beobachtung über sie (dritte Mail, kein Kauf = sie liest, bevor sie kauft); Frist im Nebensatz",
+    "subject": "You read before you buy.",
+    "preview": "I'd do the same. So the risk stays mine: 7–10 days to your door, thirty days at home.",
+    "headline": "You read\nbefore you buy.",
+    "sub": "I'd do the same with a brand I'd never held. The risk stays mine, and I'm asking while the Autumn Sale still runs and your 15% sits on top of it.",
+    "hero_eyebrow": "From Claire",
+    "text_open": "This is the third mail from us and you haven't ordered, which tells me something I like: you read before you buy. I would too, with a brand I'd never held and pictures that are made, not photographed. I'll ask for your trust anyway, and I'll ask it now, while the Autumn Sale is still running and your 15% still sits on top of it."
+   },
+   {
+    "label": "C",
+    "direction": "LUXUS: ruhiger Markenton, ein Satz, keine Zahl; Dringlichkeit nur als Nebensatz (Sale läuft noch)",
+    "subject": "Your mirror decides.",
+    "preview": "Seen on a screen, judged in your own mirror, easy returns. The sale is still on.",
+    "headline": "Seen on a screen,\njudged in your mirror.",
+    "sub": "Order while the Autumn Sale still runs; try it at home, in your own light, and send it back if it isn't right. The risk stays with us.",
+    "hero_eyebrow": "Your own mirror",
+    "text_open": "You have seen the pieces only on a screen; judge them in your own mirror, while the Autumn Sale still runs."
+   },
+   {
+    "label": "D",
+    "direction": "Super-Urgency mit Emojis: letzte Mail, Sale-Ende nimmt die 15 % mit, Größen zuerst; Aufforderung heute Abend",
+    "subject": "⏳ Your 15% ends with the sale.",
+    "preview": "The Autumn Sale has an end date; WELCOME15 sits on top of it until then. Sizes go first 🍂",
+    "headline": "Sale ends. ⏳\n15% goes with it.",
+    "sub": "Your 15% sits on top of the 45% Autumn Sale only until the sale ends, and sizes sell through before that. Order tonight: 7–10 days to your door, thirty days at home, easy returns!",
+    "hero_eyebrow": "⏳ Ends with the sale",
+    "text_open": "This is the last of these three mails, and the sale it's about has an end date ⏳ Your 15% sits on top of the 45% only until then, and sizes sell through before a sale ends. You've never held one of our pieces; I'm asking you to trust that the knit is as soft as it looks, and to decide now rather than after 🍂"
+   },
+   {
+    "label": "E",
+    "direction": "Angebot/%: die Rechnung 45 % plus 15 % zuerst, Frist = Sale-Ende; Lieferzeit und 30 Tage als Absicherung",
+    "subject": "15% on 45%, until the sale ends.",
+    "preview": "WELCOME15 on top of the 45% Autumn Sale, until it ends. 7–10 days to your door, thirty at home.",
+    "headline": "Over half off,\nuntil it ends.",
+    "sub": "WELCOME15 takes 15% off your first piece on top of the 45% Autumn Sale, and only until the sale ends. Order tonight, it's at your door in 7–10 days; thirty days at home, easy returns.",
+    "hero_eyebrow": "45%, plus your 15%",
+    "text_open": "Here's the arithmetic: the Autumn Sale takes 45% off, and WELCOME15 takes 15% off your first piece on top of that, at checkout. It holds only until the sale ends. You've never held one of our pieces, and I know that's what holds you back; the pictures are made, not photographed, and I'm asking you to trust that the knit is as soft as it looks."
+   },
+   {
+    "label": "F",
+    "direction": "Verdeckte Urgency: Größe vor Sale-Ende, ohne Emoji, ohne Zahl in der Headline; Lieferzeit und 30 Tage im Sub",
+    "subject": "While it's still in your size.",
+    "preview": "The Autumn Sale has an end date; your size may have an earlier one. 7–10 days to your door.",
+    "headline": "In your size,\nfor now.",
+    "sub": "The Autumn Sale has an end date and your 15% sits on top of it until then; sizes tend to go earlier. Order tonight, at your door in 7–10 days, thirty days at home, easy returns.",
+    "hero_eyebrow": "Before your size goes",
+    "text_open": "You've never held one of our pieces, and if I were you that's what would hold me back; the pictures are made, not photographed, and I'm asking you to trust that the knit is as soft as it looks. I can ask that only for a while: the Autumn Sale has an end date, your 15% sits on top of it until then, and sizes tend to leave before either."
+   }
+  ]
+ },
+ {
+  "flow": "post_purchase-2",
+  "email_no": 2,
+  "timing": "Trigger Fulfilled Order, +10 Tage (≈ 3 Tage nach Zustellung): „so trägst du es“ senkt Retouren (Hustler)",
+  "placeholder_proof": true,
+  "_proof_note": "PLATZHALTER: Bewertungen und Namen erfunden fuer den Testaufbau — vor Live-Gang ersetzen.",
+  "subject": "Wear it this week.",
+  "preview": "Three looks, then care and returns. The thirty days started at your door.",
+  "url": "https://nora-lanelle.com/pages/shop-the-looks",
+  "hero_style": "split",
+  "hero_image_kind": "look-soft-autumn",
+  "hero_eyebrow": "The first thirty days",
+  "headline": "Three ways to wear it.\nThe first, tonight.",
+  "sub": "Coat over the dress; knit with the trousers; the coat alone, over anything, after dark. Try the one you doubt first, and if the size is off, say so this week; sizes sell through.",
+  "cta1": "Browse by look",
+  "blocks": [
+   {
+    "type": "looks",
+    "label": "By occasion",
+    "items": [
+     [
+      "look-town-coat",
+      "Town Coat",
+      "https://nora-lanelle.com/collections/look-town-coat"
+     ],
+     [
+      "look-off-duty",
+      "Off Duty",
+      "https://nora-lanelle.com/collections/look-off-duty"
+     ],
+     [
+      "look-after-dark",
+      "After Dark",
+      "https://nora-lanelle.com/collections/look-after-dark"
+     ],
+     [
+      "look-soft-autumn",
+      "Soft Autumn",
+      "https://nora-lanelle.com/collections/look-soft-autumn"
+     ]
+    ],
+    "cta_all": [
+     "Browse by look",
+     "https://nora-lanelle.com/pages/shop-the-looks"
+    ]
+   },
+   {
+    "type": "bullets",
+    "icons": [
+     "care",
+     "return",
+     "check"
+    ],
+    "items": [
+     "Care — Follow the label inside. Unsure? The care line is on each product page.",
+     "Not right — Thirty days from delivery, easy returns. One mail to support@nora-lanelle.com starts it.",
+     "Questions — support@nora-lanelle.com, answered in one to two business days. Parcel late, size off, what goes with it."
+    ]
+   },
+   {
+    "type": "proof",
+    "text": "Wore the coat over the dress on day one and got asked where it's from twice. Sleeves hit the wrist at 5'7\".",
+    "who": "Elena R., 40, Seattle, WA"
+   }
+  ],
+  "why": "Post-Purchase 2: Styling statt Verkauf, Retouren senken; Format D Split + Looks.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "URGENCY+EMOJI (Post-Delivery = Service: Dringlichkeit ist Anprobe jetzt, 30-Tage-Fenster laeuft, sizes sell through; kein Rabatt)",
+    "subject": "⏳ Try it on tonight! 👗",
+    "preview": "Your thirty days are already running. Check the fit tonight; sizes sell through.",
+    "headline": "Try it on tonight,\nall three ways.",
+    "sub": "The thirty days started at your door, and sizes sell through; if the size is off, say so this week. Coat over the dress; knit with the trousers; the coat alone, over anything, after dark.",
+    "hero_eyebrow": "Thirty days, running"
+   },
+   {
+    "label": "C",
+    "direction": "ANGEBOT/% (Zahl zuerst: 30 Tage easy returns ab Zustellung; kein Rabatt, da Post-Delivery-Mail = Service)",
+    "subject": "30 days to be sure.",
+    "preview": "Thirty days of easy returns, from delivery. Three ways to wear it before you decide.",
+    "headline": "30 days to decide.\nThree ways to wear it.",
+    "sub": "Easy returns for thirty days, counted from delivery; the first wear tells you most of it, so try the one you doubt first. Coat over the dress; knit with the trousers; the coat alone, over anything, after dark.",
+    "hero_eyebrow": "Thirty days, easy returns"
+   },
+   {
+    "label": "D",
+    "direction": "LUXUS: ruhiger Markenton, drei Arten zu tragen als ein Satz, keine Zahl; verdeckte Dringlichkeit = die erste Tragung heute, solange die dreißig Tage noch ihr gehören",
+    "subject": "Worn three ways.",
+    "preview": "Coat over the dress, knit with the trousers, coat alone after dark. The one you doubt, first.",
+    "headline": "Coat, knit,\nthen after dark.",
+    "sub": "Coat over the dress; knit with the trousers; the coat alone, over anything, after dark. Wear the one you doubt first, while the thirty days are still yours.",
+    "hero_eyebrow": "The first wear"
+   },
+   {
+    "label": "E",
+    "direction": "FAKTEN: drei Looks, Pflege auf dem Etikett, 30 Tage ab Zustellung easy returns, Support-Adresse mit Antwortzeit; verdeckte Dringlichkeit = sizes sell through, diese Woche melden",
+    "subject": "3 looks, 30 days, 1 address.",
+    "preview": "Thirty days from delivery, easy returns. Care on the label inside; one address for the rest.",
+    "headline": "Three looks.\nThirty days.",
+    "sub": "Three ways to wear it; care is on the label inside; thirty days from delivery, easy returns; support@nora-lanelle.com answers in one to two business days. Sizes sell through, so if it's off, say so this week.",
+    "hero_eyebrow": "30 days from delivery"
+   },
+   {
+    "label": "F",
+    "direction": "PERSÖNLICH: Claire, Ich/Du-Hook — sie würde das Teil, an dem man zweifelt, heute Abend zuerst anziehen; verdeckte Dringlichkeit = diese Woche melden, Größen laufen durch",
+    "subject": "Claire here. Wear it tonight.",
+    "preview": "Claire here. Try the one you doubt first; if the size is off, say so this week.",
+    "headline": "Claire here.\nWear it tonight.",
+    "sub": "I'd put on the one you doubt first, tonight, with your own shoes: coat over the dress, knit with the trousers, the coat alone after dark. If the size is off, write to support this week; sizes sell through.",
+    "hero_eyebrow": "From Claire"
+   }
+  ]
+ },
+ {
+  "flow": "post_purchase-3",
+  "email_no": 3,
+  "timing": "Trigger Fulfilled Order, +14 Tage (Review-Bitte 7–10 Tage nach Zustellung, mit Passform-Feldern)",
+  "placeholder_proof": true,
+  "_proof_note": "PLATZHALTER: Bewertungen und Namen erfunden fuer den Testaufbau — vor Live-Gang ersetzen.",
+  "subject": "Three words on the fit.",
+  "preview": "Size, height, true or roomy. It goes next to the piece with your first name.",
+  "url": "mailto:support@nora-lanelle.com?subject=Fit",
+  "hero_style": "text",
+  "hero_eyebrow": "A few wears in",
+  "headline": "The fit is fresh.\nWrite it down.",
+  "sub": "Three things to support@nora-lanelle.com, subject \"Fit\": the size you kept, your height, true or roomy. I put it next to the piece with your first name; if it isn't right, your 30 days for an easy return are still running.",
+  "cta1": "Send three words",
+  "blocks": [
+   {
+    "type": "steps",
+    "items": [
+     "Size — The one you kept, e.g. M.",
+     "Height — So the next woman can compare, e.g. 5'6\".",
+     "Fit — True, roomy, or snug. One flaw if you found one; those help most. Not right? Returns are easy, 30 days."
+    ]
+   },
+   {
+    "type": "strip",
+    "kinds": [
+     "vibe2",
+     "vibe4",
+     "vibe6"
+    ],
+    "h": 230
+   },
+   {
+    "type": "proof",
+    "text": "M at 5'6\", true to size. The cream marks easily; that's the only thing.",
+    "who": "Rachel P., 39, Chicago, IL"
+   }
+  ],
+  "why": "Post-Purchase 3: erste 5 Stimmen je Produkt einsammeln (Spiegel: +270 %), mit Passform-Feldern (PowerReviews: Groesse = 64 % der Retouren). Format E Zeitstrahl.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "LUXUS: ruhiger Markenton, ein Satz, keine Zahl; verdeckte Dringlichkeit = die erste Tragung ist noch klar",
+    "subject": "The fit, in your words.",
+    "preview": "The size you kept and how it sits, set down while the first wear is still clear.",
+    "headline": "How it sits\non you.",
+    "sub": "Write the size you kept and how it sits to support@nora-lanelle.com, subject \"Fit\"; it goes beside the piece, in your words, while the first wear is still clear.",
+    "hero_eyebrow": "In your words"
+   },
+   {
+    "label": "C",
+    "direction": "FAKTEN: Größe, Körpergröße, 30 Tage easy returns, Größenrat nach Taille; verdeckte Dringlichkeit = sizes sell through (ohne Zahl)",
+    "subject": "Size, height, true or roomy.",
+    "preview": "Three facts next to the piece, with your first name. Easy returns for 30 days if it isn't right.",
+    "headline": "Your size,\nyour height.",
+    "sub": "Send three facts to support@nora-lanelle.com, subject \"Fit\": the size you kept, your height, true or roomy; they sit next to the piece so the next woman picks right before her size sells through. If yours isn't right, returns are easy for 30 days; choose the next size by your waist measurement.",
+    "hero_eyebrow": "For the next woman"
+   },
+   {
+    "label": "D",
+    "direction": "URGENCY+EMOJI (Service-Dringlichkeit: die erste Tragung verblasst, die 30 Tage laufen; drei Worte jetzt); ein Emoji im Betreff, eins in der Vorschau, ein Ausrufezeichen, kein Rabatt",
+    "subject": "⏳ Three words while it's fresh!",
+    "preview": "Size, height, true or roomy, before the first wear fades ✍️ Your 30 days are still running.",
+    "headline": "Still fresh?\nWrite it now.",
+    "sub": "Three words to support@nora-lanelle.com, subject \"Fit\": the size you kept, your height, true or roomy, while the first wear is still clear! If it isn't right, your 30 days for an easy return are still running.",
+    "hero_eyebrow": "Before day 30"
+   },
+   {
+    "label": "E",
+    "direction": "ANGEBOT: der Gegenwert vorn — ihre drei Worte stehen mit Vornamen neben dem Teil, die nächste Frau wählt richtig; Zahl 30 Tage easy returns als Zweites; kein Rabatt (Service-Mail)",
+    "subject": "Three words, next to the piece.",
+    "preview": "Your words next to the piece, with your first name. Easy returns, 30 days, if it isn't right.",
+    "headline": "Three words,\nnext to the piece.",
+    "sub": "Size kept, height, true or roomy, to support@nora-lanelle.com, subject \"Fit\"; they sit next to the piece with your first name, so the next woman picks right. Not right for you? Easy returns, 30 days, still running.",
+    "hero_eyebrow": "Your name, next to it"
+   },
+   {
+    "label": "F",
+    "direction": "PERSÖNLICH: Claire fragt selbst, wie es sitzt, und legt die Antwort mit Vornamen neben das Teil; verdeckte Dringlichkeit = die 30 Tage für easy return laufen noch",
+    "subject": "Claire here. How it sits.",
+    "preview": "Claire here. Three words on the fit, while it's still clear; I put them next to the piece.",
+    "headline": "Claire here.\nHow does it sit?",
+    "sub": "The size you kept, your height, true or roomy, to support@nora-lanelle.com, subject \"Fit\". I put it next to the piece with your first name. And if it doesn't sit right, your 30 days for an easy return are still running.",
+    "hero_eyebrow": "From Claire"
+   }
+  ]
+ },
+ {
+  "flow": "post_purchase-transit",
+  "email_no": 2,
+  "timing": "Trigger Fulfilled Order, +3 Tage (Ware unterwegs, vor Zustellung) — als Mail 2 zwischen Mail 1 und „How to wear it“; die bisherigen 2/3 rücken auf 3/4",
+  "placeholder_proof": false,
+  "subject": "Four to seven days out.",
+  "preview": "Shipped three days ago; one link to where it is, and your size worth a second look now.",
+  "url": "{{ event.extra.tracking_url|default:'https://nora-lanelle.com/pages/contact' }}",
+  "hero_style": "text",
+  "hero_eyebrow": "Closer than it feels",
+  "headline": "Three days in.\nFour to seven to go.",
+  "sub": "Shipped three days ago; four to seven more to your door. Check the size you chose against your waist now, while a note to support still lands before the box does.",
+  "cta1": "Track my order",
+  "blocks": [
+   {
+    "type": "steps",
+    "items": [
+     "Shipped — Three days ago. Seven to ten days from shipping to your door.",
+     "In transit — The button above shows where it is. Nothing to do on your side.",
+     "Delivered — Try it on at home. Thirty days from delivery to decide, easy returns."
+    ]
+   },
+   {
+    "type": "bullets",
+    "icons": [
+     "clock",
+     "check",
+     "return",
+     "check"
+    ],
+    "items": [
+     "Running late — We write to you first. Wait for it, or take a full refund. Your choice.",
+     "Questions — support@nora-lanelle.com. A person answers in one to two business days.",
+     "Not right — Thirty days, easy returns. One mail to support@nora-lanelle.com is faster than one call to your bank.",
+     "Your statement — One order, one charge, nothing recurring. Unsure about a line? Write to support@ before your bank."
+    ]
+   },
+   {
+    "type": "tone",
+    "dark": true,
+    "eyebrow": "One address",
+    "text": "It's coming.\nWrite before you wonder.",
+    "sub": "support@nora-lanelle.com — one to two business days, a real person."
+   }
+  ],
+  "format": "E Zeitstrahl: Text-Hero ohne Bild, steps, bullets, tone; ein CTA, kein proof/reviews, kein Verkauf",
+  "why": "Post-Purchase Transit: Erwartung setzen (7–10 Tage ab Versand), Tracking, Verzögerung → wir melden uns, Erstattung wählbar, Kontakt und Rückgabe statt Rückbuchung, Abrechnungsname — senkt Chargebacks (rules.md 15.09.). Kein Verkauf, kein Rabatt, kein Zoll-Versprechen (DDP unbelegt), kein Versandort. 19.09.: Abrechnungsname war unbelegt (Setup-Doc 15.09.) → Platzhalter [DESCRIPTOR], bis er den Wert aus Shopify → Settings → Payments nennt; Mail geht nicht mit Platzhalter live.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "Zahl zuerst. Transit ist Service, also keine 45 %/15 %, sondern die Service-Zahl: 30 Tage ab Zustellung, easy returns. Verdeckte Dringlichkeit: Größe jetzt prüfen, bevor das Paket da ist.",
+    "subject": "30 days, from delivery.",
+    "preview": "Four to seven days from now, then thirty from that day to decide, easy returns.",
+    "headline": "30 days to decide.\nThe count starts at your door.",
+    "sub": "Four to seven days more to your door, then thirty from that day to decide, easy returns. Check the size you chose against your waist now, so the try-on takes a minute, not a return.",
+    "hero_eyebrow": "30 days to decide"
+   },
+   {
+    "label": "C",
+    "direction": "Persönlich, Claire-Ton (Absender „Claire, Nora Lanelle“). Beobachtung über sie: Tag drei ist der Tag, an dem die Tracking-Seite zweimal geöffnet wird. Verdeckte Dringlichkeit: Größe heute prüfen, vor der Zustellung schreiben, nicht danach.",
+    "subject": "I'd be checking too.",
+    "preview": "Claire here. Day three is tracking-page day; the link, the number, one address.",
+    "headline": "Day three.\nI'd be checking too.",
+    "sub": "So here is the link, and the number: seven to ten from shipping, four to seven from now. One thing worth doing today, check the size you chose against your waist; if it reads wrong, write to us before it lands, not after.",
+    "hero_eyebrow": "From Claire"
+   },
+   {
+    "label": "D",
+    "direction": "URGENCY+EMOJI (Transit = Service, kein Verkauf): Dringlichkeit ist der Größen-Check jetzt, solange eine Mail an Support vor dem Paket ankommt; ein Emoji im Betreff, eins in der Vorschau, ein Ausrufezeichen",
+    "subject": "⏳ 4 to 7 days. Size check now!",
+    "preview": "Shipped three days ago 📦 Check the size you chose against your waist before the box lands.",
+    "headline": "4 to 7 days out.\nSize check now.",
+    "sub": "Shipped three days ago, four to seven more to your door. Check the size you chose against your waist tonight, so a note to support lands before the box does!",
+    "hero_eyebrow": "Landing in 4 to 7 days"
+   },
+   {
+    "label": "E",
+    "direction": "LUXUS: ruhiger Ton, ein Satz, keine Zahl außer den Tagen; verdeckte Dringlichkeit = die Größe noch einmal ansehen, solange eine Zeile uns vor dem Paket erreicht",
+    "subject": "On its way to you.",
+    "preview": "Four to seven days to go. The size, once more, while a line still reaches us first.",
+    "headline": "Nearly there.\nThe size, again.",
+    "sub": "Shipped three days ago, four to seven more to your door; a quiet look at the size you chose now, while a line to us still arrives before the box does.",
+    "hero_eyebrow": "On its way"
+   },
+   {
+    "label": "F",
+    "direction": "FAKTEN: Versand vor 3 Tagen, 7–10 Tage ab Versand, Verzögerung = wir melden uns + Erstattung wählbar, 30 Tage easy returns ab Zustellung, Abrechnungsname; verdeckte Dringlichkeit = Größe jetzt prüfen, vor dem Paket",
+    "subject": "If it's late, we write first.",
+    "preview": "Running late? We write first; wait or full refund. Thirty days from delivery, easy returns.",
+    "headline": "If it runs late,\nwe write first.",
+    "sub": "Seven to ten days from shipping, four to seven from now. Running late, we write first; wait or full refund. Thirty days from delivery, easy returns. One charge, nothing recurring. Size check now.",
+    "hero_eyebrow": "Shipped. 4 to 7 days"
+   }
+  ]
+ },
+ {
+  "flow": "winback-2",
+  "email_no": 2,
+  "timing": "+7 Tage nach Win-back 1, keine Bestellung",
+  "placeholder_proof": true,
+  "_proof_note": "PLATZHALTER: Bewertungen und Namen erfunden fuer den Testaufbau — vor Live-Gang ersetzen.",
+  "subject": "Four looks, still at 45%.",
+  "preview": "Town Coat, Off Duty, After Dark, Soft Autumn. Three pieces each, while the sale runs.",
+  "url": "https://nora-lanelle.com/pages/shop-the-looks",
+  "hero_style": "type",
+  "big": "4",
+  "hero_eyebrow": "Autumn Sale, for now",
+  "headline": "Looks. One palette.\nYour size, while it's there.",
+  "sub": "Three pieces to a look, all at 45% off until the sale closes. Thirty days at home, easy returns.",
+  "cta1": "Browse by look",
+  "blocks": [
+   {
+    "type": "looks",
+    "label": "Shop the Looks",
+    "items": [
+     [
+      "look-town-coat",
+      "Town Coat",
+      "https://nora-lanelle.com/collections/look-town-coat"
+     ],
+     [
+      "look-off-duty",
+      "Off Duty",
+      "https://nora-lanelle.com/collections/look-off-duty"
+     ],
+     [
+      "look-after-dark",
+      "After Dark",
+      "https://nora-lanelle.com/collections/look-after-dark"
+     ],
+     [
+      "look-soft-autumn",
+      "Soft Autumn",
+      "https://nora-lanelle.com/collections/look-soft-autumn"
+     ]
+    ],
+    "cta_all": [
+     "Browse by look",
+     "https://nora-lanelle.com/pages/shop-the-looks"
+    ]
+   },
+   {
+    "type": "editorial",
+    "kind": "vibe4",
+    "text": "Camel, cream, taupe. It goes with what you already own, which is the point.",
+    "cta": "See the looks",
+    "url": "https://nora-lanelle.com/pages/shop-the-looks",
+    "h": 560
+   },
+   {
+    "type": "proof",
+    "text": "Bought the Off Duty look as a set. Jacket runs a little roomy at 5'4\", the rest true.",
+    "who": "Maya L., 36, Denver, CO"
+   }
+  ],
+  "why": "Win-back 2: Looks als Angebot in Bildern, kein neuer Rabatt; Format F Typo + Looks.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "FAKTEN: US-Marke, USD, Lieferung 7 bis 10 Tage, Versand frei ab $150 / $8, 30 Tage easy returns, Größenrat",
+    "subject": "Four looks, 30 days at home.",
+    "preview": "US brand, prices in USD. Delivery in 7 to 10 days, shipping free from $150.",
+    "headline": "Looks. One palette.\n7 to 10 days to your door.",
+    "sub": "Three pieces to a look, all at 45% off during the Autumn Sale; shipping is free from $150, $8 below that. Thirty days at home, easy returns; between sizes, take both, easy returns on the one that doesn't fit.",
+    "hero_eyebrow": "US brand, USD prices",
+    "big": "4"
+   },
+   {
+    "label": "C",
+    "direction": "URGENCY+EMOJI: Frist und Knappheit vorn, 45% als Riesenziffer, ein Emoji im Betreff, ein Ausrufezeichen im Sub; keine erfundenen Zahlen",
+    "subject": "⏳ Sale ends, sizes go first.",
+    "preview": "Four looks at 45% off, only while the sale runs. Here today, not necessarily tomorrow.",
+    "headline": "Off every look.\nThen full price.",
+    "sub": "Town Coat, Off Duty, After Dark, Soft Autumn, three pieces each. The sale ends and sizes sell through, so choose yours today!",
+    "hero_eyebrow": "Before the sale ends",
+    "big": "45%"
+   },
+   {
+    "label": "D",
+    "direction": "LUXUS: ruhiger Markenton, vier Looks und eine Palette in einem Satz, Prozent nur im Nebensatz; verdeckte Dringlichkeit = „in your size while it's there“",
+    "subject": "Four looks, one palette.",
+    "preview": "Camel, cream, taupe; three pieces to a look, cut to be worn together. Here while the sale is.",
+    "headline": "Cut to be\nworn together.",
+    "sub": "Camel, cream, taupe, three pieces to a look, cut to go with what you already own; in the Autumn Sale at 45% while it runs, and sizes go quietly before it ends.",
+    "hero_eyebrow": "While the sale is",
+    "big": "4"
+   },
+   {
+    "label": "E",
+    "direction": "PERSÖNLICH: Claire, Ich/Du-Hook — sie hat die vier Looks so zusammengestellt, dass sie zu dem passen, was die Kundin schon hat; verdeckte Dringlichkeit = diese Woche, solange ihre Größe da ist",
+    "subject": "Claire here, with four looks.",
+    "preview": "Claire here. Four looks, three pieces each, at 45% while the sale runs and your size is in.",
+    "headline": "I put four looks\ntogether for you.",
+    "sub": "I put the four looks together so they go with what you already own: camel, cream, taupe. All at 45% off while the Autumn Sale runs; I'd choose this week, while your size is there.",
+    "hero_eyebrow": "From Claire",
+    "big": "4"
+   },
+   {
+    "label": "F",
+    "direction": "VERDECKTE URGENCY ohne Emoji: Größe und Sale-Ende vorn, 45% erst im Sub; Ton wie Basis, kein Ausrufezeichen, keine erfundene Frist",
+    "subject": "While your size is still in.",
+    "preview": "Four looks at 45%; sizes sell through before the sale does. Thirty days at home, easy returns.",
+    "headline": "Your size is in.\nFor now.",
+    "sub": "Four looks, three pieces each, all at 45% off until the sale closes. Sizes sell through before the sale does; thirty days at home, easy returns.",
+    "hero_eyebrow": "Sizes go first",
+    "big": "4"
+   }
+  ]
+ },
+ {
+  "flow": "winback-3",
+  "email_no": 3,
+  "timing": "+7 Tage nach Win-back 2; letzte Mail der Serie",
+  "type": "text",
+  "placeholder_proof": true,
+  "_proof_note": "PLATZHALTER: Bewertungen und Namen erfunden fuer den Testaufbau — vor Live-Gang ersetzen.",
+  "subject": "Sizes go before the sale.",
+  "preview": "One last note from Claire. Everything still 45% off; delivery in 7 to 10 days.",
+  "link": "https://nora-lanelle.com/collections/all-products",
+  "text": "Hi,\n\nClaire here, from Nora Lanelle. The Autumn Sale ends the way it began, quietly, and sizes sell through while it runs; that is why this note comes now rather than later.\n\nYou've seen the Autumn Sale from us before. This is the last mail about it, and I wanted it to come from me rather than from a template. Every piece is still 45% off, in USD. Delivery takes 7 to 10 days, then you have thirty days at home, easy returns.\n\nIf now isn't the moment, that's completely fine.\n\nAnd if it is the moment: everything, at 45% off.\nhttps://nora-lanelle.com/collections/all-products\n\nTake care,\nClaire\nNora Lanelle\n\nPS: Between sizes? Check the size guide on the product page, or take both — easy returns on the one that doesn't fit. Not sure what goes with the piece you bought last time? Write to support@nora-lanelle.com with its name; answered in one to two business days.",
+  "why": "Win-back 3: ehrliche letzte Mail ohne erfundene Frist (Maxwell: keine Fake-Deadline; Hustler: letzte Erinnerung). Format C.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "PERSÖNLICH",
+    "subject": "I noticed you went quiet.",
+    "preview": "Claire here. The Autumn Sale is still on today, and sizes sell through while it runs.",
+    "text_open": "Claire here, from Nora Lanelle. You bought from us once and then went quiet; I'd rather write than wonder. Whatever it was, the Autumn Sale is still on today, and sizes sell through while it runs."
+   },
+   {
+    "label": "C",
+    "direction": "LUXUS",
+    "subject": "One last note on the sale.",
+    "preview": "From Claire, while the Autumn Sale is still on. Thirty days at home, easy returns.",
+    "text_open": "Claire here, from Nora Lanelle, with one last note on the Autumn Sale, sent while it is still on rather than after it has closed."
+   },
+   {
+    "label": "D",
+    "direction": "URGENCY+EMOJI: letzte Mail, Sale endet leise, Größen laufen zuerst durch — Emoji im Betreff und in der Vorschau, ein Ausrufezeichen im Einstieg; keine erfundene Frist",
+    "subject": "⏳ Last note. Sizes go first! 🍂",
+    "preview": "Claire here. Still 45% off today; the sale ends quietly and sizes sell through first ⏳",
+    "headline": "Last note.\nSizes go first.",
+    "sub": "The Autumn Sale ends quietly and sizes sell through while it runs; still 45% off today, so today beats next week!",
+    "hero_eyebrow": "Last note, sale on",
+    "text_open": "Claire here, from Nora Lanelle. Last note on the Autumn Sale: it ends the way it began, quietly, and sizes sell through while it runs, so today beats next week!"
+   },
+   {
+    "label": "E",
+    "direction": "ANGEBOT/%: die Zahl zuerst — 45% auf jedes Teil, in USD, nur solange der Sale läuft; verdeckte Dringlichkeit = Größen laufen vor dem Sale-Ende durch",
+    "subject": "Everything at 45%, still.",
+    "preview": "Every piece still 45% off, in USD; delivery 7 to 10 days, thirty days at home. From Claire.",
+    "headline": "Every piece, 45%.\nWhile it runs.",
+    "sub": "Every piece 45% off, in USD, only while the Autumn Sale runs; sizes sell through before it closes. Delivery 7 to 10 days, thirty days at home, easy returns.",
+    "hero_eyebrow": "45%, while it runs",
+    "text_open": "Claire here, from Nora Lanelle. One number for this note: 45%, on every piece, in USD, and only while the Autumn Sale runs; sizes sell through before it closes."
+   },
+   {
+    "label": "F",
+    "direction": "FAKTEN: US-Marke, USD, 45%, Lieferung 7 bis 10 Tage, 30 Tage easy returns — als Aufzählung statt Pitch; verdeckte Dringlichkeit = Sale läuft, solange die Größen da sind",
+    "subject": "45%, 7 to 10 days, 30 at home.",
+    "preview": "The facts: 45% off every piece, in USD; delivery 7 to 10 days; 30 days at home, easy returns.",
+    "headline": "The facts.\nWhile sizes hold.",
+    "sub": "A US brand, prices in USD, every piece 45% off, delivery in 7 to 10 days, thirty days at home with easy returns; the Autumn Sale runs while the sizes hold.",
+    "hero_eyebrow": "The facts",
+    "text_open": "Claire here, from Nora Lanelle, with facts rather than a pitch. We're a US brand, prices in USD; the Autumn Sale is still running, and sizes sell through before it closes."
+   }
+  ]
+ }
+]

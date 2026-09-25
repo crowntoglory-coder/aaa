@@ -1,0 +1,134 @@
+[
+ {
+  "flow": "browse",
+  "email_no": 1,
+  "timing": "1–2 h nach Produktansicht ohne Warenkorb (Klaviyo ≥ 1 h). Filter: Added to Cart 0, Placed Order 0",
+  "placeholder_proof": true,
+  "_proof_note": "PLATZHALTER: Bewertungen und Namen erfunden fuer den Testaufbau (seine Ansage 12.09., 07:35) — vor Live-Gang ersetzen.",
+  "subject": "Still there, in camel.",
+  "preview": "Fitted waist, hem above the knee. Still at the sale price; easy returns, 30 days.",
+  "url": "https://nora-lanelle.com/collections/the-autumn-edit",
+  "hero_image_kind": "autumn",
+  "hero_h": 750,
+  "hero_eyebrow": "The Autumn Edit",
+  "headline": "Autumn, in one palette,\nwhile the sale runs.",
+  "sub": "Camel, cream, taupe; the dress you looked at is one of them. Sizes sell through before the sale does.",
+  "cta1": "Shop the Edit",
+  "cta2": [
+   "See all collections",
+   "https://nora-lanelle.com/collections/all-products"
+  ],
+  "blocks": [
+   {
+    "type": "products",
+    "handles": [
+     "cable-knit-flare-dress-camel",
+     "collarless-coat-cream",
+     "ribbed-turtleneck-knit-cream"
+    ],
+    "label": "Where you left off"
+   },
+   {
+    "type": "band",
+    "kind": "vibe2",
+    "text": "Try it with your own shoes.",
+    "cta": "Browse by look",
+    "url": "https://nora-lanelle.com/pages/shop-the-looks",
+    "h": 320,
+    "pos": "center 35%"
+   },
+   {
+    "type": "looks",
+    "label": "Four looks",
+    "items": [
+     [
+      "look-town-coat",
+      "Town Coat",
+      "https://nora-lanelle.com/collections/look-town-coat"
+     ],
+     [
+      "look-off-duty",
+      "Off Duty",
+      "https://nora-lanelle.com/collections/look-off-duty"
+     ],
+     [
+      "look-after-dark",
+      "After Dark",
+      "https://nora-lanelle.com/collections/look-after-dark"
+     ],
+     [
+      "look-soft-autumn",
+      "Soft Autumn",
+      "https://nora-lanelle.com/collections/look-soft-autumn"
+     ]
+    ],
+    "cta_all": [
+     "Browse by look",
+     "https://nora-lanelle.com/pages/shop-the-looks"
+    ]
+   },
+   {
+    "type": "proof",
+    "text": "Wore the M, I'm 5'7\". The knit has real weight and the waist seam sits where it should. Colour is a touch warmer than the photo. Kept it.",
+    "who": "Lena M., 38, Austin, TX"
+   },
+   {
+    "type": "code",
+    "eyebrow": "Your first-order code",
+    "head": "Save more than half.",
+    "text": "Haven't used WELCOME15 yet? Here it is again: 15% off your first order, on top of the 45% Autumn Sale. Delivery in 7–10 days, easy returns for 30 days.",
+    "code": "WELCOME15",
+    "cta": "Shop my 15%",
+    "url": "https://nora-lanelle.com/discount/WELCOME15?redirect=/collections/the-autumn-edit"
+   }
+  ],
+  "why": "Format A, Bild zuerst. Einwand auf dieser Stufe: ist das echt / Qualitaet -> eine Stimme dazu unter den Produkten.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "URGENCY+EMOJI",
+    "subject": "⏳ Before your size goes",
+    "preview": "The Autumn Sale is on; sizes sell through first. The dress you looked at is still there.",
+    "headline": "Still there, in camel.\nNot for long!",
+    "sub": "The Autumn Sale is on, sitewide. Sizes sell through before it ends, and the dress you looked at is still there.",
+    "hero_eyebrow": "Sale on, sizes going"
+   },
+   {
+    "label": "C",
+    "direction": "ANGEBOT/%",
+    "subject": "45% off, and 15% on top.",
+    "preview": "Autumn Sale sitewide, plus WELCOME15 on your first piece. Free shipping from $150.",
+    "headline": "45% off, sitewide.\n15% more with WELCOME15.",
+    "sub": "Camel, cream, taupe, at the Autumn Sale price while it runs; the dress you looked at is one of them. Free shipping from $150, easy returns for 30 days.",
+    "hero_eyebrow": "Autumn Sale, 45% off"
+   },
+   {
+    "label": "D",
+    "direction": "Verdeckte Urgency ohne Emoji: Größe und Sale-Ende vorn, keine Zahl in der Headline, kein Ausrufezeichen",
+    "subject": "Still in your size, for now.",
+    "preview": "The dress you looked at is still in your size; sizes sell through before the sale ends.",
+    "headline": "The dress is still\nin your size.",
+    "sub": "Fitted waist, hem above the knee, still at the sale price. It's in your size today; sizes sell through before the Autumn Sale ends.",
+    "hero_eyebrow": "While it's in your size"
+   },
+   {
+    "label": "E",
+    "direction": "Fakten: Sale-Preis, 7–10 Tage, $150, 30 Tage nüchtern gereiht; Größen als Frist",
+    "subject": "Camel, 7–10 days, 30 at home.",
+    "preview": "The dress you looked at: sale price, 7–10 days to you, easy returns, 30 days. Sizes go first.",
+    "headline": "Still there.\n7–10 days to you.",
+    "sub": "Fitted waist, hem above the knee, at the Autumn Sale price while the sale runs. Delivery 7–10 days; free shipping from $150; easy returns for 30 days. Sizes sell through before the sale does.",
+    "hero_eyebrow": "By the numbers"
+   },
+   {
+    "label": "F",
+    "direction": "Persönlich: Claire, Ich/Du-Hook, Beobachtung (sie hat das Kleid angesehen und ist gegangen); Größe als verdeckte Frist",
+    "subject": "Claire here, about the dress.",
+    "preview": "Claire here. You looked at the camel dress and left; I'd decide while it's still in your size.",
+    "headline": "You looked at it.\nI'd try it on.",
+    "sub": "Fitted waist, hem above the knee, still at the sale price. I'd order it while it's in your size, try it with your own shoes, and send it back if it isn't right; easy returns, 30 days.",
+    "hero_eyebrow": "From Claire"
+   }
+  ]
+ }
+]

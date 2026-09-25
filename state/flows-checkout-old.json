@@ -1,0 +1,327 @@
+[
+ {
+  "flow": "checkout",
+  "email_no": 1,
+  "timing": "45 min nach Checkout-Start ohne Bestellung (Klaviyo-Puffer ≥ 1 h 15)",
+  "type": "text",
+  "placeholder_proof": true,
+  "_proof_note": "PLATZHALTER: Bewertungen und Namen erfunden fuer den Testaufbau (seine Ansage 12.09., 07:35) — vor Live-Gang ersetzen.",
+  "subject": "The 45% is in your total.",
+  "preview": "It stays while the Autumn Sale runs; sizes sell through before it closes.",
+  "link": "{{ event.extra.checkout_url }}",
+  "text": "Hi,\n\nClaire here, from Nora Lanelle. Your checkout is still open, so I'm writing myself rather than sending a banner. One thing before the details: the Autumn Sale price holds only while the sale runs, and sizes sell through before it closes.\n\nThe 45% Autumn Sale is already in your total, in USD, no conversion surprises. If it's easier to spread it out, Shop Pay splits it into instalments at the last step, and PayPal is there too.\n\nIf you stopped because of the size: check the size guide on each product page; between sizes, take both — easy returns on the one that doesn't fit.\n\nDelivery takes 7 to 10 days; shipping is $8, free from $150. And if it isn't right when it arrives, you have thirty days at home and returns are easy. That's the whole point of it.\n\nBack to your checkout: {{ event.extra.checkout_url }}\n\nWarmly,\nClaire\nNora Lanelle",
+  "why": "Format C, Founder-Text (Maxwell): kein Design, eine Person, ein Link. Einwand: Zahlung/Versand/Größe -> Zahlarten, Lieferzeit, Größenhilfe im Text; keine Stimme (type text hat keinen proof-Block, ein PS ginge nach Klaviyo).",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "URGENCY+EMOJI",
+    "subject": "⏳ Your 45% won't wait 🍂",
+    "preview": "Autumn Sale prices come out of your total the day it closes. Sizes sell through first.",
+    "text_open": "Claire here, from Nora Lanelle. Your checkout is still open, and I'll be direct: the Autumn Sale price holds only while the sale runs, and sizes sell through before it closes. Finish it today and the price you saw is the price you pay!"
+   },
+   {
+    "label": "C",
+    "direction": "ANGEBOT/%",
+    "subject": "45% off, in your total.",
+    "preview": "$8 shipping, free from $150; Shop Pay splits what's left into instalments.",
+    "text_open": "Claire here, from Nora Lanelle. Your checkout is still open, so one number first: 45% off, for as long as the Autumn Sale runs. The day it closes, the same pieces go back to full price."
+   }
+  ]
+ },
+ {
+  "flow": "checkout-2",
+  "email_no": 2,
+  "timing": "+24 h nach Checkout-Mail 1, keine Bestellung (Hustler: Einwände Zahlung/Versand/Garantie)",
+  "placeholder_proof": true,
+  "_proof_note": "PLATZHALTER: Bewertungen und Namen erfunden fuer den Testaufbau — vor Live-Gang ersetzen.",
+  "subject": "Your size, still there.",
+  "preview": "The 45% sits in your total until the Autumn Sale closes. Shipping $8, free from $150.",
+  "url": "https://nora-lanelle.com/checkout",
+  "hero_style": "text",
+  "hero_eyebrow": "Your checkout, still open",
+  "headline": "One step from done,\nwhile the sale still runs.",
+  "sub": "The 45% sits in your total until the Autumn Sale closes, and your size is still in it. Shipping $8, free from $150; at your door in 7–10 days.",
+  "cta1": "Back to checkout",
+  "blocks": [
+   {
+    "type": "cartlist",
+    "handles": [
+     "cable-knit-flare-dress-camel",
+     "collarless-coat-cream"
+    ],
+    "cta": "Back to checkout",
+    "label": "In your checkout"
+   },
+   {
+    "type": "bullets",
+    "icons": [
+     "check",
+     "return",
+     "check"
+    ],
+    "items": [
+     "Pay — In USD. Card, PayPal or Shop Pay in installments.",
+     "Risk — Thirty days at home. Easy returns.",
+     "Size — Check the size guide on each product page; between sizes, take both — easy returns on the one that doesn't fit."
+    ]
+   },
+   {
+    "type": "band",
+    "kind": "vibe1",
+    "text": "Try it with\nyour own shoes.",
+    "cta": "Back to checkout",
+    "url": "https://nora-lanelle.com/checkout",
+    "h": 300,
+    "pos": "center 30%"
+   },
+   {
+    "type": "proof",
+    "text": "Paid with Shop Pay, four payments, no interest. Coat came in 8 days and fits true at 5'6\".",
+    "who": "Grace M., 37, Austin, TX"
+   }
+  ],
+  "why": "Checkout 2: Einwände Zahlung/Rueckgabe/Groesse, kein Rabatt (Klaviyo: Coupon erst zuletzt). Format B mit Band.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "Luxus: ruhiger Markenton, ein Satz, keine Zahl; Dringlichkeit verdeckt im Nebensatz (solange der Autumn Sale läuft)",
+    "subject": "Kept as you left it.",
+    "preview": "Still in your size, until the Autumn Sale closes.",
+    "headline": "Kept as\nyou left it.",
+    "sub": "Your checkout stands as you left it, and it stands while the Autumn Sale runs.",
+    "hero_eyebrow": "Still yours"
+   },
+   {
+    "label": "C",
+    "direction": "Fakten: Lieferzeit, Rückgabe, USD, US-Marke, Größenrat; Dringlichkeit verdeckt als Rechnung „heute bestellt = in 7–10 Tagen da“",
+    "subject": "7–10 days to your door.",
+    "preview": "A US brand, priced in USD. Thirty days at home, easy returns. Between sizes, take both.",
+    "headline": "Ordered today,\nat your door in 7–10 days.",
+    "sub": "A US brand, priced in USD; thirty days at home, easy returns. Between sizes, take both and send back the one that doesn't fit.",
+    "hero_eyebrow": "Shipping, returns, size"
+   }
+  ]
+ },
+ {
+  "flow": "cart",
+  "email_no": 1,
+  "timing": "1 h nach Warenkorb ohne Checkout (Barilliance: <1 h 20,3 % vs 12,2 % bei 24 h); Mail 2 +24 h, Mail 3 +72 h",
+  "placeholder_proof": true,
+  "_proof_note": "PLATZHALTER: Bewertungen und Namen erfunden fuer den Testaufbau (seine Ansage 12.09., 07:35) — vor Live-Gang ersetzen.",
+  "subject": "Your size is still there.",
+  "preview": "The 45% Autumn Sale sits in your total for now; delivery takes 7–10 days.",
+  "url": "https://nora-lanelle.com/cart",
+  "hero_style": "text",
+  "codebar": "New here? WELCOME15 = 15% off your first piece, on top of the 45% sale",
+  "codebar_url": "https://nora-lanelle.com/discount/WELCOME15?redirect=/cart",
+  "hero_eyebrow": "Still in your bag",
+  "headline": "Still in your size;\nstill at the sale price.",
+  "sub": "Nothing is held until you check out, and sizes sell through. Thirty days of easy returns if the size runs wrong.",
+  "cta1": "Finish checkout",
+  "cta2": [
+   "See all collections",
+   "https://nora-lanelle.com/collections/all-products"
+  ],
+  "blocks": [
+   {
+    "type": "cartlist",
+    "handles": [
+     "cable-knit-flare-dress-camel",
+     "collarless-coat-cream"
+    ],
+    "cta": "Finish checkout",
+    "label": "Your bag"
+   },
+   {
+    "type": "strip",
+    "kinds": [
+     "vibe1",
+     "vibe3",
+     "vibe5"
+    ],
+    "h": 230
+   },
+   {
+    "type": "reviews",
+    "label": "Two who ordered two sizes",
+    "items": [
+     [
+      "Ordered the 38 and the 40, sent the 40 back. Refund landed in four days, no questions.",
+      "Sarah K., 41, Chicago, IL"
+     ],
+     [
+      "coat arrived in eight days. sleeves hit the wrist bone on me at 5'5\". cream marks easily, so it stays off the bike",
+      "Mia R., 35, Seattle, WA"
+     ]
+    ]
+   },
+   {
+    "type": "tone",
+    "dark": true,
+    "eyebrow": "One more thing",
+    "text": "Try it at home.\nThirty days, easy returns.",
+    "sub": "Wrong size, send it back. Delivery in 7–10 days, shipping free over $150."
+   }
+  ],
+  "why": "Format B, Quittung: Typo-Hero, Warenkorb als Liste mit Summe, ein Knopf; Code als Leiste oben. Einwand: Rueckgabe/Lieferung -> zwei Stimmen.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "LUXUS: quiet brand tone, one sentence, no number; urgency only in the clause about the season and the sale price",
+    "subject": "Left as you left it.",
+    "preview": "The sale price sits in your total while it lasts; nothing is held until you check out.",
+    "headline": "Your bag, as you left it;\nthe season moves on.",
+    "sub": "The sale price sits in your total for now, and nothing is held until you check out.",
+    "hero_eyebrow": "Your bag"
+   },
+   {
+    "label": "C",
+    "direction": "FAKTEN: delivery 7–10 days, 30 days easy returns, USD, US brand, shipping $150/$8, size advice by waist; urgency = the clock starts at checkout",
+    "subject": "Your bag, 7–10 days away.",
+    "preview": "Check the size guide before you finish; 30 days of easy returns if it runs wrong.",
+    "headline": "Checked out today,\nat your door in 7–10 days.",
+    "sub": "Priced in USD, from a US brand; shipping free over $150, $8 under. The 45% Autumn Sale is in your total; nothing is held until you check out.",
+    "hero_eyebrow": "Delivery, returns, size"
+   }
+  ]
+ },
+ {
+  "flow": "cart-2",
+  "email_no": 2,
+  "timing": "+24 h nach Mail 1, keine Bestellung (Barilliance: 24 h 17,7 % vs 48 h+ 7,7 %)",
+  "placeholder_proof": true,
+  "_proof_note": "PLATZHALTER: Bewertungen und Namen erfunden fuer den Testaufbau — vor Live-Gang ersetzen.",
+  "subject": "Your size is still there.",
+  "preview": "Thirty days at home, easy returns. The 45% sits in your total only while the sale runs.",
+  "url": "https://nora-lanelle.com/cart",
+  "hero_style": "text",
+  "hero_eyebrow": "Saved, not held",
+  "headline": "Your size, still there.\nThe risk, still ours.",
+  "sub": "Try it at home with your own shoes; easy returns for 30 days. Nothing is held until checkout; the 45% lasts only as long as the sale.",
+  "cta1": "Open my bag",
+  "blocks": [
+   {
+    "type": "steps",
+    "items": [
+     "Order — Priced in USD; PayPal, Shop Pay or card. Delivery 7–10 days.",
+     "Try — At home, 30 days. Easy returns, 30 days.",
+     "Keep — Or swap the size. Between sizes? Take both; easy returns on the one that doesn't fit."
+    ]
+   },
+   {
+    "type": "strip",
+    "kinds": [
+     "vibe1",
+     "vibe4",
+     "vibe6"
+    ],
+    "h": 230
+   },
+   {
+    "type": "reviews",
+    "label": "Two who swapped a size",
+    "items": [
+     [
+      "Ordered the 38, swapped for the 36, no cost. Second one fit at 5'4\".",
+      "Lea T., 33, Portland, OR"
+     ],
+     [
+      "returned the coat once for a size up. refund in 3 days, the new one came in 8",
+      "Nora H., 40, Atlanta, GA"
+     ]
+    ]
+   },
+   {
+    "type": "tone",
+    "eyebrow": "Still there",
+    "text": "Your bag is saved.\nNothing else is.",
+    "sub": "Nothing is reserved until you check out. The 45% is already in your total."
+   }
+  ],
+  "why": "Hustler Cart 2 = Vertrauen (Rueckgabe, Groesse), kein Rabatt (Klaviyo: Coupon erst in der letzten Mail). Format E Zeitstrahl.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "URGENCY+EMOJI: Knappheit vorn (Größe nicht reserviert, Größen verkaufen sich durch, 45 % geht mit dem Sale); ein Emoji im Betreff, genau ein Ausrufezeichen im Sub; keine Zahlen, kein Timer, keine Stunden (Mail 2).",
+    "subject": "⏳ Your size is not held.",
+    "preview": "Nothing in your bag is reserved. The 45% goes with the sale; easy returns stay 30 days.",
+    "headline": "Sizes sell through.\nYours is not held.",
+    "sub": "Check out before your size goes; the 45% leaves with the sale. Thirty days at home and easy returns stay either way!",
+    "hero_eyebrow": "Not reserved"
+   },
+   {
+    "label": "C",
+    "direction": "ANGEBOT/%: die Zahl zuerst (45 % im Warenkorb, Versand frei ab $150, $8 darunter, 30 Tage easy returns, 7–10 Tage); verdeckte Dringlichkeit = der Preis gilt, solange der Sale läuft; kein Code (Cart 2).",
+    "subject": "45% is in your total.",
+    "preview": "Free shipping from $150, $8 below. Easy returns for 30 days; delivered in 7 to 10 days.",
+    "headline": "45%, in your total.\nFree shipping from $150.",
+    "sub": "The 45% is in your total now and stays while the sale runs. Thirty days at home; easy returns on the size that is wrong.",
+    "hero_eyebrow": "Autumn Sale, applied"
+   }
+  ]
+ },
+ {
+  "flow": "cart-3",
+  "email_no": 3,
+  "timing": "+72 h nach Mail 1 (Barilliance 18,2 %), nur wenn kein Kauf; einziger Anreiz der Serie",
+  "placeholder_proof": true,
+  "_proof_note": "PLATZHALTER: Bewertungen und Namen erfunden fuer den Testaufbau — vor Live-Gang ersetzen.",
+  "subject": "Shipping's on us, this once.",
+  "preview": "Code SHIPFREE, no minimum, good for 48 hours. Delivery 7–10 days; easy returns, 30 days.",
+  "url": "https://nora-lanelle.com/discount/SHIPFREE?redirect=/cart",
+  "hero_style": "type",
+  "big": "$0",
+  "hero_eyebrow": "Your size, still in",
+  "headline": "Shipping on us,\nfor 48 hours.",
+  "sub": "Not a discount on the pieces; shipping on this bag, whatever the total, with code SHIPFREE at checkout. It holds 48 hours, and the 45% in your total is a sale, not a price.",
+  "cta1": "Back to my bag",
+  "blocks": [
+   {
+    "type": "cartlist",
+    "handles": [
+     "cable-knit-flare-dress-camel",
+     "collarless-coat-cream"
+    ],
+    "cta": "Back to my bag",
+    "label": "Your bag"
+   },
+   {
+    "type": "band",
+    "kind": "vibe2",
+    "text": "Shipping, on us.\nEasy returns, 30 days.",
+    "cta": "Back to my bag",
+    "url": "https://nora-lanelle.com/discount/SHIPFREE?redirect=/cart",
+    "h": 320,
+    "pos": "center 35%"
+   },
+   {
+    "type": "proof",
+    "text": "got the free shipping code, ordered the dress and the mock neck. both came in 9 days, dress runs a touch long on me at 5'3\"",
+    "who": "Kim A., 36, Los Angeles, CA"
+   }
+  ],
+  "why": "Anreiz = Versand statt Prozent (Hormozi: never discount the main offer; Regel der 100 unter 100 $ waere %, aber Marke). Code SHIPFREE existiert noch nicht — anlegen, sobald Scopes da sind.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "LUXUS: ruhiger Markenton, ein Satz, keine Zahl; Dringlichkeit im Nebensatz (solange die Größe da ist)",
+    "subject": "Shipping, settled.",
+    "preview": "Your bag is as you left it; shipping is ours to cover, for a while yet.",
+    "headline": "Shipping,\nsettled.",
+    "sub": "Shipping is ours on this bag, for as long as your size holds.",
+    "hero_eyebrow": "Your bag, as you left it",
+    "big": "On us."
+   },
+   {
+    "label": "C",
+    "direction": "FAKTEN: $0 Versand 48 h, sonst frei ab $150 / $8 darunter, Lieferung 7–10 Tage, 30 Tage easy returns, USD, US-Marke, Größenrat",
+    "subject": "Shipping $0, 7–10 days.",
+    "preview": "Priced in USD by a US brand. Easy returns within 30 days; size guide on every page.",
+    "headline": "Shipping $0.\nDelivery 7–10 days.",
+    "sub": "Code SHIPFREE takes shipping to $0 on this bag for 48 hours; after that it is free from $150, $8 below. Priced in USD by a US brand; easy returns within 30 days; the size guide sits on every product page.",
+    "hero_eyebrow": "Your bag, the facts",
+    "big": "$0"
+   }
+  ]
+ }
+]

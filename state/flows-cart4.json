@@ -1,0 +1,350 @@
+[
+ {
+  "flow": "ca4-1",
+  "email_no": 1,
+  "timing": "1 h nach Added to Cart (unser Onsite-Event), kein Checkout, kein Kauf; Flow-Filter Placed Order = 0, Checkout Started = 0",
+  "placeholder_proof": false,
+  "subject": "Your size is still there.",
+  "preview": "The Autumn Sale takes 45% off it, for now. Seven to ten days to your door.",
+  "url": "{{ event.extra.CheckoutURL }}",
+  "hero_style": "split",
+  "hero_image_kind": "vibe2",
+  "hero_eyebrow": "Autumn Sale, 45% off",
+  "headline": "In your bag.\nStill in your size.",
+  "sub": "You put it there for a reason. The 45% is on it until the Autumn Sale closes; sizes sell through while it waits.",
+  "cta1": "Back to my bag",
+  "blocks": [
+   {
+    "type": "kcart",
+    "cta": "Back to my bag",
+    "url": "{{ event.extra.CheckoutURL }}",
+    "label": "In your bag",
+    "source": "cart"
+   },
+   {
+    "type": "tone",
+    "eyebrow": "Why you put it there",
+    "text": "For the morning\nyou don't think about it.",
+    "sub": "Pulled on before the coffee, still on at six. Check the size guide on each product page; between sizes, take both, easy returns on the one that doesn't fit."
+   },
+   {
+    "type": "facts",
+    "icons": [
+     "return",
+     "clock",
+     "ship"
+    ],
+    "items": [
+     "Easy returns — 30 days",
+     "Delivery — 7–10 days",
+     "Shipping — On us from $150"
+    ]
+   },
+   {
+    "type": "band",
+    "kind": "vibe4",
+    "text": "The sale ends.\nThe size goes first.",
+    "cta": "Back to my bag",
+    "url": "{{ event.extra.CheckoutURL }}",
+    "h": 320
+   }
+  ],
+  "why": "Mail 1 = Editorial-Split (Bild links, Karte rechts, vibe2), nicht der Vollbild-Hero des Checkout-Flows. Sie hat nur in den Korb gelegt: kein Zahlungs-Einwand, sondern „still in your bag“ + der Morgen, an dem man nicht nachdenkt, + Größenhilfe und easy returns. Korb dynamisch aus dem Added-to-Cart-Event (source cart). Kein Code (Klaviyo: Coupon erst Mail 2). Knappheit nur echt: Sale endet, Größen laufen aus, keine Zahlen. Schluss als Bildband mit dem FOMO-Satz.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "Luxury: calm brand register, one sentence, no number; the urgency sits in 'not yet yours' and in a sale that runs only so long.",
+    "subject": "Not yet yours.",
+    "preview": "The Autumn Sale is on it for the moment; the size guide is on the product page.",
+    "headline": "In your bag.\nNot yet yours.",
+    "sub": "The sale price sits on it for as long as the Autumn Sale runs; nothing holds it in your size.",
+    "hero_eyebrow": "In your bag"
+   },
+   {
+    "label": "C",
+    "direction": "Facts: delivery 7–10 days, 30-day easy returns, USD, US brand, size advice; the urgency is 'ordered today' and the sale that closes.",
+    "subject": "7–10 days to your door.",
+    "preview": "A US brand, priced in USD. Easy returns for 30 days; shipping free from $150, $8 below.",
+    "headline": "Ordered today,\nwith you in seven to ten days.",
+    "sub": "The 45% is on it until the Autumn Sale closes; priced in USD, easy returns for 30 days. Between sizes, take both and send back the one that doesn't fit.",
+    "hero_eyebrow": "Priced in USD"
+   },
+   {
+    "label": "D",
+    "direction": "Super-Urgency mit Emoji: Größe nicht gehalten, Sale schließt, ohne erfundene Zahlen; 1–2 Emojis je Feld.",
+    "subject": "⏳ In your bag, not held.",
+    "preview": "45% Autumn Sale on it right now; sizes sell through before the sale closes 🍂",
+    "headline": "In your bag ⏳\nNot held.",
+    "sub": "The 45% Autumn Sale is on it now, not after the sale closes; sizes sell through while it waits in the bag. Back to it before your size goes 🍂",
+    "hero_eyebrow": "⏳ Before the sale ends"
+   },
+   {
+    "label": "E",
+    "direction": "Angebot/%: die 45 % des Autumn Sale vorn (kein Code in Mail 1), Frist = Sale-Ende, Größe nicht gehalten.",
+    "subject": "45% off, while it's in your bag.",
+    "preview": "Autumn Sale: 45% off the piece in your bag, until the sale closes. Shipping on us from $150.",
+    "headline": "45% off.\nIn your bag.",
+    "sub": "The Autumn Sale takes 45% off the piece you left, until the sale closes; the size in your bag is not held. Shipping on us from $150, easy returns for 30 days.",
+    "hero_eyebrow": "45% off, for now"
+   },
+   {
+    "label": "F",
+    "direction": "Persönlich (Claire): Ich/Du-Hook, sie hat es aus einem Grund in den Korb gelegt; Dringlichkeit im Nebensatz (Sale schließt, Größe nicht gehalten).",
+    "subject": "Claire here. It's still there.",
+    "preview": "You put it in the bag for a reason; a word from me before the Autumn Sale closes on it.",
+    "headline": "You chose it.\nI'd keep it.",
+    "sub": "Claire here, from Nora Lanelle. The piece you put in the bag earlier today is the one I'd pull on first; the 45% sits on it until the Autumn Sale closes, and your size isn't held.",
+    "hero_eyebrow": "From Claire"
+   }
+  ]
+ },
+ {
+  "flow": "ca4-2",
+  "email_no": 2,
+  "timing": "+24 h nach Mail 1, kein Checkout, kein Kauf; hier wird CHECKOUT15 vergeben (72 h Laufzeit ab Vergabe)",
+  "type": "text",
+  "placeholder_proof": false,
+  "subject": "A word before the sale ends.",
+  "preview": "Why I'd keep it, how it wears, and 15% for this bag on top of the 45% Autumn Sale.",
+  "url": "{{ event.extra.CheckoutURL }}",
+  "link": "{{ event.extra.CheckoutURL }}",
+  "cta1": "Back to my bag",
+  "headline": "Before the sale moves on,\na word about the piece you left.",
+  "sub": "Why I'd keep it, how it wears, then your code for this bag. All of it true today.",
+  "blocks": [],
+  "text": "Hi,\n\nClaire here, from Nora Lanelle. The piece is still in your bag and the Autumn Sale is still on; both are true today, so a few words from me instead of a banner, while they hold.\n\nWhy I'd keep it: the pieces that stay are the ones you pull on without a decision. First cold morning, coat over it, out the door; the same piece the week after, with nothing else changed. What you chose is cut for exactly that.\n\nHow it wears: check the size guide on each product page. If you're between sizes, take both; easy returns on the one that doesn't fit, within 30 days.\n\nAnd for this bag, 15% on top of the 45% Autumn Sale. Your code:\n\n{% coupon_code 'CHECKOUT15' %}\n\nPaste it at checkout. Your bag: {{ event.extra.CheckoutURL }}\n\nThe sale won't run forever, and sizes sell through before it ends. Delivery takes 7 to 10 days, shipping $8 and on us from $150; card, PayPal or Shop Pay in installments. Anything else, support@nora-lanelle.com.\n\nWarmly,\nClaire\nNora Lanelle",
+  "why": "Mail 2 = Founder-Text (Claire), anderer Einstieg als im Checkout-Flow: nicht „dein Checkout ist offen“, sondern warum sie das Teil behalten würde (der Morgen ohne Entscheidung) und wie es sich trägt (Größenhilfe), erst dann der Code als Geschenk für diesen Korb. Keine Stundenzahl (kommt in Mail 3/4), kein Reply, Kontakt per support@. FOMO in einem Satz: Sale endet, Größen laufen aus.",
+  "hero_eyebrow": "From Claire",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "ANGEBOT/% — Zahl zuerst (15 % auf 45 %), Dringlichkeit im Nebensatz (Größen laufen aus, solange der Sale den Preis hält); keine Stundenzahl",
+    "subject": "15% more, on top of 45%.",
+    "preview": "Your code is further down, with why I'd keep the piece; sizes sell through before the sale ends.",
+    "headline": "15% on this bag,\non top of the 45% sale.",
+    "sub": "Paste the code at checkout; the sale price is already on every piece. Sizes sell through before the sale ends.",
+    "hero_eyebrow": "Your code, from Claire",
+    "text_open": "15% for the bag you left, on top of the 45% Autumn Sale; Claire here, from Nora Lanelle, and the code is further down this note. First, why I'd keep the piece, while the sale still has it at that price."
+   },
+   {
+    "label": "C",
+    "direction": "PERSÖNLICH — Ich/Du-Hook, Claire-Ton, Beobachtung: ein Tag im Korb, nicht zurückgelegt = das Teil, das getragen wird; Dringlichkeit im Nebensatz (solange der Sale den Preis hält)",
+    "subject": "I'd keep the one you left.",
+    "preview": "Still in your bag a day on; why that's usually the keeper, and a code while the sale runs.",
+    "headline": "You left it a day ago.\nThat's usually the one.",
+    "sub": "The piece you don't put back is the one you wear. A note on why, and a code for it while the sale runs.",
+    "hero_eyebrow": "A note from Claire",
+    "text_open": "Claire here, from Nora Lanelle. You picked this a day ago and haven't put it back; in my experience that's the piece that gets worn, not the one that gets forgotten, so a few words from me while the sale still has it at that price."
+   },
+   {
+    "label": "D",
+    "direction": "Super-Urgency mit Emoji: Größe nicht gehalten, Sale endet, 15 % auf 45 % im Brief; keine Stundenzahl (kommt in Mail 3/4).",
+    "subject": "⏳ Before your size goes.",
+    "preview": "Sale still on, size not held, and 15% on top of the 45% for this bag 🍂 The code is inside.",
+    "headline": "Still there ⏳\nNot held.",
+    "sub": "The Autumn Sale still has your piece at 45% off, and there's 15% more for this bag inside; sizes sell through before the sale ends ✨",
+    "hero_eyebrow": "⏳ Sale still on",
+    "text_open": "Claire here, from Nora Lanelle ⏳ The piece is still in your bag and the Autumn Sale still has it at 45% off; neither is held for you, and sizes sell through before a sale ends, so a few quick words while both are true, with your 15% further down."
+   },
+   {
+    "label": "E",
+    "direction": "Luxus-Markenton: ruhig, ohne Zahl im Einstieg, „left, not let go“; Dringlichkeit darin, dass der Sale den Preis nur für den Moment hält und nichts die Größe hält.",
+    "subject": "On the piece you left.",
+    "preview": "A few lines on why it stays in a wardrobe, while the sale still has it at that price.",
+    "headline": "Left in the bag,\nnot let go.",
+    "sub": "A note on the piece you left: why it stays in a wardrobe, how it wears. The sale holds its price for now; nothing holds your size.",
+    "hero_eyebrow": "A note from the house",
+    "text_open": "The piece is still in your bag, and the Autumn Sale still has it at its price; neither is held for you, so a few lines while both are true. Claire, from Nora Lanelle."
+   },
+   {
+    "label": "F",
+    "direction": "Fakten: USD, US-Marke, 7–10 Tage, easy returns 30 Tage, Versand ab $150 / $8 darunter, 15 % auf 45 %; Dringlichkeit im Nebensatz (Sale läuft, Größe nicht gehalten).",
+    "subject": "15% more; 7–10 days to you.",
+    "preview": "A US brand in USD. Easy returns 30 days, shipping on us from $150, $8 under; code inside.",
+    "headline": "Facts first.\nThen your 15%.",
+    "sub": "Priced in USD, delivered in 7–10 days, easy returns for 30 days, shipping on us from $150 and $8 under it. 15% on top of the 45% Autumn Sale for this bag, while the sale runs and your size holds.",
+    "hero_eyebrow": "7–10 days to your door",
+    "text_open": "Claire here, from Nora Lanelle, with the facts on the piece in your bag: a US brand, priced in USD, easy returns for 30 days, delivered in 7 to 10 days. The Autumn Sale still has it at 45% off and your size is not held; 15% more for this bag is further down."
+   }
+  ]
+ },
+ {
+  "flow": "ca4-3",
+  "email_no": 3,
+  "timing": "+24 h nach Mail 2, kein Checkout, kein Kauf; CHECKOUT15 läuft 72 h ab Mail 2, „48 hours“ ist also wahr",
+  "placeholder_proof": false,
+  "subject": "Your size, still in the bag.",
+  "preview": "Code and sale sit together for 48 hours; nothing in the bag is reserved.",
+  "url": "{{ event.extra.CheckoutURL }}",
+  "hero_style": "full",
+  "hero_image_kind": "vibe5",
+  "hero_eyebrow": "Your 15%, 48 hours",
+  "headline": "It goes with what you own,\nwhile your size holds.",
+  "sub": "Coat over it, boots under it; the same piece three ways in a week. Your 15% sits on the 45% Autumn Sale for 48 hours, and the size in your bag is not held.",
+  "cta1": "Use my 15%",
+  "blocks": [
+   {
+    "type": "countdown",
+    "head": "Your 15%, for two more days",
+    "code": "{% coupon_code 'CHECKOUT15' %}",
+    "sub": "Then the code is gone and the bag stands at the sale price; sizes keep selling through in between.",
+    "cta": "Use my 15%",
+    "url": "{{ event.extra.CheckoutURL }}",
+    "hours": 48
+   },
+   {
+    "type": "kcart",
+    "cta": "Back to my bag",
+    "url": "{{ event.extra.CheckoutURL }}",
+    "label": "Waiting in your bag",
+    "source": "cart"
+   },
+   {
+    "type": "editorial",
+    "kind": "vibe6",
+    "text": "The autumn palette is cut to be worn together; what's in your bag belongs with the coat you own and the boots by the door. In 48 hours it's back to the sale price.",
+    "cta": "Use my 15%",
+    "url": "{{ event.extra.CheckoutURL }}",
+    "h": 560
+   }
+  ],
+  "why": "Mail 3 = Vollbild-Hero (vibe5) mit Outfit-Winkel: was das Teil mit dem Rest des Schranks macht, Frist im Eyebrow. Code groß mit „Expires in 48 hours“ (countdown), Konsequenz benannt (zurück auf den Sale-Preis, Größen laufen aus), Korb darunter, Editorial-Bild mit dem Palette-Satz. Ein Ziel, alle Knöpfe auf CheckoutURL; kein Bildstreifen, keine dunkle Bank wie im Checkout-Flow.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "Fakten: Lieferzeit, Rückgabe, USD, US-Marke, Versandschwelle, Größenrat; Frist im Nebensatz",
+    "subject": "7–10 days; 30-day returns.",
+    "preview": "A US brand in US dollars; free shipping from $150, $8 under it. Your 15% holds 48 hours.",
+    "headline": "Here in 7 to 10 days,\nif it leaves the bag today.",
+    "sub": "A US brand in US dollars; free shipping from $150, $8 under it; 30 days of easy returns. Choose the size by your measurements; the 15% sits on the sale for 48 hours.",
+    "hero_eyebrow": "7 to 10 days"
+   },
+   {
+    "label": "C",
+    "direction": "Super-Urgency + Emoji: Frist und Knappheit vorn, ein Ausrufezeichen, keine erfundenen Zahlen",
+    "subject": "⏳ 48 hours left on your 15%",
+    "preview": "Code gone in 48 hours, size not held. Sale plus your 15% until then; after that, sale price only 🔥",
+    "headline": "48 hours left on your 15%!\nYour size is not held.",
+    "sub": "The 45% Autumn Sale and your 15%, together until the countdown hits zero; after that the code is gone and the bag stands at the sale price. Sizes sell through while it waits.",
+    "hero_eyebrow": "⏳ Ends in 48 hours"
+   },
+   {
+    "label": "D",
+    "direction": "Luxus-Markenton: Outfit-Winkel (Mantel, Stiefel) ruhig erzählt, Zahl erst im Nebensatz; Frist 48 h und „nichts hält deine Größe“ als verdeckte Dringlichkeit.",
+    "subject": "Worn with what you own.",
+    "preview": "Cut to go under your coat. Your 15% rests on the sale for 48 hours; the size is not held.",
+    "headline": "Cut to go\nunder your coat.",
+    "sub": "It belongs with the coat you own and the boots by the door. Your 15% sits on the Autumn Sale for 48 hours; after that the sale price stands, and nothing holds your size.",
+    "hero_eyebrow": "For two more days"
+   },
+   {
+    "label": "E",
+    "direction": "Angebot/%: 15 % auf 45 % und 48 Stunden vorn, Konsequenz (Sale-Preis ohne Code) und Größe nicht gehalten im Nebensatz.",
+    "subject": "15% on top of 45%, 48 hours.",
+    "preview": "Your code sits on the sale price for 48 hours; then it's the sale price only. Size not held.",
+    "headline": "15% more.\n48 hours.",
+    "sub": "The 45% Autumn Sale is on every piece; your 15% goes on top of it for 48 hours, then the bag stands at the sale price. The size you chose is not held.",
+    "hero_eyebrow": "15% on top of 45%"
+   },
+   {
+    "label": "F",
+    "direction": "Persönlich (Claire): Ich-Hook mit Outfit-Rat (unter deinen Mantel), Frist 48 h und Größe nicht gehalten im Nebensatz.",
+    "subject": "Two days, from Claire.",
+    "preview": "I'd wear it with the coat you already own; your 15% holds 48 hours, your size doesn't.",
+    "headline": "I'd wear it\nwith your coat.",
+    "sub": "Claire here. The piece in your bag is the one I'd put under the coat you own, boots by the door; your 15% sits on the 45% sale for 48 hours, and the size isn't held.",
+    "hero_eyebrow": "From Claire, 48 hours"
+   }
+  ]
+ },
+ {
+  "flow": "ca4-4",
+  "email_no": 4,
+  "timing": "+24 h nach Mail 3, kein Checkout, kein Kauf; letzte Mail. CHECKOUT15 hat noch 24 h, SHIP24 wird hier vergeben, 24 h",
+  "placeholder_proof": false,
+  "subject": "Two codes, until tomorrow.",
+  "preview": "The 15% plus free shipping, no $150 minimum, for 24 hours; then the sale price stands.",
+  "url": "{{ event.extra.CheckoutURL }}",
+  "hero_style": "text",
+  "hero_eyebrow": "Two codes, 24 hours",
+  "headline": "This time tomorrow,\nit's the sale price.",
+  "sub": "Your 15% and the shipping code both sit on this bag until then; after that the 45% Autumn Sale price stands on its own, and shipping is $8 under $150. The size you chose is still in the bag; sizes sell through before the sale does.",
+  "cta1": "Use both codes",
+  "blocks": [
+   {
+    "type": "countdown",
+    "head": "Your 15%, on top of the 45%",
+    "code": "{% coupon_code 'CHECKOUT15' %}",
+    "sub": "Tomorrow the code is gone; the bag stays at the sale price on its own.",
+    "cta": "Use my 15%",
+    "url": "{{ event.extra.CheckoutURL }}",
+    "hours": 24
+   },
+   {
+    "type": "code",
+    "eyebrow": "And the shipping",
+    "head": "The $150 minimum is off.",
+    "text": "No $150 minimum on this bag for one day. Both codes go in at checkout; after that, shipping is $8 again under $150.",
+    "code": "{% coupon_code 'SHIP24' %}",
+    "cta": "Use both codes",
+    "url": "{{ event.extra.CheckoutURL }}",
+    "note": "Delivery 7–10 days. Between sizes, take both; easy returns on the one that doesn't fit."
+   },
+   {
+    "type": "kcart",
+    "cta": "Back to my bag",
+    "url": "{{ event.extra.CheckoutURL }}",
+    "label": "In your bag, 24 hours",
+    "source": "cart"
+   }
+  ],
+  "why": "Mail 4 = Typo-Hero auf Papier (kein „24h“-Riese wie im Checkout-Flow), ruhig und bestimmt: zwei Fristen (Code hell, Versand auf Tinte), Konsequenz zweimal klar (Sale-Preis ohne Code, Versand $8 unter $150), Korb als Schluss. Voraussetzung: CHECKOUT15 (Order) und SHIP24 (Shipping) in Shopify kombinierbar.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "personal",
+    "subject": "One more day, from Claire.",
+    "preview": "It's still in your bag; that's usually the one you keep. Both codes hold for 24 hours.",
+    "headline": "Still in your bag.\nUsually that's a yes.",
+    "sub": "Claire here; the pieces that sit in a bag for three days are the ones that get worn. Both codes are on yours until this time tomorrow, then it's the sale price on its own, and $8 shipping under $150.",
+    "hero_eyebrow": "From Claire"
+   },
+   {
+    "label": "C",
+    "direction": "luxury",
+    "subject": "Until this time tomorrow.",
+    "preview": "Both codes hold on your bag until then; after that the sale price stands on its own.",
+    "headline": "Cut to be worn,\nnot kept in a bag.",
+    "sub": "Both codes sit on this bag until this time tomorrow; after that the sale price stands on its own. The size you chose is where you left it.",
+    "hero_eyebrow": "Until tomorrow"
+   },
+   {
+    "label": "D",
+    "direction": "Super-Urgency mit Emoji: 24 Stunden und zwei Codes vorn, Konsequenz (Sale-Preis allein, $8 Versand), Größe nicht gehalten; 1–2 Emojis je Feld.",
+    "subject": "⏳ 24 hours. Two codes.",
+    "preview": "Your 15% and shipping on us, both gone tomorrow; then it's the sale price and $8 shipping 🍂",
+    "headline": "24 hours ⏳\nTwo codes.",
+    "sub": "The 15% and the shipping code sit on this bag until this time tomorrow; then both codes are gone, the 45% sale price stands alone and shipping is $8 under $150. Your size is not held ✨",
+    "hero_eyebrow": "⏳ Gone tomorrow"
+   },
+   {
+    "label": "E",
+    "direction": "Angebot/%: Rechnung vorn (45 % + 15 % + Versand ohne $150-Minimum), Frist 24 h und Konsequenz im Nebensatz.",
+    "subject": "15% plus shipping on us.",
+    "preview": "On top of the 45% Autumn Sale, and no $150 minimum on this bag; both codes hold for 24 hours.",
+    "headline": "15% off.\nShipping on us.",
+    "sub": "On top of the 45% Autumn Sale: 15% with one code, shipping on us with the other, no $150 minimum. Both go in at checkout and hold 24 hours; then it's the sale price and $8 shipping.",
+    "hero_eyebrow": "45% + 15% + shipping"
+   },
+   {
+    "label": "F",
+    "direction": "Fakten: zwei Codes 24 h, Lieferzeit 7–10 Tage, easy returns 30 Tage, Versand $8 unter $150 danach; Größe nicht gehalten im Nebensatz.",
+    "subject": "Two codes; 7–10 days to you.",
+    "preview": "15% and shipping on us, 24 hours; delivery 7–10 days, easy returns 30 days. Then $8 shipping.",
+    "headline": "Two codes.\nOne day.",
+    "sub": "Both codes on this bag for 24 hours: 15% on top of the 45% sale, shipping on us below $150. Delivery 7–10 days, easy returns for 30 days; after tomorrow, shipping is $8 under $150. The size isn't held.",
+    "hero_eyebrow": "7–10 days to your door"
+   }
+  ]
+ }
+]

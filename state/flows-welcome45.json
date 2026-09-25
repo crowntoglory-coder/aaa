@@ -1,0 +1,271 @@
+[
+ {
+  "flow": "welcome-4",
+  "email_no": 6,
+  "timing": "+3 Tage nach Mail 3 (Tag 10 nach Anmeldung): Sale-Ende-Logik ohne Datum, WELCOME15 noch einlösbar, Bestseller-Trio; Filter Placed Order 0",
+  "placeholder_proof": false,
+  "subject": "The sale runs on. Sizes don't.",
+  "preview": "Ten days since you signed up; the Autumn Sale is still on, and WELCOME15 still takes 15% off.",
+  "url": "https://nora-lanelle.com/discount/WELCOME15?redirect=/collections/all-products",
+  "hero_style": "type",
+  "big": "15%",
+  "hero_eyebrow": "Day ten, sale still on",
+  "headline": "The sale runs on.\nSizes don't.",
+  "sub": "The Autumn Sale is still on, 45% already in every price, and WELCOME15 still takes 15% off your first piece at checkout. Neither comes with a date: sizes sell through first, so the three below are worth a look today.",
+  "cta1": "Use my 15%",
+  "blocks": [
+   {
+    "type": "products",
+    "handles": [
+     "double-breasted-wool-coat-cream",
+     "leather-moto-jacket",
+     "wide-leg-jeans"
+    ],
+    "label": "Best sellers",
+    "compare": false
+   },
+   {
+    "type": "facts",
+    "icons": [
+     "tag",
+     "check",
+     "return"
+    ],
+    "items": [
+     "Sale — 45% in every price",
+     "WELCOME15 — 15% on top",
+     "Returns — Easy, 30 days"
+    ]
+   }
+  ],
+  "why": "Welcome 4 (Tag 10): Sale-Ende-Logik ohne Datum, Größen als verdeckte Frist im Hero (rules.md 16.09. Hero trägt Urgency; psychologie §8.8 Knappheit nur echt, kein Timer). WELCOME15 nur als stehendes Erstkunden-Angebot, 15 % erstes Teil auf 45 % wie in welcome/welcome-2/welcome-3 (email-cro §7.6). Bestseller-Trio = REFS in bin/pipeline/hero.py (Mantel, Jacke, Denim), alle in products-email.json. Format F Typo-Hero (15 % groß) + products (compare aus: keine Streichpreise) + facts; Welcome 3 ist Text (C), kein Format-Doppel.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "URGENCY+EMOJI: Sale läuft noch, Größen zuerst — ein Emoji im Betreff, eins in der Vorschau, ein Ausrufezeichen; keine erfundene Frist",
+    "subject": "⏳ Your 15% is still on! 🍂",
+    "preview": "Ten days in, the Autumn Sale is still running ⏳ Sizes sell through first; WELCOME15 today.",
+    "headline": "Still on. ⏳\nSizes going.",
+    "sub": "The Autumn Sale is still on and WELCOME15 still takes 15% off your first piece at checkout, but sizes sell through before any sale ends, so take yours today, not next week.",
+    "hero_eyebrow": "⏳ Sale on, 15% on"
+   },
+   {
+    "label": "C",
+    "direction": "LUXUS: ruhiger Markenton, Palette und Saison, keine Zahl in der Headline; Frist nur als Nebensatz (Größen gehen leise)",
+    "subject": "Cream, rust, washed black.",
+    "preview": "Coat, moto jacket, jeans: three tones that hold their own, in the sale while it runs.",
+    "headline": "The season,\nstill yours.",
+    "sub": "The cream coat, the rust moto, the washed-black jeans: three pieces that carry the season on their own, at the Autumn Sale price while it runs. Your 15% sits quietly on top, WELCOME15 at checkout, for as long as the sizes hold.",
+    "hero_eyebrow": "Autumn, while it runs"
+   },
+   {
+    "label": "D",
+    "direction": "ANGEBOT/%: die Rechnung zuerst — 45 % im Preis, WELCOME15 15 % obendrauf, Versand ab $150; Größen im Nebensatz",
+    "subject": "45%, then 15%, on these three.",
+    "preview": "45% in the price, 15% more with WELCOME15 on your first piece. Shipping on us from $150.",
+    "headline": "45%, then 15%.\nThree pieces.",
+    "sub": "Every price below already carries the Autumn Sale's 45%; at checkout WELCOME15 takes another 15% off your first piece, for as long as the sale runs. Over $150 the shipping is on us, and sizes sell through first.",
+    "hero_eyebrow": "45% in, 15% on top"
+   },
+   {
+    "label": "E",
+    "direction": "FAKTEN: 15 %, 45 %, 7–10 Tage, $150, 30 Tage nüchtern gereiht; Größen als Frist",
+    "subject": "Day ten: 15%, 45%, 30 days.",
+    "preview": "WELCOME15: 15% off your first piece, on top of 45%. 7 to 10 days to you; easy returns, 30 days.",
+    "headline": "Three numbers.\nThree pieces.",
+    "sub": "Day ten, the numbers haven't moved: WELCOME15 takes 15% off your first piece on top of the 45% Autumn Sale while it runs. Delivery 7 to 10 days, shipping on us from $150, thirty days, easy returns. Sizes sell through first.",
+    "hero_eyebrow": "By the numbers, day ten"
+   },
+   {
+    "label": "F",
+    "direction": "PERSÖNLICH: Claire, Ich/Du-Hook, Beobachtung (zehn Tage, keine Bestellung), wohin sie die 15 % legen würde; Größe als verdeckte Frist",
+    "subject": "Claire here. Ten days in.",
+    "preview": "Claire here. Ten days, no order; I'd put the 15% on the moto jacket while it's in your size.",
+    "headline": "Ten days in.\nI'd pick the moto.",
+    "sub": "You signed up ten days ago and haven't ordered; fair enough, the pieces are only pictures to you so far. I'd put WELCOME15 on the Zip Moto Jacket while the sale still has your size; thirty days at home, easy returns.",
+    "hero_eyebrow": "From Claire"
+   }
+  ]
+ },
+ {
+  "flow": "welcome-5",
+  "email_no": 7,
+  "timing": "+4 Tage nach Mail 4 (Tag 14 nach Anmeldung); letzte Welcome-Mail: Größen-Guide, Vertrauen (US brand Wyoming, USD, 7–10 Tage, 30 Tage), letzter Hinweis auf WELCOME15; Filter Placed Order 0",
+  "placeholder_proof": false,
+  "subject": "Your size, in three steps.",
+  "preview": "Measure, compare, and between sizes take both. US brand, priced in USD, 7 to 10 days, 30 days.",
+  "url": "https://nora-lanelle.com/pages/size-guide",
+  "hero_style": "full",
+  "hero_image_kind": "vibe6",
+  "hero_eyebrow": "The size guide",
+  "headline": "The right size,\nin three steps.",
+  "sub": "Two minutes with a tape and the size guide on each product page; between sizes, take both, easy returns on the other for thirty days. A US brand in Wyoming, priced in USD, 7 to 10 days to your door, while the sale has your size.",
+  "cta1": "See the guide",
+  "blocks": [
+   {
+    "type": "steps",
+    "items": [
+     "Measure — Bust, waist, hips, with a soft tape over what you'd wear under it.",
+     "Compare — Hold the numbers against the size guide on the product page.",
+     "Between sizes — Take both. Easy returns on the one that doesn't fit, within thirty days."
+    ]
+   },
+   {
+    "type": "facts",
+    "icons": [
+     "check",
+     "tag",
+     "ship"
+    ],
+    "items": [
+     "US brand — Wyoming, USA",
+     "Currency — USD",
+     "Delivery — 7 to 10 days"
+    ]
+   },
+   {
+    "type": "code",
+    "eyebrow": "Last word on your 15%",
+    "head": "Your 15%, still on.",
+    "text": "15% off your first piece at checkout, on top of the 45% Autumn Sale. This is the last note on it: the code works at checkout while the sale runs.",
+    "code": "WELCOME15",
+    "cta": "Take my 15%",
+    "url": "https://nora-lanelle.com/discount/WELCOME15?redirect=/collections/all-products"
+   }
+  ],
+  "why": "Welcome 5 (Tag 14, letzte Welcome-Mail): Größe ist der häufigste Einwand vor dem ersten Kauf und der häufigste Rückgabegrund — Größen-Guide als Antwort, „between sizes, take both, easy returns“ wie in post_purchase (psychologie §5 Risk Reversal, §8.7 sichtbar, nicht im Fuß). Vertrauen als Fakten: US brand Wyoming, USD, 7–10 Tage, 30 Tage (rules.md 13.09. US-Marke leise). Letzter Hinweis WELCOME15 im code-Block, stehendes Erstkunden-Angebot (email-cro §7.6), kein neuer Wert. Format E Zeitstrahl (steps) mit Bild-Hero + facts + code; Welcome 4 ist Typo-Hero (F). Ruhiger Ton, Fakten statt Pitch; Sizes-Frist nur in den Varianten.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "URGENCY+EMOJI: heute messen, heute bestellen, Größen vor Sale-Ende — ein Emoji im Betreff, eins in der Vorschau, ein Ausrufezeichen",
+    "subject": "⏳ Sizes first, then the sale ends! 🍂",
+    "preview": "Measure once, order today ⏳ Sizes go before the sale ends; WELCOME15 still takes 15% off.",
+    "headline": "Measure today. ⏳\nOrder today.",
+    "sub": "Two minutes with a tape and the size guide, then order; sizes sell through before the Autumn Sale ends, and WELCOME15 still takes 15% off your first piece. Between sizes, take both, easy returns on the other one.",
+    "hero_eyebrow": "⏳ Sizes go first"
+   },
+   {
+    "label": "C",
+    "direction": "LUXUS: ruhiger Markenton, Maßband, Guide, ihr eigener Spiegel; keine Zahl in der Headline; Frist nur im letzten Satz",
+    "subject": "Measured, then yours.",
+    "preview": "A tape, the guide, your own mirror; the piece arrives in 7 to 10 days, and stays if it's right.",
+    "headline": "A tape,\nthen your mirror.",
+    "sub": "Two minutes with a tape and the size guide on the product page, then the piece in your own mirror, in your own light, for thirty days; between sizes, take both and keep the one that fits. While the sizes are still there to choose.",
+    "hero_eyebrow": "Your measurements"
+   },
+   {
+    "label": "D",
+    "direction": "ANGEBOT/%: erst die Größe, dann WELCOME15 15 % auf 45 %, Versand ab $150, 30 Tage; Größen im Nebensatz",
+    "subject": "15% off, once the size is right.",
+    "preview": "Size first, then WELCOME15: 15% off your first piece on the 45% sale. Shipping on us from $150.",
+    "headline": "Size first.\nThen your 15%.",
+    "sub": "Two minutes with the size guide, then WELCOME15 takes 15% off your first piece on top of the 45% Autumn Sale, while it runs. Shipping on us from $150; between sizes, take both, easy returns on the other for thirty days.",
+    "hero_eyebrow": "15% on the right size"
+   },
+   {
+    "label": "E",
+    "direction": "PERSÖNLICH: Claire erklärt, wie sie selbst die Größe wählen würde; US-Marke und Lieferzeit als Nebensatz",
+    "subject": "Claire here. About sizing.",
+    "preview": "Claire here. How I'd pick the size: a tape, the guide, both if you're between. Easy returns.",
+    "headline": "How I'd pick\nthe size.",
+    "sub": "I'd measure once, hold the numbers against the size guide, and if I landed between two sizes I'd take both and send one back, easy returns for thirty days. A US brand, priced in USD; the parcel takes 7 to 10 days.",
+    "hero_eyebrow": "From Claire"
+   },
+   {
+    "label": "F",
+    "direction": "VERDECKTE URGENCY: Größe messen, solange sie gelistet ist — ohne Emoji, ohne Zahl in der Headline; Lieferzeit und Rückgabe im Sub",
+    "subject": "Your size, while it's listed.",
+    "preview": "Two minutes with the guide, then order; sizes sell through while the sale runs. Easy returns.",
+    "headline": "Measured once,\nwhile it's there.",
+    "sub": "Two minutes with a tape and the size guide on the product page, then order while your size is still listed; sizes sell through while the Autumn Sale runs. Between sizes, take both; easy returns on the one that doesn't fit.",
+    "hero_eyebrow": "While your size holds"
+   }
+  ]
+ },
+ {
+  "flow": "browse-3",
+  "email_no": 3,
+  "timing": "+48 h nach Browse 2 (Tag 3), kein Warenkorb, keine Bestellung: vier Teile in der Palette des angesehenen Teils, Größe als verdeckte Frist, kein Code (Browse hat keinen)",
+  "placeholder_proof": false,
+  "subject": "Four more, while sizes hold.",
+  "preview": "Coat, dress, trousers, knit, in the palette of the piece you saw. Sizes go before the sale.",
+  "url": "https://nora-lanelle.com/collections/the-autumn-edit",
+  "hero_style": "type",
+  "big": "4",
+  "hero_eyebrow": "Still looking?",
+  "headline": "Four next to\nthe one you saw.",
+  "sub": "The coat, the dress, the trousers, the knit: cut in the palette of the piece you looked at, all in the Autumn Sale while it runs. Sizes sell through before it ends, and yours is the one to check first.",
+  "cta1": "See the four",
+  "blocks": [
+   {
+    "type": "grid4",
+    "handles": [
+     "double-breasted-wool-coat-cream",
+     "button-front-knit-midi-dress-cream",
+     "drawstring-trousers-camel",
+     "high-neck-fine-knit-taupe"
+    ],
+    "label": "In the same palette",
+    "compare": false
+   },
+   {
+    "type": "band",
+    "kind": "vibe5",
+    "text": "Worn together,\nin your mirror.",
+    "cta": "Browse by look",
+    "url": "https://nora-lanelle.com/pages/shop-the-looks",
+    "h": 320,
+    "pos": "center 25%"
+   }
+  ],
+  "why": "Browse 3 (+48 h, Tag 3): vier Teile in der Palette des angesehenen Teils (camel/cream/taupe), alle neu gegenüber Browse 2 (Soft-Autumn-Vier), kein Code (Browse hat keinen; email-cro §7.6), keine Streichpreise (grid4 compare aus, Flag 17.09. in flows.py). Wie in browse/browse-2 wird das angesehene Teil nicht per Klaviyo-Tag eingesetzt (dort „the dress you looked at“), hier generisch „the piece you looked at“ — keine neuen Tags. Größe als verdeckte Frist im Hero (rules.md 16.09.). Format F Typo-Hero (4 groß) + grid4 + band; Browse 1 = A, Browse 2 = D.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "URGENCY+EMOJI: vier in ihrer Größe, Größen zuerst, heute — ein Emoji im Betreff, eins in der Vorschau, ein Ausrufezeichen",
+    "subject": "⏳ Four in your size, for now 🍂",
+    "preview": "Four in the tone you were looking at 🍂 In the sale until it ends, in your size until it isn't.",
+    "headline": "Four in stock. ⏳\nSizes going.",
+    "sub": "Coat, dress, trousers, knit, in the tone of the piece you looked at, all in the Autumn Sale while it runs. Sizes go before the sale does, so today beats next week! 🍂",
+    "hero_eyebrow": "⏳ Sizes going first"
+   },
+   {
+    "label": "C",
+    "direction": "LUXUS: ruhiger Markenton, ein Ton, vier Teile; keine Zahl in der Headline; Frist nur als Nebensatz",
+    "subject": "Cut from the same tone.",
+    "preview": "Coat, dress, trousers, knit, in the tone of the one you saw; worn together, or one at a time.",
+    "headline": "Next to it,\nin the same tone.",
+    "sub": "Four pieces that share a tone with the one you looked at, so any of them goes with it, or stands alone; all in the Autumn Sale while it runs, in your size while it lasts.",
+    "hero_eyebrow": "In the same tone"
+   },
+   {
+    "label": "D",
+    "direction": "ANGEBOT/%: 45 % Autumn Sale auf alle vier (schon im Preis), Versand ab $150 (der Mantel allein), 30 Tage; kein Code; große Zahl im Hero = 45 %",
+    "subject": "All four at 45% off.",
+    "preview": "Coat, dress, trousers, knit, all at 45% off. Shipping on us from $150; easy returns, 30 days.",
+    "headline": "All four,\n45% off.",
+    "sub": "The coat, the dress, the trousers, the knit, all 45% off in the Autumn Sale while it runs; the coat alone clears $150, so shipping is on us. Easy returns for thirty days; sizes sell through first.",
+    "hero_eyebrow": "Autumn Sale, all four",
+    "big": "45%"
+   },
+   {
+    "label": "E",
+    "direction": "FAKTEN: vier Teile, 45 %, 7–10 Tage, $150, 30 Tage nüchtern gereiht; Größen als Frist",
+    "subject": "Four more, by the numbers.",
+    "preview": "Four pieces at 45% off. 7 to 10 days to you; shipping on us from $150; easy returns, 30 days.",
+    "headline": "Four more.\nBy the numbers.",
+    "sub": "Four more next to the one you looked at, same tone, 45% off in the Autumn Sale while it runs. Delivery 7 to 10 days; shipping on us from $150; easy returns, thirty days. Sizes sell through first.",
+    "hero_eyebrow": "Four, in numbers"
+   },
+   {
+    "label": "F",
+    "direction": "PERSÖNLICH: Claire, Ich/Du-Hook, Beobachtung (angesehen, gegangen, kein Warenkorb); Größe als verdeckte Frist",
+    "subject": "Claire here. Four next to it.",
+    "preview": "Claire here. You looked, no bag; four in the same tone below. I'd pick while your size holds.",
+    "headline": "Not quite it?\nFour sit near it.",
+    "sub": "You looked, you left, no bag; fair enough. The four below are cut in the same tone, and if one of them is closer, I'd order it while your size is still listed. Easy returns, thirty days.",
+    "hero_eyebrow": "From Claire"
+   }
+  ]
+ }
+]

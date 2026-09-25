@@ -1,0 +1,98 @@
+[
+ {
+  "flow": "winback-4",
+  "email_no": 4,
+  "timing": "+14 Tage nach Win-back 3, keine Bestellung; neuer Anlass (New In), kein Sale-Bezug, kein Rabatt, keine Frist; Filter Placed Order ≥ 1",
+  "type": "text",
+  "subject": "What goes with yours.",
+  "preview": "New pieces are in. Claire on which ones sit next to the one you already own.",
+  "link": "https://nora-lanelle.com/collections/new-in",
+  "text": "Hi,\n\nClaire here, from Nora Lanelle. The last note was about the sale, and it was the last one on that. This one is different: new pieces came in this week, and I wanted you to see them before the campaign goes out.\n\nThey are cut in the same palette as what you own. Camel, cream, taupe, black. A coat over the knit, a skirt under the blazer; each piece is meant to sit next to one you have.\n\nPull up the piece you bought, then open New In. Whatever sits closest to it in color is the one to look at first.\nhttps://nora-lanelle.com/collections/new-in\n\nDelivery takes 7 to 10 days. Then thirty days at home, easy returns. No deadline on this one.\n\nTake care,\nClaire\n— Nora Lanelle Care\n\nPS: Between sizes? Take both, keep the one that fits.",
+  "why": "Win-back 4 (+14 d): Winback 3 war ehrlich die letzte Sale-Mail, also neuer Anlass statt Rabatt-Nachschlag (email-cro §4; psychologie §8.8: keine Frist, kein Timer — ausdrücklich „no deadline\"). Rückkauf-Motiv = Kombination zum gekauften Teil (rules.md 15.09.: Kombination, nächster Anlass — nicht Rabatt). Risk-Reversal im Text, nicht im Fuß (§8.7): 7–10 Tage, thirty days, easy returns — nie „free\". Größenrat = beide Größen, kein „reply\". Kein 45 %, keine Streichpreise, keine erfundenen Zahlen oder Stimmen; Palette wie Win-back 2 (camel, cream, taupe, black — „washed black\" aus Entwurf B gestrichen, nicht belegt; „no reason needed\" gestrichen, keine belegte Policy; A-Preview 116 Zeichen gekürzt). Betreff 21 Zeichen, Substantiv-Phrase, keine Frage; Preheader trägt Neues (New In + Claire). Text 139 Wörter, Format C wie Win-back 3.",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "PERSÖNLICH: Claire schreibt, weil sie an das gekaufte Teil gedacht hat; Anrede an die eine Kundin, nicht an eine Liste",
+    "subject": "I thought of your order.",
+    "preview": "Claire here. The new pieces came in, and one of them belongs next to what you bought.",
+    "text_open": "Claire here, from Nora Lanelle. When the new pieces came in this week I went through them the way I always do, thinking about who bought what. Yours came to mind, because two of the new pieces are cut to sit next to it."
+   },
+   {
+    "label": "C",
+    "direction": "NEUGIER: was neu ist wird nicht genannt, nur dass es zum gekauften Teil passt; die Auflösung liegt hinter dem Link",
+    "subject": "One piece, made for yours.",
+    "preview": "Something new came in this week, cut with what you bought in mind. From Claire.",
+    "text_open": "Claire here, from Nora Lanelle. There is a new piece in this week that I will not describe in this mail, because it is better seen on a body than read about. What I can say: it was cut in the same palette as what you bought from us, and it was meant to be worn over it."
+   },
+   {
+    "label": "D",
+    "direction": "BEWEIS: keine erfundene Stimme, sondern die prüfbare Tatsache — dieselbe Palette wie das gekaufte Teil; Beleg ist die Seite selbst",
+    "subject": "Same palette, new pieces.",
+    "preview": "Camel, cream, taupe, black. The new arrivals are in the palette you own. See the page.",
+    "text_open": "Claire here, from Nora Lanelle. You can check this yourself: open New In and the palette is the one you know, camel, cream, taupe, black, the same the piece you bought came in. That is not an accident, and it is the whole reason a second piece works."
+   },
+   {
+    "label": "E",
+    "direction": "NUTZEN: was sie davon hat — ein Outfit mehr aus dem, was schon im Schrank hängt; Kombination als Ertrag",
+    "subject": "One piece, two more outfits.",
+    "preview": "Cut to go with the one you already own. Delivery 7 to 10 days, thirty days at home.",
+    "text_open": "Claire here, from Nora Lanelle. The useful thing about the new pieces is not that they are new. It is that one of them turns the piece you bought into two more outfits, without buying anything else."
+   },
+   {
+    "label": "F",
+    "direction": "KNAPP: drei Sätze, kein Vorwort; Anlass, Link-Grund, Bedingungen — sonst nichts",
+    "subject": "New in.",
+    "preview": "New season pieces are in. Cut to go with yours. Claire, Nora Lanelle.",
+    "text_open": "Claire here, from Nora Lanelle. The new season pieces are in. They are cut to go with what you bought from us; delivery 7 to 10 days, thirty days at home, easy returns."
+   }
+  ]
+ },
+ {
+  "flow": "sunset",
+  "email_no": 1,
+  "timing": "Einmalig. Trigger: Segment „Sunset\" — Opened Email zero times in last 90 days AND Clicked Email zero times in last 90 days AND Placed Order zero times in last 90 days, Profil älter als 90 Tage, mindestens 3 Mails erhalten, nicht bounced, nicht suppressed, in keinem laufenden Flow. Flow: Mail → 14 Tage warten → Bedingung „Clicked Email in last 14 days\": ja → zurück in normale Segmente; nein → Profil-Eigenschaft sunset=suppressed bzw. Suppression-Liste „sunset-JJJJ-MM\", raus aus allen Flows und Kampagnen. Klick auf ?stay=1 = Signal bleibt. Kein Folge-Nudge, keine zweite Mail. Nicht zusammen mit Winback (Käuferinnen der letzten 90 Tage sind ausgeschlossen).",
+  "type": "text",
+  "subject": "Your place on this list.",
+  "preview": "One click keeps it. Otherwise we stop in 14 days. Nothing to buy, just housekeeping.",
+  "link": "https://nora-lanelle.com/?stay=1",
+  "text": "Hi,\n\nClaire here, from Nora Lanelle. Nothing from us has been opened in about three months. That is a fair answer, and I'd rather ask than assume.\n\nOne question and one button: should we keep writing?\n\nI am staying\nhttps://nora-lanelle.com/?stay=1\n\nIf you don't click, we stop in 14 days. Not as a goodbye; it's how we keep our mail landing for the women who do read it.\n\nWhat you'd keep: new pieces before they reach the site, and a note on what goes with what you already own.\n\nNothing changes on your side either way. The shop stays open, and you can sign up again any time.\n\nTake care,\nClaire\n\n— Nora Nanelle Care",
+  "why": "Richter-Entscheid, Sunset / Re-Permission. Betreff aus B: Substantiv-Phrase, 24 Zeichen, keine Frage (email-cro §7.1) — A's „Should we keep writing?\" verstößt gegen §7.1; die Frage bleibt im Text, wo sie hingehört. Preview gekürzt auf 84 Zeichen, sagt, was der Betreff nicht sagt (Frist, kein Verkauf). Text 139 Wörter, aus beiden gemischt: A's ehrlicher Grund (Zustellbarkeit für die Leserinnen) und „nothing changes on your side\", B's knapper Einstieg und der Nutzen des Bleibens (Pairings) als ein Satz, damit Variante E wirklich verschieden bleibt. Gestrichen: A's PS „reply with less\" (marketing/CONTEXT.md: kein „reply to this email\"), B's „promotions tab\" (unbelegte Mechanik), B's Produkt-Aufzählung im Haupttext (Sunset verkauft nicht). PS-Fakten belegt: 7–10 Tage (rules.md §214, flows-seq), 30 Tage easy returns (flows-seq), nie „free returns\". Kein Rabatt, kein Streichpreis, kein Countdown, keine erfundenen Zahlen; „about three months\" = Segmentfenster, „14 days\" = Flow-Wartezeit. Ein Knopf, Ich-Form „I am staying\" (psychologie §8.9), ?stay=1 als Klick-Signal. Absenderin Claire, Signatur „— Nora Lanelle Care\". Gemessen: Klickrate auf ?stay=1; 30 Tage später Open-/Spam-Rate der verbliebenen Liste. Varianten: alle Betreffs ≤ 28 Zeichen, Substantiv-Phrasen, Previews ≤ 90; F-Betreff neu („Ninety days, one click.\"), weil „last note\"/„goodbye\" zu nah an „last chance\".",
+  "ab": [
+   {
+    "label": "B",
+    "direction": "PERSÖNLICH — Claire räumt ihre Liste auf und fragt vorher; Ich/Du, drei stille Monate als Beobachtung, keine Schuld",
+    "subject": "Before I tidy the list.",
+    "preview": "Claire here. Three quiet months, so I'm asking, not assuming: one click and you stay.",
+    "text_open": "Claire here, from Nora Lanelle. I'm going through the list, and your name came up under three quiet months. I'd rather ask than assume, so: one click below and you stay; nothing else needed."
+   },
+   {
+    "label": "C",
+    "direction": "NEUGIER — Knopf und Frist als offene Sache, ohne zu sagen, worum es geht; keine Dramatik, Auflösung im ersten Absatz",
+    "subject": "One button, 14 days.",
+    "preview": "Not a sale, not a launch. A question about your inbox, and a button that answers it.",
+    "text_open": "Claire here, from Nora Lanelle. This mail asks for one thing and it isn't money: a button. Press it and nothing changes; leave it and in 14 days we go quiet on our own."
+   },
+   {
+    "label": "D",
+    "direction": "BEWEIS — nur belegte Fakten als Grund zu bleiben: US-Marke, USD, 7–10 Tage, 30 Tage easy returns, Pairing-Notiz; keine Stimmen, keine Zahlen ohne Beleg",
+    "subject": "What stays if you stay.",
+    "preview": "US brand, USD prices, delivery 7 to 10 days, 30 days at home. One click keeps the notes.",
+    "text_open": "Claire here, from Nora Lanelle. Ninety days without an open, so before we stop, the plain facts of what you'd keep: a US brand, prices in USD, delivery in 7 to 10 days, 30 days at home with easy returns, and a note each time a new piece arrives on what it pairs with."
+   },
+   {
+    "label": "E",
+    "direction": "NUTZEN — der Wert des Bleibens zuerst: Pairings zu Teilen aus dem Katalog, neue Teile vor der Seite; die Frist als Nebensatz",
+    "subject": "The notes you'd keep.",
+    "preview": "What goes with what you own, new pieces before the site. One click keeps them.",
+    "text_open": "Claire here, from Nora Lanelle. The one thing these mails are for: what goes with what you already own. The cream coat over the black mock neck, the barrel jeans under the cropped blazer, the new piece before it reaches the site. One click below keeps those coming; without it, we stop writing in 14 days."
+   },
+   {
+    "label": "F",
+    "direction": "KNAPP — Substantiv-Betreff, drei kurze Sätze, Knopf sofort; nichts erklärt, was der Fuß erklärt",
+    "subject": "Ninety days, one click.",
+    "preview": "Stay on the list with one click. Otherwise we stop writing in 14 days.",
+    "text_open": "Claire here, from Nora Lanelle. Ninety days, no opens. One button keeps us; no button and we stop in 14 days."
+   }
+  ]
+ }
+]

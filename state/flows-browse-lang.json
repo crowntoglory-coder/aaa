@@ -1,0 +1,113 @@
+[
+ {
+  "flow": "browse",
+  "email_no": 1,
+  "timing": "1 h nach Produktansicht ohne Warenkorb. Filter: Added to Cart 0, Placed Order 0",
+  "subject": "Autumn, one more look.",
+  "subject_b": "The camel dress, and the rest of autumn.",
+  "preview": "Seven pieces, one palette: camel, cream, taupe. 30 days, easy returns.",
+  "url": "https://nora-lanelle.com/collections/the-autumn-edit",
+  "hero_image_kind": "autumn",
+  "hero_h": 750,
+  "hero_eyebrow": "The Autumn Edit",
+  "headline": "Autumn,\nin seven pieces.",
+  "sub": "Camel, cream, taupe. One palette. The dress you looked at is one of the seven.",
+  "cta1": "Shop the Autumn Edit",
+  "cta2": [
+   "See all collections",
+   "https://nora-lanelle.com/collections/all-products"
+  ],
+  "blocks": [
+   {
+    "type": "products",
+    "handles": [
+     "cable-knit-flare-dress-camel",
+     "collarless-coat-cream",
+     "ribbed-turtleneck-knit-cream"
+    ],
+    "label": "Where you left off, and what goes with it"
+   },
+   {
+    "type": "bullets",
+    "icons": [
+     "palette",
+     "layers",
+     "care"
+    ],
+    "items": [
+     "Palette — Camel, cream, taupe. Everything goes with everything.",
+     "Layers — Knit under coat. Coat over dress. Done.",
+     "Care — Wash cool, dry flat. Kept right, it lasts."
+    ]
+   },
+   {
+    "type": "tile",
+    "image_kind": "street",
+    "label": "Start with the coat",
+    "headline": "Coats & Jackets",
+    "cta": "Shop coats",
+    "url": "https://nora-lanelle.com/collections/outerwear"
+   },
+   {
+    "type": "looks",
+    "label": "Shop the Looks",
+    "items": [
+     [
+      "look-town-coat",
+      "Town Coat",
+      "https://nora-lanelle.com/collections/look-town-coat"
+     ],
+     [
+      "look-off-duty",
+      "Off Duty",
+      "https://nora-lanelle.com/collections/look-off-duty"
+     ],
+     [
+      "look-after-dark",
+      "After Dark",
+      "https://nora-lanelle.com/collections/look-after-dark"
+     ],
+     [
+      "look-soft-autumn",
+      "Soft Autumn",
+      "https://nora-lanelle.com/collections/look-soft-autumn"
+     ]
+    ],
+    "cta_all": [
+     "Browse by look",
+     "https://nora-lanelle.com/pages/shop-the-looks"
+    ]
+   },
+   {
+    "type": "statement",
+    "text": "Made, not photographed. The pictures are rendered. The pieces are not.",
+    "pad": "12px 60px 28px"
+   },
+   {
+    "type": "facts",
+    "items": [
+     "Shipping — On us from $150",
+     "Returns — 30 days, free",
+     "Delivery — 7–10 days"
+    ]
+   },
+   {
+    "type": "code",
+    "eyebrow": "Your first-order code",
+    "head": "Save more than half.",
+    "text": "Haven't used WELCOME15 yet? Here it is again: 15% off your first order, on top of the 45% Autumn Sale.",
+    "code": "WELCOME15",
+    "cta": "Shop with 15% off",
+    "url": "https://nora-lanelle.com/discount/WELCOME15?redirect=/collections/the-autumn-edit"
+   },
+   {
+    "type": "closing",
+    "image_kind": "terrace",
+    "headline": "Not the dress?\nThe rest of autumn is here.",
+    "cta": "See all collections",
+    "url": "https://nora-lanelle.com/collections/all-products"
+   }
+  ],
+  "why": "Seine Ansage 11.09. („why so much about dresses? we have autumn, make the mail branded for autumn and same vibe“): Hero = The Autumn Edit (7 Teile, geprüft), Palette camel/cream/taupe (geprüft), Kleid bleibt als „where you left off“; Kollektion, Shop by Look, Code unten, Icons, Fakten wie zuvor."
+ }
+]

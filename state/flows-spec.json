@@ -1,0 +1,217 @@
+[
+ {
+  "flow": "welcome",
+  "email_no": 1,
+  "timing": "0 min after list join; Exit: Placed Order",
+  "subject": "You've got 15% off your first order",
+  "preview": "WELCOME15 at checkout. Shipping's on us from $150, easy returns for 30 days.",
+  "hero_image_kind": "street",
+  "headline": "Your fall coat, $29.85 off",
+  "sub": "You've got WELCOME15. That's $29.85 off the wool coat, at checkout.",
+  "cta1": "Shop now",
+  "cta2": "Shop coats",
+  "blocks": [
+   {
+    "type": "text",
+    "lines": [
+     "WELCOME15 takes 15% off the price you see. Use this welcome discount at checkout to claim.",
+     "Made, not photographed: the pictures are generated, the piece you get is real, at your door in 7–10 days.",
+     "Shipping's on us from $150. 30 days, easy returns, if the first fit isn't right."
+    ]
+   },
+   {
+    "type": "products",
+    "handles": [
+     "double-breasted-wool-coat-cream",
+     "cable-knit-flare-dress-camel",
+     "corduroy-wide-leg-trousers-taupe"
+    ],
+    "label": "Start here"
+   },
+   {
+    "type": "facts",
+    "items": [
+     "Shipping — on us from $150",
+     "Returns — 30 days, free",
+     "Delivery — 7–10 days"
+    ]
+   },
+   {
+    "type": "closing",
+    "image_kind": "persona",
+    "headline": "Made, not photographed.",
+    "cta": "Shop all"
+   }
+  ],
+  "why": "Code und Button sitzen oben ohne Scrollen (Copy 14, Design 5), Rabatt als 'You've got' und in Dollar am Flaggschiff statt nur Prozent (Copy 15), Headline ruft die Herbstkundin an (Copy 6). Kein Testimonial-Slot, weil 0 Bestellungen (Psychologie: Social Proof), stattdessen Produkte mit eigenem Button und 'Shop all' am Ende (Design 4, Copy 10).",
+  "url": "https://nora-lanelle.com/discount/WELCOME15?redirect=/collections/all-products"
+ },
+ {
+  "flow": "cart",
+  "email_no": 1,
+  "timing": "30 min after Added to Cart; Filter: Checkout Started 0, Placed Order 0 seit Flow-Start; Split Käufer/Nicht-Käufer oben",
+  "subject": "Your order is ready to ship",
+  "preview": "It's in your cart. Finish checkout and it arrives in 7–10 days.",
+  "hero_image_kind": "product:double-breasted-wool-coat-cream",
+  "headline": "Still in your cart, ready to ship",
+  "sub": "The Double-Breasted Wool Coat is in your cart. Finish checkout and it arrives in 7–10 days.",
+  "cta1": "Finish my order",
+  "blocks": [
+   {
+    "type": "text",
+    "lines": [
+     "Nothing's charged yet. It's in your cart, one step from done.",
+     "Arrives in 7–10 days once you finish. Shipping's on us from $150.",
+     "Wrong size on arrival? 30 days, easy returns."
+    ]
+   },
+   {
+    "type": "facts",
+    "items": [
+     "Shipping — on us from $150",
+     "Returns — 30 days, free",
+     "Delivery — 7–10 days"
+    ]
+   },
+   {
+    "type": "closing",
+    "image_kind": "persona",
+    "headline": "Made, not photographed.",
+    "cta": "Finish my order"
+   }
+  ],
+  "why": "Betreff und Headline setzen die Bestellung als existent voraus, das ist sein stärkster Hebel (Copy 1, Psychologie: Endowment; Click 7,92→12,68 %), der Dynamic Block steht ganz oben und zeigt exakt das Teil (Design 6). Keine anderen Produkte und kein Rabatt in Mail 1 (Copy 16, Don'ts), CTA 'Finish my order' (Copy 10).",
+  "url": "https://nora-lanelle.com/products/double-breasted-wool-coat-cream",
+  "subject_b": "It's in your cart, ready to go"
+ },
+ {
+  "flow": "checkout",
+  "email_no": 1,
+  "timing": "45 min after Checkout Started; Filter: Placed Order 0, keine Cart-Mail erhalten; Betreff A/B gegen 'Your order is ready to ship'",
+  "subject": "Your order's ready to go",
+  "preview": "One step left. Shipping's on us from $150, 30 days easy returns.",
+  "hero_image_kind": "product:double-breasted-wool-coat-cream",
+  "headline": "One step from your door",
+  "sub": "You made it to checkout. The Double-Breasted Wool Coat is in your cart, ready to ship.",
+  "cta1": "Finish my order",
+  "blocks": [
+   {
+    "type": "text",
+    "lines": [
+     "Your details are in, the piece is in. One click left and it's at your door in 7–10 days.",
+     "Size question before you pay? Hit reply, we answer within 1–2 business days.",
+     "30 days, easy returns, so the first fit is ours to get right."
+    ]
+   },
+   {
+    "type": "facts",
+    "items": [
+     "Shipping — on us from $150",
+     "Returns — 30 days, free",
+     "Support — reply, 1–2 business days"
+    ]
+   },
+   {
+    "type": "closing",
+    "image_kind": "persona",
+    "headline": "Made, not photographed.",
+    "cta": "Finish my order"
+   }
+  ],
+  "why": "Duplikat des Cart-Flows mit eigener Dynamic Section und Pflicht-A/B im Betreff, gemessen nach Umsatz (Flow-Architektur Checkout, Copy 2, Widerspruch 3). Risk Reversal und ehrliche Support-Zeit statt 'real response fast' (Copy 12, Psychologie: Risk Reversal), kein Mystery Discount, weil der Auftraggeber Rabatt hier ausschließt.",
+  "url": "https://nora-lanelle.com/products/double-breasted-wool-coat-cream",
+  "subject_b": "One step from your door"
+ },
+ {
+  "flow": "post_purchase",
+  "email_no": 4,
+  "timing": "Fulfilled + 1 day (~Tag 10); Split Bestellzahl 1/2/3/4",
+  "subject": "Three ways to wear it",
+  "preview": "Office, Saturday, after dark. Three looks built around the piece you just got.",
+  "hero_image_kind": "persona",
+  "headline": "Three ways to wear it",
+  "sub": "Your Double-Breasted Wool Coat arrived. Here's how it works Monday, Saturday and after dark.",
+  "cta1": "Shop the looks",
+  "blocks": [
+   {
+    "type": "text",
+    "lines": [
+     "Monday — the coat with the Corduroy Wide-Leg, Mock Neck Knit, flat loafers.",
+     "Saturday — the coat with the Bias Satin Midi Skirt and sneakers.",
+     "After dark — the coat with the Cable Knit Flare Dress and ankle boots."
+    ]
+   },
+   {
+    "type": "products",
+    "handles": [
+     "corduroy-wide-leg-trousers-taupe",
+     "bias-satin-midi-skirt-black",
+     "cable-knit-flare-dress-camel"
+    ],
+    "label": "Goes with it"
+   },
+   {
+    "type": "facts",
+    "items": [
+     "Returns — 30 days, free",
+     "Support — reply, 1–2 business days",
+     "Shipping — on us from $150"
+    ]
+   },
+   {
+    "type": "closing",
+    "image_kind": "room",
+    "headline": "Made, not photographed.",
+    "cta": "Shop all"
+   }
+  ],
+  "why": "Education vor Upsell, leichter Cross-Sell erst ab Tag 10 nach Zustellung (Flow-Architektur Post-Purchase, Widerspruch 8, Don'ts), ein Takeaway pro Mail: ein Teil, drei Anlässe (Copy 7, Psychologie: Archetyp/Labeling). Spiegel-Selfie als Hero mit 'Made, not photographed.' bei Figur (Design 11, harte Grenze), jede Sektion eigener Button (Design 4).",
+  "url": "https://nora-lanelle.com/pages/shop-the-looks"
+ },
+ {
+  "flow": "winback",
+  "email_no": 1,
+  "timing": "Tag 45 nach letzter Bestellung, 0 Bestellungen seit; Kampagnen-Ausschluss 48 h",
+  "subject": "You have $18.40 in store credit",
+  "preview": "It's on your account and expires Sunday. The fall pieces are in.",
+  "hero_image_kind": "street",
+  "headline": "$18.40 is on your account",
+  "sub": "Store credit, applied at checkout. It expires Sunday, shipping's on us from $150.",
+  "cta1": "Use my credit",
+  "cta2": "See new fall",
+  "blocks": [
+   {
+    "type": "text",
+    "lines": [
+     "$18.40 sits on your account, no code needed. It comes off at checkout.",
+     "It expires Sunday, 11:59 pm ET.",
+     "New fall pieces below. Shipping's on us from $150, 30 days easy returns."
+    ]
+   },
+   {
+    "type": "products",
+    "handles": [
+     "double-breasted-wool-coat-cream",
+     "cable-knit-flare-dress-camel",
+     "ribbed-turtleneck-knit-cream"
+    ],
+    "label": "New for fall"
+   },
+   {
+    "type": "facts",
+    "items": [
+     "Store credit — $18.40, expires Sunday",
+     "Shipping — on us from $150",
+     "Returns — 30 days, free"
+    ]
+   },
+   {
+    "type": "closing",
+    "image_kind": "persona",
+    "headline": "Made, not photographed.",
+    "cta": "Shop all"
+   }
+  ],
+  "why": "Win-back nur mit Offer, Store Credit statt $-off und Betrag nicht rund, Angebot ungleich dem Akquise-Rabatt von 15 % (Copy 15, Copy 16, Widerspruch 5, Don'ts), 'expires Sunday' als Loss Aversion ohne Countdown-Zähler (Psychologie: Loss Aversion, harte Grenze). Kein 'we miss you' (Copy 16, Betreffbank); der Betrag muss als echtes Guthaben im Konto angelegt sein, sonst ist die Mail nicht sendbar."
+ }
+]

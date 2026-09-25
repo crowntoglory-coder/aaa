@@ -1,0 +1,194 @@
+[
+ {
+  "flow": "welcome-2",
+  "email_no": 2,
+  "timing": "+4 h nach Anmeldung",
+  "subject": "One dress, 8 am to 8 pm",
+  "subject_b": "How to wear the flare dress",
+  "preview": "Your 15% is still on. One dress, a coat for 8 am, a jacket for 8 pm.",
+  "codebar": "You've got WELCOME15 — 15% off at checkout",
+  "url": "https://nora-lanelle.com/discount/WELCOME15?redirect=/products/cable-knit-flare-dress-camel",
+  "hero_image_kind": "persona3",
+  "headline": "One dress, morning to night",
+  "sub": "The Cable Knit Flare Dress under the Collarless Coat at 8 am, under the Zip Moto Jacket at 8 pm. WELCOME15 takes 15% off all three.",
+  "cta1": "Shop now",
+  "blocks": [
+   {
+    "type": "text",
+    "lines": [
+     "Morning: the dress, the Collarless Coat, flat shoes. Coat off at the desk, the dress carries the day.",
+     "Evening: same dress, the Zip Moto Jacket, boots. Nothing to change but the layer.",
+     "WELCOME15 comes off at checkout. Shipping's on us from $150."
+    ]
+   },
+   {
+    "type": "products",
+    "handles": [
+     "cable-knit-flare-dress-camel",
+     "collarless-coat-cream",
+     "leather-moto-jacket"
+    ],
+    "label": "The day in three pieces"
+   },
+   {
+    "type": "facts",
+    "items": [
+     "Shipping — on us from $150",
+     "Returns — 30 days, free",
+     "Delivery — 7–10 days"
+    ]
+   },
+   {
+    "type": "closing",
+    "image_kind": "street",
+    "headline": "Your 15% is at checkout",
+    "cta": "Shop all"
+   }
+  ],
+  "why": "Ein Anlass, ein Teil, ein Takeaway (Copy 7); Rabatt oben und am CTA (Copy 14); Identität statt Produktliste (Psychologie Labeling)."
+ },
+ {
+  "flow": "welcome-3",
+  "email_no": 3,
+  "timing": "+20 h",
+  "subject": "Claire here.",
+  "subject_b": "Why we don't do photo shoots",
+  "preview": "No studio, no models. The picture is made, the coat is real. 15% still on.",
+  "codebar": "You've got WELCOME15 — 15% off at checkout",
+  "url": "https://nora-lanelle.com/discount/WELCOME15?redirect=/collections/all-products",
+  "hero_image_kind": "room",
+  "headline": "Made, not photographed.",
+  "sub": "Every image on our site is generated, not shot. The coat, the knit, the trousers you order are real, at your door in 7–10 days.",
+  "cta1": "Shop now",
+  "blocks": [
+   {
+    "type": "list",
+    "items": [
+     "The picture — made on a screen, not in a studio.",
+     "The piece — packed and shipped, at your door in 7–10 days.",
+     "The price — the number on the page is the number at checkout. The line through the one above it is the one you don't pay."
+    ]
+   },
+   {
+    "type": "text",
+    "lines": [
+     "No shoot, no studio, no model day. The picture shows the piece; the piece is what ships.",
+     "If the first fit isn't right: 30 days, easy returns.",
+     "WELCOME15 still takes 15% off at checkout."
+    ]
+   },
+   {
+    "type": "products",
+    "handles": [
+     "double-breasted-wool-coat-cream",
+     "ribbed-turtleneck-knit-cream",
+     "corduroy-wide-leg-trousers-taupe"
+    ],
+    "label": "Three pieces, one code"
+   },
+   {
+    "type": "facts",
+    "items": [
+     "Shipping — on us from $150",
+     "Returns — 30 days, free",
+     "Delivery — 7–10 days"
+    ]
+   },
+   {
+    "type": "closing",
+    "image_kind": "persona",
+    "headline": "Real coat, 7–10 days",
+    "cta": "Shop all"
+   }
+  ],
+  "why": "Das eine, was uns unterscheidet, als Banger-Angle oben (Copy 5); Infografik statt Textblock (Design 9); kein erfundener Social Proof.",
+  "text": "Hi,\n\nClaire here, from Nora Lanelle.\n\nI'll be honest about the thing that would hold me back if I were you: you've never held one of our pieces. The pictures are made, not photographed, and I'm asking you to trust that the coat is real, that the knit is as soft as it looks. That's a lot to ask of someone I haven't met.\n\nSo we carry the risk, not you. Order the coat, or the dress, or the trousers. It's at your door in 7–10 days. Wear it at home, live with it, for up to thirty days. If it isn't right, send it back free and you get every dollar back. No questions, no forms that take an afternoon.\n\nYour 15% is still waiting: WELCOME15 at checkout, on top of the 45% Autumn Sale.\n\nhttps://nora-lanelle.com/discount/WELCOME15?redirect=/collections/all-products\n\nThank you for reading this far. It means something to a small brand.\n\nClaire\nNora Lanelle\n\nPS: Between sizes? Reply with your usual size and your height, and I'll tell you which one. I answer these myself."
+ },
+ {
+  "flow": "welcome-4",
+  "email_no": 4,
+  "timing": "Tag 4",
+  "subject": "Five questions to ask any shop",
+  "subject_b": "Is the tag price the checkout price?",
+  "preview": "Five questions to ask before you buy a coat anywhere, and our five answers.",
+  "codebar": "You've got WELCOME15 — 15% off at checkout",
+  "url": "https://nora-lanelle.com/discount/WELCOME15?redirect=/collections/all-products",
+  "hero_image_kind": "street",
+  "headline": "Five questions to ask any shop",
+  "sub": "Before you buy a coat anywhere, ask these five. Here's where we stand. WELCOME15 takes 15% off at checkout.",
+  "cta1": "Shop now",
+  "blocks": [
+   {
+    "type": "table",
+    "left": "The question",
+    "right": "Nora Lanelle",
+    "rows": [
+     [
+      "Is the price on the tag the price at checkout?",
+      "Yes. The number you see is the number you pay."
+     ],
+     [
+      "Who pays return postage?",
+      "We do. 30 days, easy returns."
+     ],
+     [
+      "What does shipping cost?",
+      "On us from $150."
+     ],
+     [
+      "Does the picture match the piece?",
+      "The picture is made, the piece is real, and the piece is what ships."
+     ],
+     [
+      "Who answers when you hit reply?",
+      "A person, within 1–2 business days."
+     ]
+    ]
+   },
+   {
+    "type": "text",
+    "lines": [
+     "WELCOME15 takes $29.85 off the wool coat. That's the 15%, on your first order.",
+     "Without the code, the price on the page is the price. Same coat, no code.",
+     "Enter WELCOME15 at checkout and the 15% comes off."
+    ]
+   },
+   {
+    "type": "products",
+    "handles": [
+     "double-breasted-wool-coat-cream",
+     "bias-satin-midi-skirt-black",
+     "mock-neck-knit-oatmeal"
+    ],
+    "label": "Three answers, three pieces"
+   },
+   {
+    "type": "facts",
+    "items": [
+     "Shipping — on us from $150",
+     "Returns — 30 days, free",
+     "Delivery — 7–10 days"
+    ]
+   },
+   {
+    "type": "closing",
+    "image_kind": "persona5",
+    "headline": "Your 15% is at checkout",
+    "cta": "Shop all"
+   }
+  ],
+  "why": "Us-vs-Them als Tabelle mit Radius statt Balken (Design 10, Psychologie Social Proof vorgezogen); keine Frist, weil WELCOME15 kein Ablaufdatum hat."
+ },
+ {
+  "flow": "welcome-5",
+  "email_no": 5,
+  "timing": "Tag 5",
+  "type": "text",
+  "subject": "Hey, it's Claire",
+  "subject_b": "The thing about our pictures",
+  "preview": "Why you might hesitate, and why the risk is ours. 30 days to send it back.",
+  "link": "https://nora-lanelle.com/discount/WELCOME15?redirect=/collections/all-products",
+  "text": "Hey,\n\nClaire here, from Nora Lanelle.\n\nHere's what I think is holding you back, because it would hold me back: you've never held one of our pieces. The pictures are made, not photographed, and you're being asked to trust that the coat is real. That's a fair thing to hesitate on.\n\nSo the risk is ours. Order the coat, or the flare dress, or the wide-leg trousers. It arrives in 7–10 days. Wear it around the house, in front of your own mirror, for as long as you need inside 30 days. If it's wrong, send it back. Return shipping is free and you get your money back.\n\n15% off with WELCOME15 at checkout. Shipping's on us from $150.\n\nShop with WELCOME15: https://nora-lanelle.com/discount/WELCOME15?redirect=/collections/all-products\n\nClaire\nNora Lanelle\n\nPS: If you're between sizes, hit reply with your usual size and the piece you're looking at. I answer these myself.",
+  "why": "Founder-Plain-Text als Abschluss (Design 12, Copy 11–13): Risk Reversal, echte Person, PS, Reply-Aufforderung — ohne „fast response“."
+ }
+]
